@@ -5,13 +5,56 @@ import 'voicing_data.dart';
 part 'song.g.dart';
 
 @JsonSerializable()
+class SongStructure extends Equatable {
+  final String form;
+  final int measuresPerChorus;
+  final int secondsPerMeasure;
+  final int startTimeSeconds;
+  final List<ChorusInfo> choruses;
+
+  const SongStructure({
+    required this.form,
+    required this.measuresPerChorus,
+    required this.secondsPerMeasure,
+    required this.startTimeSeconds,
+    required this.choruses,
+  });
+
+  factory SongStructure.fromJson(Map<String, dynamic> json) => _$SongStructureFromJson(json);
+  Map<String, dynamic> toJson() => _$SongStructureToJson(this);
+
+  @override
+  List<Object?> get props => [form, measuresPerChorus, secondsPerMeasure, startTimeSeconds, choruses];
+}
+
+@JsonSerializable()
+class ChorusInfo extends Equatable {
+  final int number;
+  final int startTime;
+  final int endTime;
+
+  const ChorusInfo({
+    required this.number,
+    required this.startTime,
+    required this.endTime,
+  });
+
+  factory ChorusInfo.fromJson(Map<String, dynamic> json) => _$ChorusInfoFromJson(json);
+  Map<String, dynamic> toJson() => _$ChorusInfoToJson(this);
+
+  @override
+  List<Object?> get props => [number, startTime, endTime];
+}
+
+@JsonSerializable()
 class Song extends Equatable {
   final String id;
   final String title;
   final String artist;
   final String audioUrl;
+  final SongStructure structure;
   final Map<String, String> chordProgression; // 시간 -> 코드명
-  final Map<String, VoicingData> voicings;    // 시간 -> 보이싱 데이터
+  final Map<String, VoicingData> voicings;    // 코드명 -> 보이싱 데이터
   final int duration; // seconds
 
   const Song({
@@ -19,6 +62,7 @@ class Song extends Equatable {
     required this.title,
     required this.artist,
     required this.audioUrl,
+    required this.structure,
     required this.chordProgression,
     required this.voicings,
     required this.duration,
@@ -34,6 +78,7 @@ class Song extends Equatable {
         title,
         artist,
         audioUrl,
+        structure,
         chordProgression,
         voicings,
         duration,

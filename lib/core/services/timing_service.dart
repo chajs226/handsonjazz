@@ -21,8 +21,7 @@ class TimingService {
     VoicingData? newVoicing;
 
     // Get all timing keys and sort them
-    final chordKeys = song.chordProgression.keys.map((k) => int.parse(k)).toList()..sort();
-    final voicingKeys = song.voicings.keys.map((k) => int.parse(k)).toList()..sort();
+    final chordKeys = song.chordProgression.keys.map((k) => double.parse(k)).toList()..sort();
 
     // Find current chord
     for (int i = chordKeys.length - 1; i >= 0; i--) {
@@ -32,12 +31,9 @@ class TimingService {
       }
     }
 
-    // Find current voicing
-    for (int i = voicingKeys.length - 1; i >= 0; i--) {
-      if (position.inSeconds >= voicingKeys[i]) {
-        newVoicing = song.voicings[voicingKeys[i].toString()];
-        break;
-      }
+    // Find current voicing based on the current chord
+    if (newChord != null && song.voicings.containsKey(newChord)) {
+      newVoicing = song.voicings[newChord];
     }
 
     // Update if changed
@@ -56,9 +52,9 @@ class TimingService {
 
   List<ChordTiming> getChordTimings(Song song) {
     return song.chordProgression.entries.map((entry) {
-      final seconds = int.parse(entry.key);
+      final seconds = double.parse(entry.key);
       return ChordTiming(
-        time: Duration(seconds: seconds),
+        time: Duration(milliseconds: (seconds * 1000).round()),
         chord: entry.value,
       );
     }).toList()..sort((a, b) => a.time.compareTo(b.time));

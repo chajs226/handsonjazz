@@ -11,7 +11,7 @@ class PianoRollWidget extends StatelessWidget {
     return BlocBuilder<PianoRollCubit, PianoRollState>(
       builder: (context, state) {
         return Container(
-          height: 200,
+          height: 150, // Reduced height from 200 to 150
           decoration: BoxDecoration(
             color: AppTheme.surfaceColor,
             borderRadius: BorderRadius.circular(8),
@@ -100,15 +100,35 @@ class PianoRollPainter extends CustomPainter {
     // Draw black keys on top
     for (int i = 0; i < totalKeys; i++) {
       final int midiNote = startingMidiNote + i;
-      final bool isBlackKey = _isBlackKey(midiNote);
-      final double x = i * keyWidth;
-
-      if (isBlackKey) {
+      if (_isBlackKey(midiNote)) {
+        // Find the white key index this black key should be positioned relative to
+        final int whiteKeyIndex = _getWhiteKeyIndex(midiNote);
+        final double baseX = whiteKeyIndex * keyWidth;
+        
+        // Position black key between white keys
+        final double blackKeyX;
+        final int noteInOctave = (midiNote - 21) % 12;
+        if (noteInOctave == 1 || noteInOctave == 6) { // C# or F#
+          blackKeyX = baseX + keyWidth * 0.7;
+        } else { // D#, G#, A#
+          blackKeyX = baseX + keyWidth * 0.3;
+        }
+        
         paint.color = _getKeyColor(midiNote);
         canvas.drawRect(
-          Rect.fromLTWH(x - keyWidth * 0.3, 0, keyWidth * 0.6, keyHeight * 0.6),
+          Rect.fromLTWH(blackKeyX, 0, keyWidth * 0.6, keyHeight * 0.6),
           paint,
         );
+        
+        // Black key border
+        paint.color = Colors.grey.shade800;
+        paint.style = PaintingStyle.stroke;
+        paint.strokeWidth = 1;
+        canvas.drawRect(
+          Rect.fromLTWH(blackKeyX, 0, keyWidth * 0.6, keyHeight * 0.6),
+          paint,
+        );
+        paint.style = PaintingStyle.fill;
       }
     }
 
@@ -157,6 +177,20 @@ class PianoRollPainter extends CustomPainter {
   bool _isBlackKey(int midiNote) {
     final int noteInOctave = (midiNote - 21) % 12;
     return [1, 3, 6, 8, 10].contains(noteInOctave);
+  }
+
+  int _getWhiteKeyIndex(int midiNote) {
+    // Calculate how many white keys come before this note
+    final int octaveStart = 21; // A0
+    int whiteKeyCount = 0;
+    
+    for (int note = octaveStart; note < midiNote; note++) {
+      if (!_isBlackKey(note)) {
+        whiteKeyCount++;
+      }
+    }
+    
+    return whiteKeyCount;
   }
 
   String _getNoteNameFromMidi(int midiNote) {

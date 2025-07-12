@@ -91,9 +91,15 @@ class _PracticeScreenState extends State<PracticeScreen> {
             padding: const EdgeInsets.all(16.0),
             child: Column(
               children: [
-                const ChordTimelineWidget(),
+                Expanded(
+                  flex: 3, // Give more space to chord timeline (3/5 of the space)
+                  child: const ChordTimelineWidget(),
+                ),
                 const SizedBox(height: 16),
-                const Expanded(child: PianoRollWidget()),
+                Expanded(
+                  flex: 2, // Less space for piano roll (2/5 of the space)
+                  child: const PianoRollWidget(),
+                ),
                 const SizedBox(height: 16),
                 const AudioPlayerWidget(),
               ],
@@ -122,16 +128,19 @@ class _PracticeScreenState extends State<PracticeScreen> {
       padding: const EdgeInsets.all(16.0),
       child: Column(
         children: [
-          const ChordTimelineWidget(),
+          Expanded(
+            flex: 3, // Give more space to chord timeline (3/6 of available space)
+            child: const ChordTimelineWidget(),
+          ),
           const SizedBox(height: 16),
           Expanded(
-            flex: 2,
+            flex: 2, // Less space for piano roll (2/6 of available space)
             child: const PianoRollWidget(),
           ),
           const SizedBox(height: 16),
           if (_showAnalysis) ...[
             Expanded(
-              flex: 1,
+              flex: 1, // Analysis gets minimal space (1/6)
               child: const VoicingAnalysisWidget(),
             ),
             const SizedBox(height: 16),

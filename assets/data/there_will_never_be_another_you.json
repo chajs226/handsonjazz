@@ -4,160 +4,129 @@
   "artist": "Barry Harris",
   "audioUrl": "assets/audio/Barry Harris - There will never be another you solo.m4a",
   "duration": 122,
+  "structure": {
+    "form": "AABA",
+    "measuresPerChorus": 32,
+    "secondsPerMeasure": 1.6,
+    "startTimeSeconds": 13,
+    "choruses": [
+      {
+        "number": 1,
+        "startTime": 13,
+        "endTime": 64.2
+      },
+      {
+        "number": 2,
+        "startTime": 64.2,
+        "endTime": 115.4
+      }
+    ]
+  },
   "chordProgression": {
-    "0": "EbMaj7",
-    "2": "Dm7b5",
-    "4": "G7",
-    "6": "Cm7",
-    "8": "Fm7",
-    "10": "Bb7",
-    "12": "EbMaj7",
-    "14": "Bb7",
-    "16": "EbMaj7",
-    "18": "Dm7b5",
-    "20": "G7",
-    "22": "Cm7",
-    "24": "Fm7",
-    "26": "Bb7",
-    "28": "EbMaj7",
-    "30": "EbMaj7",
-    "32": "Gm7",
-    "34": "C7",
-    "36": "Fm7",
-    "38": "Fm7",
-    "40": "Gm7",
-    "42": "C7",
-    "44": "Fm7",
-    "46": "Bb7",
-    "48": "EbMaj7",
-    "50": "Dm7b5",
-    "52": "G7",
-    "54": "Cm7",
-    "56": "Fm7",
-    "58": "Bb7",
-    "60": "EbMaj7",
-    "62": "Bb7",
-    "64": "EbMaj7",
-    "66": "Dm7b5",
-    "68": "G7",
-    "70": "Cm7",
-    "72": "Fm7",
-    "74": "Bb7",
-    "76": "EbMaj7",
-    "78": "EbMaj7",
-    "80": "EbMaj7",
-    "82": "Dm7b5",
-    "84": "G7",
-    "86": "Cm7",
-    "88": "Fm7",
-    "90": "Bb7",
-    "92": "EbMaj7",
-    "94": "Bb7",
-    "96": "Gm7",
-    "98": "C7",
-    "100": "Fm7",
-    "102": "Fm7",
-    "104": "Gm7",
-    "106": "C7",
-    "108": "Fm7",
-    "110": "Bb7",
-    "112": "EbMaj7",
-    "114": "Dm7b5",
-    "116": "G7",
-    "118": "Cm7",
-    "120": "Fm7",
-    "122": "Bb7"
+    "13": "EbMaj7",
+    "14.6": "EbMaj7",
+    "16.2": "Dm7b5",
+    "17.8": "G7b9",
+    "19.4": "Cm7",
+    "21": "Cm7",
+    "22.6": "Bbm7",
+    "24.2": "Eb7",
+    "25.8": "AbMaj7",
+    "27.4": "Fm7b5 Bb7",
+    "29": "EbMaj7",
+    "30.6": "Cm7",
+    "32.2": "F7",
+    "33.8": "Cm7 F7",
+    "35.4": "Fm7",
+    "37": "Bb7",
+    "38.6": "EbMaj7",
+    "40.2": "EbMaj7",
+    "41.8": "Dm7b5",
+    "43.4": "G7b9",
+    "45": "Cm7",
+    "46.6": "Cm7",
+    "48.2": "Bbm7",
+    "49.8": "Eb7",
+    "51.4": "AbMaj7",
+    "53": "Fm7b5 Bb7",
+    "54.6": "EbMaj7",
+    "56.2": "Gm7 C7",
+    "57.8": "EbMaj7 D7",
+    "59.4": "G7 C7",
+    "61": "Fm7 Bb7",
+    "62.6": "Eb Bb7",
+    "64.2": "EbMaj7",
+    "65.8": "EbMaj7",
+    "67.4": "Dm7b5",
+    "69": "G7b9",
+    "70.6": "Cm7",
+    "72.2": "Cm7",
+    "73.8": "Bbm7",
+    "75.4": "Eb7",
+    "77": "AbMaj7",
+    "78.6": "Fm7b5 Bb7",
+    "80.2": "EbMaj7",
+    "81.8": "Cm7",
+    "83.4": "F7",
+    "85": "Cm7 F7",
+    "86.6": "Fm7",
+    "88.2": "Bb7",
+    "89.8": "EbMaj7",
+    "91.4": "EbMaj7",
+    "93": "Dm7b5",
+    "94.6": "G7b9",
+    "96.2": "Cm7",
+    "97.8": "Cm7",
+    "99.4": "Bbm7"
   },
   "voicings": {
-    "0": {
+    "EbMaj7": {
       "leftHand": [39, 46],
       "rightHand": [58, 62, 65, 69],
       "chordSymbol": "EbMaj7",
       "analysis": "Root position, 3rd-7th-9th-5th voicing"
     },
-    "2": {
+    "Dm7b5": {
       "leftHand": [38, 44],
       "rightHand": [57, 60, 63, 68],
       "chordSymbol": "Dm7b5",
       "analysis": "Root position, b5-7th-9th-11th voicing"
     },
-    "4": {
+    "G7": {
       "leftHand": [43, 50],
       "rightHand": [59, 62, 65, 71],
       "chordSymbol": "G7",
       "analysis": "Root position, 3rd-7th-9th-13th voicing"
     },
-    "6": {
+    "Cm7": {
       "leftHand": [36, 43],
       "rightHand": [58, 62, 65, 67],
       "chordSymbol": "Cm7",
       "analysis": "Root position, 3rd-7th-9th-5th voicing"
     },
-    "8": {
+    "Fm7": {
       "leftHand": [41, 48],
       "rightHand": [60, 63, 67, 72],
       "chordSymbol": "Fm7",
       "analysis": "Root position, 3rd-7th-9th-11th voicing"
     },
-    "10": {
+    "Bb7": {
       "leftHand": [34, 41],
       "rightHand": [58, 62, 65, 69],
       "chordSymbol": "Bb7",
       "analysis": "Root position, 3rd-7th-9th-13th voicing"
     },
-    "12": {
-      "leftHand": [39, 46],
-      "rightHand": [58, 62, 65, 69],
-      "chordSymbol": "EbMaj7",
+    "Gm7": {
+      "leftHand": [43, 50],
+      "rightHand": [59, 62, 66, 71],
+      "chordSymbol": "Gm7",
       "analysis": "Root position, 3rd-7th-9th-5th voicing"
     },
-    "16": {
-      "leftHand": [39, 46],
-      "rightHand": [58, 62, 65, 69],
-      "chordSymbol": "EbMaj7",
-      "analysis": "Root position, 3rd-7th-9th-5th voicing - Second A section"
-    },
-    "32": {
-      "leftHand": [43, 50],
-      "rightHand": [59, 62, 66, 71],
-      "chordSymbol": "Gm7",
-      "analysis": "Root position, 3rd-7th-9th-5th voicing - Bridge section"
-    },
-    "36": {
-      "leftHand": [41, 48],
-      "rightHand": [60, 63, 67, 72],
-      "chordSymbol": "Fm7",
-      "analysis": "Root position, 3rd-7th-9th-11th voicing"
-    },
-    "48": {
-      "leftHand": [39, 46],
-      "rightHand": [58, 62, 65, 69],
-      "chordSymbol": "EbMaj7",
-      "analysis": "Root position, 3rd-7th-9th-5th voicing - Final A section"
-    },
-    "64": {
-      "leftHand": [39, 46],
-      "rightHand": [58, 62, 65, 69],
-      "chordSymbol": "EbMaj7",
-      "analysis": "Second chorus - Root position voicing"
-    },
-    "80": {
-      "leftHand": [39, 46],
-      "rightHand": [58, 62, 65, 69],
-      "chordSymbol": "EbMaj7",
-      "analysis": "Second chorus A section repeat"
-    },
-    "96": {
-      "leftHand": [43, 50],
-      "rightHand": [59, 62, 66, 71],
-      "chordSymbol": "Gm7",
-      "analysis": "Second chorus bridge section"
-    },
-    "112": {
-      "leftHand": [39, 46],
-      "rightHand": [58, 62, 65, 69],
-      "chordSymbol": "EbMaj7",
-      "analysis": "Second chorus final A section"
+    "C7": {
+      "leftHand": [36, 43],
+      "rightHand": [57, 60, 64, 69],
+      "chordSymbol": "C7",
+      "analysis": "Root position, 3rd-7th-9th-13th voicing"
     }
   }
 }
