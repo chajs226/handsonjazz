@@ -1,0 +1,163 @@
+{
+  "id": "there_will_never_be_another_you",
+  "title": "There Will Never Be Another You",
+  "artist": "Barry Harris",
+  "audioUrl": "assets/audio/Barry Harris - There will never be another you solo.m4a",
+  "duration": 122,
+  "chordProgression": {
+    "0": "EbMaj7",
+    "2": "Dm7b5",
+    "4": "G7",
+    "6": "Cm7",
+    "8": "Fm7",
+    "10": "Bb7",
+    "12": "EbMaj7",
+    "14": "Bb7",
+    "16": "EbMaj7",
+    "18": "Dm7b5",
+    "20": "G7",
+    "22": "Cm7",
+    "24": "Fm7",
+    "26": "Bb7",
+    "28": "EbMaj7",
+    "30": "EbMaj7",
+    "32": "Gm7",
+    "34": "C7",
+    "36": "Fm7",
+    "38": "Fm7",
+    "40": "Gm7",
+    "42": "C7",
+    "44": "Fm7",
+    "46": "Bb7",
+    "48": "EbMaj7",
+    "50": "Dm7b5",
+    "52": "G7",
+    "54": "Cm7",
+    "56": "Fm7",
+    "58": "Bb7",
+    "60": "EbMaj7",
+    "62": "Bb7",
+    "64": "EbMaj7",
+    "66": "Dm7b5",
+    "68": "G7",
+    "70": "Cm7",
+    "72": "Fm7",
+    "74": "Bb7",
+    "76": "EbMaj7",
+    "78": "EbMaj7",
+    "80": "EbMaj7",
+    "82": "Dm7b5",
+    "84": "G7",
+    "86": "Cm7",
+    "88": "Fm7",
+    "90": "Bb7",
+    "92": "EbMaj7",
+    "94": "Bb7",
+    "96": "Gm7",
+    "98": "C7",
+    "100": "Fm7",
+    "102": "Fm7",
+    "104": "Gm7",
+    "106": "C7",
+    "108": "Fm7",
+    "110": "Bb7",
+    "112": "EbMaj7",
+    "114": "Dm7b5",
+    "116": "G7",
+    "118": "Cm7",
+    "120": "Fm7",
+    "122": "Bb7"
+  },
+  "voicings": {
+    "0": {
+      "leftHand": [39, 46],
+      "rightHand": [58, 62, 65, 69],
+      "chordSymbol": "EbMaj7",
+      "analysis": "Root position, 3rd-7th-9th-5th voicing"
+    },
+    "2": {
+      "leftHand": [38, 44],
+      "rightHand": [57, 60, 63, 68],
+      "chordSymbol": "Dm7b5",
+      "analysis": "Root position, b5-7th-9th-11th voicing"
+    },
+    "4": {
+      "leftHand": [43, 50],
+      "rightHand": [59, 62, 65, 71],
+      "chordSymbol": "G7",
+      "analysis": "Root position, 3rd-7th-9th-13th voicing"
+    },
+    "6": {
+      "leftHand": [36, 43],
+      "rightHand": [58, 62, 65, 67],
+      "chordSymbol": "Cm7",
+      "analysis": "Root position, 3rd-7th-9th-5th voicing"
+    },
+    "8": {
+      "leftHand": [41, 48],
+      "rightHand": [60, 63, 67, 72],
+      "chordSymbol": "Fm7",
+      "analysis": "Root position, 3rd-7th-9th-11th voicing"
+    },
+    "10": {
+      "leftHand": [34, 41],
+      "rightHand": [58, 62, 65, 69],
+      "chordSymbol": "Bb7",
+      "analysis": "Root position, 3rd-7th-9th-13th voicing"
+    },
+    "12": {
+      "leftHand": [39, 46],
+      "rightHand": [58, 62, 65, 69],
+      "chordSymbol": "EbMaj7",
+      "analysis": "Root position, 3rd-7th-9th-5th voicing"
+    },
+    "16": {
+      "leftHand": [39, 46],
+      "rightHand": [58, 62, 65, 69],
+      "chordSymbol": "EbMaj7",
+      "analysis": "Root position, 3rd-7th-9th-5th voicing - Second A section"
+    },
+    "32": {
+      "leftHand": [43, 50],
+      "rightHand": [59, 62, 66, 71],
+      "chordSymbol": "Gm7",
+      "analysis": "Root position, 3rd-7th-9th-5th voicing - Bridge section"
+    },
+    "36": {
+      "leftHand": [41, 48],
+      "rightHand": [60, 63, 67, 72],
+      "chordSymbol": "Fm7",
+      "analysis": "Root position, 3rd-7th-9th-11th voicing"
+    },
+    "48": {
+      "leftHand": [39, 46],
+      "rightHand": [58, 62, 65, 69],
+      "chordSymbol": "EbMaj7",
+      "analysis": "Root position, 3rd-7th-9th-5th voicing - Final A section"
+    },
+    "64": {
+      "leftHand": [39, 46],
+      "rightHand": [58, 62, 65, 69],
+      "chordSymbol": "EbMaj7",
+      "analysis": "Second chorus - Root position voicing"
+    },
+    "80": {
+      "leftHand": [39, 46],
+      "rightHand": [58, 62, 65, 69],
+      "chordSymbol": "EbMaj7",
+      "analysis": "Second chorus A section repeat"
+    },
+    "96": {
+      "leftHand": [43, 50],
+      "rightHand": [59, 62, 66, 71],
+      "chordSymbol": "Gm7",
+      "analysis": "Second chorus bridge section"
+    },
+    "112": {
+      "leftHand": [39, 46],
+      "rightHand": [58, 62, 65, 69],
+      "chordSymbol": "EbMaj7",
+      "analysis": "Second chorus final A section"
+    }
+  }
+}

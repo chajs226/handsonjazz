@@ -1,0 +1,22 @@
+# Sample Audio Placeholder
+
+This is a placeholder for the actual audio file: "There Will Never Be Another You"
+
+In a real implementation, this would be an MP3 or other audio format file.
+The audio file should contain the jazz standard recording that matches 
+the timing data in the corresponding JSON file.
+
+For testing purposes, you can:
+1. Replace this file with an actual audio file of the same name
+2. Ensure the audio duration matches the JSON data (180 seconds)
+3. Verify the chord changes align with the specified timestamps
+
+Audio format recommendations:
+- MP3 (recommended for mobile apps)
+- AAC
+- WAV (larger file size)
+
+Sample file structure:
+- Bitrate: 192 kbps or higher
+- Sample rate: 44.1 kHz
+- Duration: 3:00 (180 seconds)
