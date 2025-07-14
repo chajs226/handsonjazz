@@ -22,6 +22,16 @@
       }
     ]
   },
+  "chordChart": [
+    "EbMaj7", "EbMaj7", "Dm7b5", "G7b9",
+    "Cm7", "Cm7", "Bbm7", "Eb7",
+    "AbMaj7", "Fm7b5 Bb7", "EbMaj7", "Cm7",
+    "F7", "Cm7 F7", "Fm7", "Bb7",
+    "EbMaj7", "EbMaj7", "Dm7b5", "G7b9",
+    "Cm7", "Cm7", "Bbm7", "Eb7",
+    "AbMaj7", "Fm7b5 Bb7", "EbMaj7", "Gm7 C7",
+    "EbMaj7 D7", "G7 C7", "Fm7 Bb7", "Eb Bb7"
+  ],
   "chordProgression": {
     "13": "EbMaj7",
     "14.6": "EbMaj7",

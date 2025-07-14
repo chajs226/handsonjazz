@@ -53,6 +53,7 @@ class Song extends Equatable {
   final String artist;
   final String audioUrl;
   final SongStructure structure;
+  final List<String> chordChart; // 32마디의 코드 진행 배열
   final Map<String, String> chordProgression; // 시간 -> 코드명
   final Map<String, VoicingData> voicings;    // 코드명 -> 보이싱 데이터
   final int duration; // seconds
@@ -63,6 +64,7 @@ class Song extends Equatable {
     required this.artist,
     required this.audioUrl,
     required this.structure,
+    required this.chordChart,
     required this.chordProgression,
     required this.voicings,
     required this.duration,
@@ -79,6 +81,7 @@ class Song extends Equatable {
         artist,
         audioUrl,
         structure,
+        chordChart,
         chordProgression,
         voicings,
         duration,

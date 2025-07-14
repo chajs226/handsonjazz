@@ -45,6 +45,9 @@ Song _$SongFromJson(Map<String, dynamic> json) => Song(
   artist: json['artist'] as String,
   audioUrl: json['audioUrl'] as String,
   structure: SongStructure.fromJson(json['structure'] as Map<String, dynamic>),
+  chordChart: (json['chordChart'] as List<dynamic>)
+      .map((e) => e as String)
+      .toList(),
   chordProgression: Map<String, String>.from(json['chordProgression'] as Map),
   voicings: (json['voicings'] as Map<String, dynamic>).map(
     (k, e) => MapEntry(k, VoicingData.fromJson(e as Map<String, dynamic>)),
@@ -58,6 +61,7 @@ Map<String, dynamic> _$SongToJson(Song instance) => <String, dynamic>{
   'artist': instance.artist,
   'audioUrl': instance.audioUrl,
   'structure': instance.structure,
+  'chordChart': instance.chordChart,
   'chordProgression': instance.chordProgression,
   'voicings': instance.voicings,
   'duration': instance.duration,

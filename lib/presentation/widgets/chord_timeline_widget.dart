@@ -85,13 +85,13 @@ class _ChordTimelineWidgetState extends State<ChordTimelineWidget> {
   }
 
   int _getCurrentDisplayMeasure(Duration currentPosition, dynamic structure) {
-    final startTime = (structure.startTimeSeconds as num).toInt();
-    final secondsPerMeasure = (structure.secondsPerMeasure as num).toInt();
+    final startTime = (structure.startTimeSeconds as num).toDouble();
+    final secondsPerMeasure = (structure.secondsPerMeasure as num).toDouble();
     final measuresPerChorus = (structure.measuresPerChorus as num).toInt();
     
-    if (currentPosition.inSeconds < startTime) return 0;
+    if (currentPosition.inMilliseconds / 1000.0 < startTime) return 0;
     
-    final totalMeasuresPassed = ((currentPosition.inSeconds - startTime) / secondsPerMeasure).floor();
+    final totalMeasuresPassed = ((currentPosition.inMilliseconds / 1000.0 - startTime) / secondsPerMeasure).floor();
     
     // For 2nd chorus and beyond, show as if it's the first chorus (looping back)
     return (totalMeasuresPassed % measuresPerChorus) + 1;
@@ -101,36 +101,23 @@ class _ChordTimelineWidgetState extends State<ChordTimelineWidget> {
     List<ChordMeasure> measures = [];
     final structure = song.structure;
     
-    // Create all 32 measures of the first chorus pattern
-    for (int measureNum = 1; measureNum <= (structure.measuresPerChorus as num).toInt(); measureNum++) {
-      final timing = _findTimingForMeasure(chordTimings, measureNum, structure);
+    // Use the chordChart array directly from the song
+    final chordChart = song.chordChart as List<dynamic>;
+    
+    // Create measures using the chord chart
+    for (int measureNum = 1; measureNum <= chordChart.length; measureNum++) {
+      final chord = chordChart[measureNum - 1].toString();
       final isCurrentMeasure = _isCurrentDisplayMeasure(measureNum, currentPosition, structure);
       
       measures.add(ChordMeasure(
         measureNumber: measureNum,
-        chord: timing?.chord ?? "—",
+        chord: chord,
         isCurrentMeasure: isCurrentMeasure,
-        timing: timing,
+        timing: null,
       ));
     }
     
     return measures;
-  }
-
-  ChordTiming? _findTimingForMeasure(List<ChordTiming> chordTimings, int measureNumber, dynamic structure) {
-    final startTime = (structure.startTimeSeconds as num).toInt();
-    final secondsPerMeasure = (structure.secondsPerMeasure as num).toInt();
-    
-    final targetTime = startTime + (measureNumber - 1) * secondsPerMeasure;
-    
-    // Find the timing that matches this measure's time
-    for (final timing in chordTimings) {
-      if (timing.time.inSeconds == targetTime) {
-        return timing;
-      }
-    }
-    
-    return null;
   }
 
   bool _isCurrentDisplayMeasure(int measureNumber, Duration currentPosition, dynamic structure) {
