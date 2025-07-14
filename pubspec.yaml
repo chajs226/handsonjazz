@@ -38,6 +38,7 @@ dependencies:
   # 오디오
   just_audio: ^0.9.35
   audio_session: ^0.1.16
+  fftea: ^1.0.0  # FFT for pitch detection
   
   # 유틸리티
   get_it: ^7.6.4

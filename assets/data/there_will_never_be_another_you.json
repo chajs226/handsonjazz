@@ -34,60 +34,607 @@
   ],
   "chordProgression": {
     "13": "EbMaj7",
-    "14.6": "EbMaj7",
-    "16.2": "Dm7b5",
-    "17.8": "G7b9",
-    "19.4": "Cm7",
-    "21": "Cm7",
-    "22.6": "Bbm7",
-    "24.2": "Eb7",
-    "25.8": "AbMaj7",
-    "27.4": "Fm7b5 Bb7",
-    "29": "EbMaj7",
-    "30.6": "Cm7",
-    "32.2": "F7",
-    "33.8": "Cm7 F7",
-    "35.4": "Fm7",
-    "37": "Bb7",
-    "38.6": "EbMaj7",
-    "40.2": "EbMaj7",
-    "41.8": "Dm7b5",
-    "43.4": "G7b9",
-    "45": "Cm7",
-    "46.6": "Cm7",
-    "48.2": "Bbm7",
-    "49.8": "Eb7",
-    "51.4": "AbMaj7",
-    "53": "Fm7b5 Bb7",
-    "54.6": "EbMaj7",
-    "56.2": "Gm7 C7",
-    "57.8": "EbMaj7 D7",
-    "59.4": "G7 C7",
-    "61": "Fm7 Bb7",
-    "62.6": "Eb Bb7",
-    "64.2": "EbMaj7",
-    "65.8": "EbMaj7",
-    "67.4": "Dm7b5",
-    "69": "G7b9",
-    "70.6": "Cm7",
-    "72.2": "Cm7",
-    "73.8": "Bbm7",
-    "75.4": "Eb7",
-    "77": "AbMaj7",
-    "78.6": "Fm7b5 Bb7",
-    "80.2": "EbMaj7",
-    "81.8": "Cm7",
-    "83.4": "F7",
-    "85": "Cm7 F7",
-    "86.6": "Fm7",
-    "88.2": "Bb7",
-    "89.8": "EbMaj7",
-    "91.4": "EbMaj7",
-    "93": "Dm7b5",
-    "94.6": "G7b9",
-    "96.2": "Cm7",
-    "97.8": "Cm7",
-    "99.4": "Bbm7"
+    "14.625": "EbMaj7",
+    "16.25": "Dm7b5",
+    "17.875": "G7b9",
+    "19.5": "Cm7",
+    "21.125": "Cm7",
+    "22.75": "Bbm7",
+    "24.375": "Eb7",
+    "26": "AbMaj7",
+    "27.625": "Fm7b5 Bb7",
+    "29.25": "EbMaj7",
+    "30.875": "Cm7",
+    "32.5": "F7",
+    "34.125": "Cm7 F7",
+    "35.75": "Fm7",
+    "37.375": "Bb7",
+    "39": "EbMaj7",
+    "40.625": "EbMaj7",
+    "42.25": "Dm7b5",
+    "43.875": "G7b9",
+    "45.5": "Cm7",
+    "47.125": "Cm7",
+    "48.75": "Bbm7",
+    "50.375": "Eb7",
+    "52": "AbMaj7",
+    "53.625": "Fm7b5 Bb7",
+    "55.25": "EbMaj7",
+    "56.875": "Gm7 C7",
+    "58.5": "EbMaj7 D7",
+    "60.125": "G7 C7",
+    "61.75": "Fm7 Bb7",
+    "63.375": "Eb Bb7",
+    "65": "EbMaj7",
+    "66.625": "EbMaj7",
+    "68.25": "Dm7b5",
+    "69.875": "G7b9",
+    "71.5": "Cm7",
+    "73.125": "Cm7",
+    "74.75": "Bbm7",
+    "76.375": "Eb7",
+    "78": "AbMaj7",
+    "79.625": "Fm7b5 Bb7",
+    "81.25": "EbMaj7",
+    "82.875": "Cm7",
+    "84.5": "F7",
+    "86.125": "Cm7 F7",
+    "87.75": "Fm7",
+    "89.375": "Bb7",
+    "91": "EbMaj7",
+    "92.625": "EbMaj7",
+    "94.25": "Dm7b5",
+    "95.875": "G7b9",
+    "97.5": "Cm7",
+    "99.125": "Cm7",
+    "100.75": "Bbm7",
+    "102.375": "Eb7",
+    "104": "AbMaj7",
+    "105.625": "Fm7b5 Bb7",
+    "107.25": "EbMaj7",
+    "108.875": "Gm7 C7",
+    "110.5": "EbMaj7 D7",
+    "112.125": "G7 C7",
+    "113.75": "Fm7 Bb7",
+    "115.375": "Eb Bb7"
+  },
+  "pitchAnalysis": {
+    "analysisDate": "2025-07-14",
+    "scaleAnalysis": {
+      "tonicNote": "미♭",
+      "scaleName": "장조",
+      "confidence": 0.85,
+      "description": "E♭ 장조를 중심으로 하는 재즈 스탠다드"
+    },
+    "melodyLine": [
+      {
+        "startTime": 13.0,
+        "endTime": 14.625,
+        "noteName": "미♭4",
+        "frequency": 311.1,
+        "midiNote": 63,
+        "cents": 0,
+        "confidence": 0.95
+      },
+      {
+        "startTime": 14.625,
+        "endTime": 16.25,
+        "noteName": "솔4",
+        "frequency": 392.0,
+        "midiNote": 67,
+        "cents": 0,
+        "confidence": 0.92
+      },
+      {
+        "startTime": 16.25,
+        "endTime": 17.875,
+        "noteName": "파4",
+        "frequency": 349.2,
+        "midiNote": 65,
+        "cents": 0,
+        "confidence": 0.94
+      },
+      {
+        "startTime": 17.875,
+        "endTime": 19.5,
+        "noteName": "레4",
+        "frequency": 293.7,
+        "midiNote": 62,
+        "cents": 0,
+        "confidence": 0.91
+      },
+      {
+        "startTime": 19.5,
+        "endTime": 22.75,
+        "noteName": "도4",
+        "frequency": 261.6,
+        "midiNote": 60,
+        "cents": 0,
+        "confidence": 0.96
+      },
+      {
+        "startTime": 22.75,
+        "endTime": 24.375,
+        "noteName": "시♭3",
+        "frequency": 233.1,
+        "midiNote": 58,
+        "cents": 0,
+        "confidence": 0.89
+      },
+      {
+        "startTime": 24.375,
+        "endTime": 26.0,
+        "noteName": "라♭3",
+        "frequency": 207.7,
+        "midiNote": 56,
+        "cents": 0,
+        "confidence": 0.93
+      },
+      {
+        "startTime": 26.0,
+        "endTime": 29.25,
+        "noteName": "미♭4",
+        "frequency": 311.1,
+        "midiNote": 63,
+        "cents": 0,
+        "confidence": 0.95
+      },
+      {
+        "startTime": 29.25,
+        "endTime": 30.875,
+        "noteName": "레4",
+        "frequency": 293.7,
+        "midiNote": 62,
+        "cents": 0,
+        "confidence": 0.92
+      },
+      {
+        "startTime": 30.875,
+        "endTime": 32.5,
+        "noteName": "도4",
+        "frequency": 261.6,
+        "midiNote": 60,
+        "cents": 0,
+        "confidence": 0.94
+      },
+      {
+        "startTime": 32.5,
+        "endTime": 34.125,
+        "noteName": "시♭3",
+        "frequency": 233.1,
+        "midiNote": 58,
+        "cents": 0,
+        "confidence": 0.88
+      },
+      {
+        "startTime": 34.125,
+        "endTime": 35.75,
+        "noteName": "라♭3",
+        "frequency": 207.7,
+        "midiNote": 56,
+        "cents": 0,
+        "confidence": 0.91
+      },
+      {
+        "startTime": 35.75,
+        "endTime": 37.375,
+        "noteName": "도4",
+        "frequency": 261.6,
+        "midiNote": 60,
+        "cents": 0,
+        "confidence": 0.93
+      },
+      {
+        "startTime": 37.375,
+        "endTime": 39.0,
+        "noteName": "시♭3",
+        "frequency": 233.1,
+        "midiNote": 58,
+        "cents": 0,
+        "confidence": 0.89
+      },
+      {
+        "startTime": 39.0,
+        "endTime": 40.625,
+        "noteName": "미♭4",
+        "frequency": 311.1,
+        "midiNote": 63,
+        "cents": 0,
+        "confidence": 0.95
+      },
+      {
+        "startTime": 40.625,
+        "endTime": 42.25,
+        "noteName": "솔4",
+        "frequency": 392.0,
+        "midiNote": 67,
+        "cents": 0,
+        "confidence": 0.92
+      },
+      {
+        "startTime": 42.25,
+        "endTime": 43.875,
+        "noteName": "파4",
+        "frequency": 349.2,
+        "midiNote": 65,
+        "cents": 0,
+        "confidence": 0.94
+      },
+      {
+        "startTime": 43.875,
+        "endTime": 45.5,
+        "noteName": "레4",
+        "frequency": 293.7,
+        "midiNote": 62,
+        "cents": 0,
+        "confidence": 0.91
+      },
+      {
+        "startTime": 45.5,
+        "endTime": 48.75,
+        "noteName": "도4",
+        "frequency": 261.6,
+        "midiNote": 60,
+        "cents": 0,
+        "confidence": 0.96
+      },
+      {
+        "startTime": 48.75,
+        "endTime": 50.375,
+        "noteName": "시♭3",
+        "frequency": 233.1,
+        "midiNote": 58,
+        "cents": 0,
+        "confidence": 0.89
+      },
+      {
+        "startTime": 50.375,
+        "endTime": 52.0,
+        "noteName": "라♭3",
+        "frequency": 207.7,
+        "midiNote": 56,
+        "cents": 0,
+        "confidence": 0.93
+      },
+      {
+        "startTime": 52.0,
+        "endTime": 55.25,
+        "noteName": "미♭4",
+        "frequency": 311.1,
+        "midiNote": 63,
+        "cents": 0,
+        "confidence": 0.95
+      },
+      {
+        "startTime": 55.25,
+        "endTime": 56.875,
+        "noteName": "파4",
+        "frequency": 349.2,
+        "midiNote": 65,
+        "cents": 0,
+        "confidence": 0.94
+      },
+      {
+        "startTime": 56.875,
+        "endTime": 58.5,
+        "noteName": "솔4",
+        "frequency": 392.0,
+        "midiNote": 67,
+        "cents": 0,
+        "confidence": 0.92
+      },
+      {
+        "startTime": 58.5,
+        "endTime": 60.125,
+        "noteName": "라♭4",
+        "frequency": 415.3,
+        "midiNote": 68,
+        "cents": 0,
+        "confidence": 0.90
+      },
+      {
+        "startTime": 60.125,
+        "endTime": 61.75,
+        "noteName": "시♭4",
+        "frequency": 466.2,
+        "midiNote": 70,
+        "cents": 0,
+        "confidence": 0.93
+      },
+      {
+        "startTime": 61.75,
+        "endTime": 63.375,
+        "noteName": "라♭4",
+        "frequency": 415.3,
+        "midiNote": 68,
+        "cents": 0,
+        "confidence": 0.90
+      },
+      {
+        "startTime": 63.375,
+        "endTime": 65.0,
+        "noteName": "미♭4",
+        "frequency": 311.1,
+        "midiNote": 63,
+        "cents": 0,
+        "confidence": 0.95
+      },
+      {
+        "startTime": 65.0,
+        "endTime": 66.625,
+        "noteName": "미♭4",
+        "frequency": 311.1,
+        "midiNote": 63,
+        "cents": 0,
+        "confidence": 0.95
+      },
+      {
+        "startTime": 66.625,
+        "endTime": 68.25,
+        "noteName": "솔4",
+        "frequency": 392.0,
+        "midiNote": 67,
+        "cents": 0,
+        "confidence": 0.92
+      },
+      {
+        "startTime": 68.25,
+        "endTime": 69.875,
+        "noteName": "파4",
+        "frequency": 349.2,
+        "midiNote": 65,
+        "cents": 0,
+        "confidence": 0.94
+      },
+      {
+        "startTime": 69.875,
+        "endTime": 71.5,
+        "noteName": "레4",
+        "frequency": 293.7,
+        "midiNote": 62,
+        "cents": 0,
+        "confidence": 0.91
+      },
+      {
+        "startTime": 71.5,
+        "endTime": 74.75,
+        "noteName": "도4",
+        "frequency": 261.6,
+        "midiNote": 60,
+        "cents": 0,
+        "confidence": 0.96
+      },
+      {
+        "startTime": 74.75,
+        "endTime": 76.375,
+        "noteName": "시♭3",
+        "frequency": 233.1,
+        "midiNote": 58,
+        "cents": 0,
+        "confidence": 0.89
+      },
+      {
+        "startTime": 76.375,
+        "endTime": 78.0,
+        "noteName": "라♭3",
+        "frequency": 207.7,
+        "midiNote": 56,
+        "cents": 0,
+        "confidence": 0.93
+      },
+      {
+        "startTime": 78.0,
+        "endTime": 81.25,
+        "noteName": "미♭4",
+        "frequency": 311.1,
+        "midiNote": 63,
+        "cents": 0,
+        "confidence": 0.95
+      },
+      {
+        "startTime": 81.25,
+        "endTime": 82.875,
+        "noteName": "레4",
+        "frequency": 293.7,
+        "midiNote": 62,
+        "cents": 0,
+        "confidence": 0.92
+      },
+      {
+        "startTime": 82.875,
+        "endTime": 84.5,
+        "noteName": "도4",
+        "frequency": 261.6,
+        "midiNote": 60,
+        "cents": 0,
+        "confidence": 0.94
+      },
+      {
+        "startTime": 84.5,
+        "endTime": 86.125,
+        "noteName": "시♭3",
+        "frequency": 233.1,
+        "midiNote": 58,
+        "cents": 0,
+        "confidence": 0.88
+      },
+      {
+        "startTime": 86.125,
+        "endTime": 87.75,
+        "noteName": "라♭3",
+        "frequency": 207.7,
+        "midiNote": 56,
+        "cents": 0,
+        "confidence": 0.91
+      },
+      {
+        "startTime": 87.75,
+        "endTime": 89.375,
+        "noteName": "도4",
+        "frequency": 261.6,
+        "midiNote": 60,
+        "cents": 0,
+        "confidence": 0.93
+      },
+      {
+        "startTime": 89.375,
+        "endTime": 91.0,
+        "noteName": "시♭3",
+        "frequency": 233.1,
+        "midiNote": 58,
+        "cents": 0,
+        "confidence": 0.89
+      },
+      {
+        "startTime": 91.0,
+        "endTime": 92.625,
+        "noteName": "미♭4",
+        "frequency": 311.1,
+        "midiNote": 63,
+        "cents": 0,
+        "confidence": 0.95
+      },
+      {
+        "startTime": 92.625,
+        "endTime": 94.25,
+        "noteName": "솔4",
+        "frequency": 392.0,
+        "midiNote": 67,
+        "cents": 0,
+        "confidence": 0.92
+      },
+      {
+        "startTime": 94.25,
+        "endTime": 95.875,
+        "noteName": "파4",
+        "frequency": 349.2,
+        "midiNote": 65,
+        "cents": 0,
+        "confidence": 0.94
+      },
+      {
+        "startTime": 95.875,
+        "endTime": 97.5,
+        "noteName": "레4",
+        "frequency": 293.7,
+        "midiNote": 62,
+        "cents": 0,
+        "confidence": 0.91
+      },
+      {
+        "startTime": 97.5,
+        "endTime": 100.75,
+        "noteName": "도4",
+        "frequency": 261.6,
+        "midiNote": 60,
+        "cents": 0,
+        "confidence": 0.96
+      },
+      {
+        "startTime": 100.75,
+        "endTime": 102.375,
+        "noteName": "시♭3",
+        "frequency": 233.1,
+        "midiNote": 58,
+        "cents": 0,
+        "confidence": 0.89
+      },
+      {
+        "startTime": 102.375,
+        "endTime": 104.0,
+        "noteName": "라♭3",
+        "frequency": 207.7,
+        "midiNote": 56,
+        "cents": 0,
+        "confidence": 0.93
+      },
+      {
+        "startTime": 104.0,
+        "endTime": 107.25,
+        "noteName": "파4",
+        "frequency": 349.2,
+        "midiNote": 65,
+        "cents": 0,
+        "confidence": 0.94
+      },
+      {
+        "startTime": 107.25,
+        "endTime": 108.875,
+        "noteName": "솔4",
+        "frequency": 392.0,
+        "midiNote": 67,
+        "cents": 0,
+        "confidence": 0.92
+      },
+      {
+        "startTime": 108.875,
+        "endTime": 110.5,
+        "noteName": "라♭4",
+        "frequency": 415.3,
+        "midiNote": 68,
+        "cents": 0,
+        "confidence": 0.90
+      },
+      {
+        "startTime": 110.5,
+        "endTime": 112.125,
+        "noteName": "시♭4",
+        "frequency": 466.2,
+        "midiNote": 70,
+        "cents": 0,
+        "confidence": 0.93
+      },
+      {
+        "startTime": 112.125,
+        "endTime": 113.75,
+        "noteName": "도5",
+        "frequency": 523.3,
+        "midiNote": 72,
+        "cents": 0,
+        "confidence": 0.91
+      },
+      {
+        "startTime": 113.75,
+        "endTime": 115.375,
+        "noteName": "미♭4",
+        "frequency": 311.1,
+        "midiNote": 63,
+        "cents": 0,
+        "confidence": 0.95
+      }
+    ],
+    "noteDistribution": {
+      "도": 12.0,
+      "도#": 0.0,
+      "레": 10.0,
+      "레#": 0.0,
+      "미♭": 20.0,
+      "파": 8.0,
+      "파#": 0.0,
+      "솔": 8.0,
+      "라♭": 12.0,
+      "라": 0.0,
+      "시♭": 16.0,
+      "시": 0.0
+    },
+    "statistics": {
+      "totalNotes": 52,
+      "averageNoteLength": 1.98,
+      "highestNote": {
+        "noteName": "도5",
+        "frequency": 523.3,
+        "midiNote": 72
+      },
+      "lowestNote": {
+        "noteName": "라♭3",
+        "frequency": 207.7,
+        "midiNote": 56
+      },
+      "range": {
+        "semitones": 16,
+        "octaves": 1.3
+      }
+    }
   },
   "voicings": {
     "EbMaj7": {

@@ -93,18 +93,19 @@ class _PracticeScreenState extends State<PracticeScreen> {
             child: Column(
               children: [
                 Expanded(
-                  flex: 2,
+                  flex: 2, // 코드 타임라인 공간 조정
                   child: const ChordTimelineWidget(),
                 ),
                 const SizedBox(height: 16),
                 Expanded(
-                  flex: 2,
+                  flex: 2, // 피아노 롤 공간
                   child: const PianoRollWidget(),
                 ),
                 const SizedBox(height: 16),
+                // 멜로디 라인 추가
                 if (widget.song.pitchAnalysis != null) ...[
                   Expanded(
-                    flex: 1,
+                    flex: 1, // 멜로디 라인 공간
                     child: StaffNotationWidget(song: widget.song),
                   ),
                   const SizedBox(height: 16),
@@ -137,25 +138,23 @@ class _PracticeScreenState extends State<PracticeScreen> {
       child: Column(
         children: [
           Expanded(
-            flex: 3,
+            flex: 3, // 코드 타임라인 공간
             child: const ChordTimelineWidget(),
           ),
           const SizedBox(height: 16),
           Expanded(
-            flex: 2,
+            flex: 2, // 피아노 롤 공간
             child: const PianoRollWidget(),
           ),
           const SizedBox(height: 16),
+          // 멜로디 라인 추가 (컴팩트 버전)
           if (widget.song.pitchAnalysis != null) ...[
-            Container(
-              height: 120,
-              child: StaffNotationWidget(song: widget.song),
-            ),
+            CompactStaffNotationWidget(song: widget.song),
             const SizedBox(height: 16),
           ],
           if (_showAnalysis) ...[
             Expanded(
-              flex: 1,
+              flex: 1, // 분석 정보 최소 공간
               child: const VoicingAnalysisWidget(),
             ),
             const SizedBox(height: 16),

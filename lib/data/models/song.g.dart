@@ -53,6 +53,7 @@ Song _$SongFromJson(Map<String, dynamic> json) => Song(
     (k, e) => MapEntry(k, VoicingData.fromJson(e as Map<String, dynamic>)),
   ),
   duration: (json['duration'] as num).toInt(),
+  pitchAnalysis: json['pitchAnalysis'] as Map<String, dynamic>?,
 );
 
 Map<String, dynamic> _$SongToJson(Song instance) => <String, dynamic>{
@@ -65,4 +66,5 @@ Map<String, dynamic> _$SongToJson(Song instance) => <String, dynamic>{
   'chordProgression': instance.chordProgression,
   'voicings': instance.voicings,
   'duration': instance.duration,
+  'pitchAnalysis': instance.pitchAnalysis,
 };

@@ -57,6 +57,7 @@ class Song extends Equatable {
   final Map<String, String> chordProgression; // 시간 -> 코드명
   final Map<String, VoicingData> voicings;    // 코드명 -> 보이싱 데이터
   final int duration; // seconds
+  final Map<String, dynamic>? pitchAnalysis; // 피치 분석 데이터 (선택적)
 
   const Song({
     required this.id,
@@ -68,6 +69,7 @@ class Song extends Equatable {
     required this.chordProgression,
     required this.voicings,
     required this.duration,
+    this.pitchAnalysis,
   });
 
   factory Song.fromJson(Map<String, dynamic> json) => _$SongFromJson(json);
@@ -85,5 +87,6 @@ class Song extends Equatable {
         chordProgression,
         voicings,
         duration,
+        pitchAnalysis,
       ];
 }
