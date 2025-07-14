@@ -7,7 +7,7 @@
   "structure": {
     "form": "AABA",
     "measuresPerChorus": 32,
-    "secondsPerMeasure": 1.6,
+    "secondsPerMeasure": 1.625,
     "startTimeSeconds": 13,
     "choruses": [
       {

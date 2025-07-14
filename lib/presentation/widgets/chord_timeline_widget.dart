@@ -84,17 +84,41 @@ class _ChordTimelineWidgetState extends State<ChordTimelineWidget> {
     );
   }
 
-  int _getCurrentDisplayMeasure(Duration currentPosition, dynamic structure) {
+  int _getCurrentDisplayMeasure(Duration currentPosition, dynamic structure, dynamic song) {
     final startTime = (structure.startTimeSeconds as num).toDouble();
     final secondsPerMeasure = (structure.secondsPerMeasure as num).toDouble();
     final measuresPerChorus = (structure.measuresPerChorus as num).toInt();
     
-    if (currentPosition.inMilliseconds / 1000.0 < startTime) return 0;
+    final currentSeconds = currentPosition.inMilliseconds / 1000.0;
     
-    final totalMeasuresPassed = ((currentPosition.inMilliseconds / 1000.0 - startTime) / secondsPerMeasure).floor();
+    // 음악 시작 전이면 0 반환
+    if (currentSeconds < startTime) return 0;
     
-    // For 2nd chorus and beyond, show as if it's the first chorus (looping back)
-    return (totalMeasuresPassed % measuresPerChorus) + 1;
+    // chordProgression의 실제 타이밍들을 가져와서 정렬
+    final chordProgression = song.chordProgression as Map<String, dynamic>;
+    final timingKeys = chordProgression.keys
+        .map((k) => double.parse(k))
+        .where((time) => time >= startTime)
+        .toList()
+      ..sort();
+    
+    // 현재 시간에 가장 가까운 이전 타이밍 찾기
+    double? currentTiming;
+    for (final timing in timingKeys) {
+      if (timing <= currentSeconds) {
+        currentTiming = timing;
+      } else {
+        break;
+      }
+    }
+    
+    if (currentTiming == null) return 1;
+    
+    // 해당 타이밍이 몇 번째 마디인지 계산
+    final measureIndex = timingKeys.indexOf(currentTiming);
+    final currentMeasure = (measureIndex % measuresPerChorus) + 1;
+    
+    return currentMeasure;
   }
 
   List<ChordMeasure> _buildChordMeasures(List<ChordTiming> chordTimings, Duration currentPosition, dynamic song) {
@@ -107,7 +131,7 @@ class _ChordTimelineWidgetState extends State<ChordTimelineWidget> {
     // Create measures using the chord chart
     for (int measureNum = 1; measureNum <= chordChart.length; measureNum++) {
       final chord = chordChart[measureNum - 1].toString();
-      final isCurrentMeasure = _isCurrentDisplayMeasure(measureNum, currentPosition, structure);
+      final isCurrentMeasure = _isCurrentDisplayMeasure(measureNum, currentPosition, structure, song);
       
       measures.add(ChordMeasure(
         measureNumber: measureNum,
@@ -120,8 +144,8 @@ class _ChordTimelineWidgetState extends State<ChordTimelineWidget> {
     return measures;
   }
 
-  bool _isCurrentDisplayMeasure(int measureNumber, Duration currentPosition, dynamic structure) {
-    final currentDisplayMeasure = _getCurrentDisplayMeasure(currentPosition, structure);
+  bool _isCurrentDisplayMeasure(int measureNumber, Duration currentPosition, dynamic structure, dynamic song) {
+    final currentDisplayMeasure = _getCurrentDisplayMeasure(currentPosition, structure, song);
     return measureNumber == currentDisplayMeasure;
   }
 
