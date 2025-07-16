@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../blocs/piano_roll_cubit.dart';
+import '../blocs/audio_player_bloc.dart';
 import '../../app/theme/app_theme.dart';
 
 class PianoRollWidget extends StatelessWidget {
@@ -8,47 +9,57 @@ class PianoRollWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocBuilder<PianoRollCubit, PianoRollState>(
-      builder: (context, state) {
-        return Container(
-          height: 150, // Reduced height from 200 to 150
-          decoration: BoxDecoration(
-            color: AppTheme.surfaceColor,
-            borderRadius: BorderRadius.circular(8),
-            border: Border.all(color: Colors.grey.shade700),
-          ),
-          child: Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  state.currentVoicing?.chordSymbol ?? 'No chord',
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              Expanded(
-                child: SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  child: SizedBox(
-                    width: 700, // 5 octaves * 7 white keys * 20px = 700px (적절한 크기)
-                    child: CustomPaint(
-                      painter: PianoRollPainter(
-                        activeNotes: state.activeNotes,
-                        leftHandNotes: state.currentVoicing?.leftHand ?? [],
-                        rightHandNotes: state.currentVoicing?.rightHand ?? [],
-                      ),
+    return BlocListener<AudioPlayerBloc, AudioPlayerState>(
+      listener: (context, audioState) {
+        // 오디오 상태 변화 시 piano roll 업데이트는 이미 TimingService를 통해 처리됨
+      },
+      child: BlocBuilder<PianoRollCubit, PianoRollState>(
+        builder: (context, state) {
+          return Container(
+            height: 150, // Reduced height from 200 to 150
+            decoration: BoxDecoration(
+              color: AppTheme.surfaceColor,
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(color: Colors.grey.shade700),
+            ),
+            child: Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    state.currentVoicing?.chordSymbol ?? 'No chord',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
-              ),
-            ],
-          ),
-        );
-      },
+                Expanded(
+                  child: SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        // 부모 위젯의 너비에 맞춰서 피아노 건반 크기 조정
+                        return SizedBox(
+                          width: MediaQuery.of(context).size.width - 32, // 패딩 고려
+                          child: CustomPaint(
+                            painter: PianoRollPainter(
+                              activeNotes: state.activeNotes,
+                              leftHandNotes: state.currentVoicing?.leftHand ?? [],
+                              rightHandNotes: state.currentVoicing?.rightHand ?? [],
+                            ),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          );
+        },
+      ),
     );
   }
 }
