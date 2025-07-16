@@ -2,23 +2,23 @@
   "id": "there_will_never_be_another_you",
   "title": "There Will Never Be Another You",
   "artist": "Barry Harris",
-  "audioUrl": "assets/audio/Barry Harris - There will never be another you solo.m4a",
+  "audioUrl": "assets/audio/there_will_never_be_another_you.m4a",
   "duration": 122,
   "structure": {
     "form": "AABA",
     "measuresPerChorus": 32,
-    "secondsPerMeasure": 1.6,
+    "secondsPerMeasure": 1.63,
     "startTimeSeconds": 13,
     "choruses": [
       {
         "number": 1,
         "startTime": 13.0,
-        "endTime": 64.2
+        "endTime": 65.16
       },
       {
         "number": 2,
-        "startTime": 64.2,
-        "endTime": 115.4
+        "startTime": 65.16,
+        "endTime": 117.32
       }
     ]
   },
@@ -59,36 +59,71 @@
   "chordProgression": {
     "13": "EbMaj7",
     "14.6": "EbMaj7",
-    "16.2": "Dm7b5",
-    "17.8": "G7b9",
-    "19.4": "Cm7",
-    "21.0": "Cm7",
-    "22.6": "Bbm7",
-    "24.2": "Eb7",
-    "25.8": "AbMaj7",
-    "27.4": "Fm7b5 Bb7",
-    "29.0": "EbMaj7",
-    "30.6": "Cm7",
-    "32.2": "F7",
-    "33.8": "Cm7 F7",
-    "35.4": "Fm7",
-    "37.0": "Bb7",
-    "38.6": "EbMaj7",
-    "40.2": "EbMaj7",
-    "41.8": "Dm7b5",
-    "43.4": "G7b9",
-    "45.0": "Cm7",
-    "46.6": "Cm7",
-    "48.2": "Bbm7",
-    "49.8": "Eb7",
-    "51.4": "AbMaj7",
-    "53.0": "Fm7b5 Bb7",
-    "54.6": "EbMaj7",
-    "56.2": "Gm7 C7",
-    "57.8": "EbMaj7 D7",
-    "59.4": "G7 C7",
-    "61.0": "Fm7 Bb7",
-    "62.6": "Eb Bb7"
+    "16.3": "Dm7b5",
+    "17.9": "G7b9",
+    "19.5": "Cm7",
+    "21.1": "Cm7",
+    "22.8": "Bbm7",
+    "24.4": "Eb7",
+    "26.0": "AbMaj7",
+    "27.7": "Fm7b5 Bb7",
+    "29.3": "EbMaj7",
+    "30.9": "Cm7",
+    "32.6": "F7",
+    "34.2": "Cm7 F7",
+    "35.8": "Fm7",
+    "37.4": "Bb7",
+    "39.1": "EbMaj7",
+    "40.7": "EbMaj7",
+    "42.3": "Dm7b5",
+    "44.0": "G7b9",
+    "45.6": "Cm7",
+    "47.2": "Cm7",
+    "48.9": "Bbm7",
+    "50.5": "Eb7",
+    "52.1": "AbMaj7",
+    "53.8": "Fm7b5 Bb7",
+    "55.4": "EbMaj7",
+    "57.0": "Gm7 C7",
+    "58.6": "EbMaj7 D7",
+    "60.3": "G7 C7",
+    "61.9": "Fm7 Bb7",
+    "63.5": "Eb Bb7",
+    "65.2": "EbMaj7",
+    "66.8": "EbMaj7",
+    "68.4": "Dm7b5",
+    "70.1": "G7b9",
+    "71.7": "Cm7",
+    "73.3": "Cm7",
+    "74.9": "Bbm7",
+    "76.6": "Eb7",
+    "78.2": "AbMaj7",
+    "79.8": "Fm7b5 Bb7",
+    "81.5": "EbMaj7",
+    "83.1": "Cm7",
+    "84.7": "F7",
+    "86.3": "Cm7 F7",
+    "88.0": "Fm7",
+    "89.6": "Bb7",
+    "91.2": "EbMaj7",
+    "92.9": "EbMaj7",
+    "94.5": "Dm7b5",
+    "96.1": "G7b9",
+    "97.8": "Cm7",
+    "99.4": "Cm7",
+    "101.0": "Bbm7",
+    "102.6": "Eb7",
+    "104.3": "AbMaj7",
+    "105.9": "Fm7b5 Bb7",
+    "107.5": "EbMaj7",
+    "109.2": "Gm7 C7",
+    "110.8": "EbMaj7 D7",
+    "112.4": "G7 C7",
+    "114.1": "Fm7 Bb7",
+    "115.7": "Eb Bb7",
+    "117.3": "EbMaj7",
+    "118.9": "EbMaj7",
+    "120.6": "Dm7b5"
   },
   "voicings": {
     "G7": {
@@ -104,6 +139,104 @@
       ],
       "chordSymbol": "G7",
       "analysis": "Shell voicing - 3rd & b7th in left hand"
+    },
+    "Bb7": {
+      "leftHand": [
+        74,
+        80
+      ],
+      "rightHand": [
+        82,
+        86,
+        89,
+        92
+      ],
+      "chordSymbol": "Bb7",
+      "analysis": "Shell voicing - 3rd & b7th in left hand"
+    },
+    "Cm7": {
+      "leftHand": [
+        63,
+        70
+      ],
+      "rightHand": [
+        72,
+        75,
+        79,
+        82
+      ],
+      "chordSymbol": "Cm7",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
+    },
+    "Gm7": {
+      "leftHand": [
+        70,
+        77
+      ],
+      "rightHand": [
+        79,
+        82,
+        86,
+        89
+      ],
+      "chordSymbol": "Gm7",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
+    },
+    "EbMaj7": {
+      "leftHand": [
+        67,
+        74
+      ],
+      "rightHand": [
+        75,
+        79,
+        82,
+        86
+      ],
+      "chordSymbol": "EbMaj7",
+      "analysis": "Shell voicing - 3rd & 7th in left hand"
+    },
+    "AbMaj7": {
+      "leftHand": [
+        72,
+        79
+      ],
+      "rightHand": [
+        80,
+        84,
+        87,
+        91
+      ],
+      "chordSymbol": "AbMaj7",
+      "analysis": "Shell voicing - 3rd & 7th in left hand"
+    },
+    "F7": {
+      "leftHand": [
+        69,
+        75
+      ],
+      "rightHand": [
+        77,
+        81,
+        84,
+        87
+      ],
+      "chordSymbol": "F7",
+      "analysis": "Shell voicing - 3rd & b7th in left hand"
+    },
+    "Fm7": {
+      "leftHand": [
+        68,
+        75
+      ],
+      "rightHand": [
+        77,
+        80,
+        84,
+        87
+      ],
+      "chordSymbol": "Fm7",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
     },
     "D7": {
       "leftHand": [
@@ -133,76 +266,6 @@
       "chordSymbol": "C7",
       "analysis": "Shell voicing - 3rd & b7th in left hand"
     },
-    "AbMaj7": {
-      "leftHand": [
-        72,
-        79
-      ],
-      "rightHand": [
-        80,
-        84,
-        87,
-        91
-      ],
-      "chordSymbol": "AbMaj7",
-      "analysis": "Shell voicing - 3rd & 7th in left hand"
-    },
-    "Cm7": {
-      "leftHand": [
-        63,
-        70
-      ],
-      "rightHand": [
-        72,
-        75,
-        79,
-        82
-      ],
-      "chordSymbol": "Cm7",
-      "analysis": "Shell voicing - b3rd & b7th in left hand"
-    },
-    "EbMaj7": {
-      "leftHand": [
-        67,
-        74
-      ],
-      "rightHand": [
-        75,
-        79,
-        82,
-        86
-      ],
-      "chordSymbol": "EbMaj7",
-      "analysis": "Shell voicing - 3rd & 7th in left hand"
-    },
-    "Gm7": {
-      "leftHand": [
-        70,
-        77
-      ],
-      "rightHand": [
-        79,
-        82,
-        86,
-        89
-      ],
-      "chordSymbol": "Gm7",
-      "analysis": "Shell voicing - b3rd & b7th in left hand"
-    },
-    "Bb7": {
-      "leftHand": [
-        74,
-        80
-      ],
-      "rightHand": [
-        82,
-        86,
-        89,
-        92
-      ],
-      "chordSymbol": "Bb7",
-      "analysis": "Shell voicing - 3rd & b7th in left hand"
-    },
     "Eb7": {
       "leftHand": [
         67,
@@ -216,34 +279,6 @@
       ],
       "chordSymbol": "Eb7",
       "analysis": "Shell voicing - 3rd & b7th in left hand"
-    },
-    "F7": {
-      "leftHand": [
-        69,
-        75
-      ],
-      "rightHand": [
-        77,
-        81,
-        84,
-        87
-      ],
-      "chordSymbol": "F7",
-      "analysis": "Shell voicing - 3rd & b7th in left hand"
-    },
-    "Fm7": {
-      "leftHand": [
-        68,
-        75
-      ],
-      "rightHand": [
-        77,
-        80,
-        84,
-        87
-      ],
-      "chordSymbol": "Fm7",
-      "analysis": "Shell voicing - b3rd & b7th in left hand"
     }
   }
 }
