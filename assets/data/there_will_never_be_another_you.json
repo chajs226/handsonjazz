@@ -126,90 +126,6 @@
     "120.6": "Dm7b5"
   },
   "voicings": {
-    "G7": {
-      "leftHand": [
-        71,
-        77
-      ],
-      "rightHand": [
-        79,
-        83,
-        86,
-        89
-      ],
-      "chordSymbol": "G7",
-      "analysis": "Shell voicing - 3rd & b7th in left hand"
-    },
-    "Bb7": {
-      "leftHand": [
-        74,
-        80
-      ],
-      "rightHand": [
-        82,
-        86,
-        89,
-        92
-      ],
-      "chordSymbol": "Bb7",
-      "analysis": "Shell voicing - 3rd & b7th in left hand"
-    },
-    "Cm7": {
-      "leftHand": [
-        63,
-        70
-      ],
-      "rightHand": [
-        72,
-        75,
-        79,
-        82
-      ],
-      "chordSymbol": "Cm7",
-      "analysis": "Shell voicing - b3rd & b7th in left hand"
-    },
-    "Gm7": {
-      "leftHand": [
-        70,
-        77
-      ],
-      "rightHand": [
-        79,
-        82,
-        86,
-        89
-      ],
-      "chordSymbol": "Gm7",
-      "analysis": "Shell voicing - b3rd & b7th in left hand"
-    },
-    "EbMaj7": {
-      "leftHand": [
-        67,
-        74
-      ],
-      "rightHand": [
-        75,
-        79,
-        82,
-        86
-      ],
-      "chordSymbol": "EbMaj7",
-      "analysis": "Shell voicing - 3rd & 7th in left hand"
-    },
-    "AbMaj7": {
-      "leftHand": [
-        72,
-        79
-      ],
-      "rightHand": [
-        80,
-        84,
-        87,
-        91
-      ],
-      "chordSymbol": "AbMaj7",
-      "analysis": "Shell voicing - 3rd & 7th in left hand"
-    },
     "F7": {
       "leftHand": [
         69,
@@ -238,6 +154,34 @@
       "chordSymbol": "Fm7",
       "analysis": "Shell voicing - b3rd & b7th in left hand"
     },
+    "Gm7": {
+      "leftHand": [
+        70,
+        77
+      ],
+      "rightHand": [
+        79,
+        82,
+        86,
+        89
+      ],
+      "chordSymbol": "Gm7",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
+    },
+    "Bb7": {
+      "leftHand": [
+        74,
+        80
+      ],
+      "rightHand": [
+        82,
+        86,
+        89,
+        92
+      ],
+      "chordSymbol": "Bb7",
+      "analysis": "Shell voicing - 3rd & b7th in left hand"
+    },
     "D7": {
       "leftHand": [
         66,
@@ -250,6 +194,48 @@
         84
       ],
       "chordSymbol": "D7",
+      "analysis": "Shell voicing - 3rd & b7th in left hand"
+    },
+    "Eb7": {
+      "leftHand": [
+        67,
+        73
+      ],
+      "rightHand": [
+        75,
+        79,
+        82,
+        85
+      ],
+      "chordSymbol": "Eb7",
+      "analysis": "Shell voicing - 3rd & b7th in left hand"
+    },
+    "AbMaj7": {
+      "leftHand": [
+        72,
+        79
+      ],
+      "rightHand": [
+        80,
+        84,
+        87,
+        91
+      ],
+      "chordSymbol": "AbMaj7",
+      "analysis": "Shell voicing - 3rd & 7th in left hand"
+    },
+    "G7": {
+      "leftHand": [
+        71,
+        77
+      ],
+      "rightHand": [
+        79,
+        83,
+        86,
+        89
+      ],
+      "chordSymbol": "G7",
       "analysis": "Shell voicing - 3rd & b7th in left hand"
     },
     "C7": {
@@ -266,19 +252,7209 @@
       "chordSymbol": "C7",
       "analysis": "Shell voicing - 3rd & b7th in left hand"
     },
-    "Eb7": {
+    "EbMaj7": {
       "leftHand": [
         67,
-        73
+        74
       ],
       "rightHand": [
         75,
         79,
         82,
-        85
+        86
       ],
-      "chordSymbol": "Eb7",
-      "analysis": "Shell voicing - 3rd & b7th in left hand"
+      "chordSymbol": "EbMaj7",
+      "analysis": "Shell voicing - 3rd & 7th in left hand"
+    },
+    "Cm7": {
+      "leftHand": [
+        63,
+        70
+      ],
+      "rightHand": [
+        72,
+        75,
+        79,
+        82
+      ],
+      "chordSymbol": "Cm7",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
+    }
+  },
+  "pitchAnalysis": {
+    "melodyLine": [
+      {
+        "startTime": 13.0,
+        "endTime": 13.16,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 317.3,
+        "confidence": 4.607441425323486
+      },
+      {
+        "startTime": 13.08,
+        "endTime": 13.19,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 315.72,
+        "confidence": 4.459600925445557
+      },
+      {
+        "startTime": 13.12,
+        "endTime": 13.32,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 318.9,
+        "confidence": 4.233345031738281
+      },
+      {
+        "startTime": 13.27,
+        "endTime": 13.39,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 153.3,
+        "confidence": 1.4918979406356812
+      },
+      {
+        "startTime": 13.3,
+        "endTime": 13.45,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 627.59,
+        "confidence": 0.8741119503974915
+      },
+      {
+        "startTime": 13.36,
+        "endTime": 13.46,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 364.18,
+        "confidence": 0.5849208831787109
+      },
+      {
+        "startTime": 13.37,
+        "endTime": 13.47,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 337.34,
+        "confidence": 0.6102273464202881
+      },
+      {
+        "startTime": 13.42,
+        "endTime": 13.54,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 144.76,
+        "confidence": 3.902876138687134
+      },
+      {
+        "startTime": 13.45,
+        "endTime": 13.55,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.32,
+        "confidence": 1.6070560216903687
+      },
+      {
+        "startTime": 13.48,
+        "endTime": 13.59,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 378.67,
+        "confidence": 0.8606474995613098
+      },
+      {
+        "startTime": 13.52,
+        "endTime": 13.67,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 147.46,
+        "confidence": 1.4040412902832031
+      },
+      {
+        "startTime": 13.58,
+        "endTime": 13.69,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 376.83,
+        "confidence": 0.339560866355896
+      },
+      {
+        "startTime": 13.62,
+        "endTime": 13.72,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 373.42,
+        "confidence": 0.3659436106681824
+      },
+      {
+        "startTime": 13.68,
+        "endTime": 13.8,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 374.0,
+        "confidence": 2.5914976596832275
+      },
+      {
+        "startTime": 13.72,
+        "endTime": 13.83,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 155.96,
+        "confidence": 1.4815566539764404
+      },
+      {
+        "startTime": 13.77,
+        "endTime": 13.89,
+        "midiNote": 78,
+        "noteName": "F#5",
+        "frequency": 721.63,
+        "confidence": 1.3935701847076416
+      },
+      {
+        "startTime": 13.81,
+        "endTime": 13.96,
+        "midiNote": 78,
+        "noteName": "F#5",
+        "frequency": 733.29,
+        "confidence": 1.6066159009933472
+      },
+      {
+        "startTime": 13.87,
+        "endTime": 14.01,
+        "midiNote": 79,
+        "noteName": "G5",
+        "frequency": 776.44,
+        "confidence": 1.5203015804290771
+      },
+      {
+        "startTime": 13.92,
+        "endTime": 14.08,
+        "midiNote": 80,
+        "noteName": "G#5",
+        "frequency": 815.5,
+        "confidence": 1.6652830839157104
+      },
+      {
+        "startTime": 14.0,
+        "endTime": 14.12,
+        "midiNote": 78,
+        "noteName": "F#5",
+        "frequency": 728.62,
+        "confidence": 1.2403650283813477
+      },
+      {
+        "startTime": 14.03,
+        "endTime": 14.14,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 489.23,
+        "confidence": 0.6442252993583679
+      },
+      {
+        "startTime": 14.06,
+        "endTime": 14.18,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 477.28,
+        "confidence": 0.7002931237220764
+      },
+      {
+        "startTime": 14.11,
+        "endTime": 14.21,
+        "midiNote": 96,
+        "noteName": "C7",
+        "frequency": 2084.77,
+        "confidence": 2.0699360370635986
+      },
+      {
+        "startTime": 14.14,
+        "endTime": 14.32,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 589.7,
+        "confidence": 5.442483901977539
+      },
+      {
+        "startTime": 14.25,
+        "endTime": 14.63,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 357.33,
+        "confidence": 28.00514030456543
+      },
+      {
+        "startTime": 14.54,
+        "endTime": 14.64,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 329.55,
+        "confidence": 4.489923000335693
+      },
+      {
+        "startTime": 14.56,
+        "endTime": 14.7,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 307.23,
+        "confidence": 4.696898937225342
+      },
+      {
+        "startTime": 14.61,
+        "endTime": 14.71,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 322.63,
+        "confidence": 3.7784688472747803
+      },
+      {
+        "startTime": 14.64,
+        "endTime": 14.75,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 323.78,
+        "confidence": 2.2940640449523926
+      },
+      {
+        "startTime": 14.66,
+        "endTime": 14.78,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 307.68,
+        "confidence": 1.4704012870788574
+      },
+      {
+        "startTime": 14.7,
+        "endTime": 14.81,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 321.37,
+        "confidence": 0.830522358417511
+      },
+      {
+        "startTime": 14.73,
+        "endTime": 14.86,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 626.08,
+        "confidence": 0.8017482757568359
+      },
+      {
+        "startTime": 14.78,
+        "endTime": 14.91,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 351.53,
+        "confidence": 0.9200456142425537
+      },
+      {
+        "startTime": 14.83,
+        "endTime": 14.96,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 408.06,
+        "confidence": 0.6029869914054871
+      },
+      {
+        "startTime": 14.87,
+        "endTime": 14.97,
+        "midiNote": 77,
+        "noteName": "F5",
+        "frequency": 706.92,
+        "confidence": 0.3882843255996704
+      },
+      {
+        "startTime": 14.89,
+        "endTime": 15.02,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 411.27,
+        "confidence": 6.808325290679932
+      },
+      {
+        "startTime": 14.93,
+        "endTime": 15.04,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 432.13,
+        "confidence": 4.648110866546631
+      },
+      {
+        "startTime": 14.95,
+        "endTime": 15.05,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 416.28,
+        "confidence": 4.484500885009766
+      },
+      {
+        "startTime": 14.96,
+        "endTime": 15.07,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 428.79,
+        "confidence": 3.1866843700408936
+      },
+      {
+        "startTime": 15.03,
+        "endTime": 15.13,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 327.87,
+        "confidence": 0.6195325255393982
+      },
+      {
+        "startTime": 15.04,
+        "endTime": 15.14,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 430.84,
+        "confidence": 0.7142296433448792
+      },
+      {
+        "startTime": 15.07,
+        "endTime": 15.18,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 143.24,
+        "confidence": 5.567537784576416
+      },
+      {
+        "startTime": 15.11,
+        "endTime": 15.21,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 221.3,
+        "confidence": 1.2937867641448975
+      },
+      {
+        "startTime": 15.12,
+        "endTime": 15.22,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 360.66,
+        "confidence": 0.9973841309547424
+      },
+      {
+        "startTime": 15.19,
+        "endTime": 15.45,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 148.08,
+        "confidence": 2.3121731281280518
+      },
+      {
+        "startTime": 15.36,
+        "endTime": 15.46,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 389.88,
+        "confidence": 0.36710330843925476
+      },
+      {
+        "startTime": 15.37,
+        "endTime": 15.49,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 146.19,
+        "confidence": 1.5464670658111572
+      },
+      {
+        "startTime": 15.43,
+        "endTime": 15.55,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 342.51,
+        "confidence": 1.122514247894287
+      },
+      {
+        "startTime": 15.46,
+        "endTime": 15.82,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 391.16,
+        "confidence": 12.227653503417969
+      },
+      {
+        "startTime": 15.73,
+        "endTime": 15.96,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 470.4,
+        "confidence": 14.846954345703125
+      },
+      {
+        "startTime": 15.87,
+        "endTime": 16.22,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 590.44,
+        "confidence": 22.108409881591797
+      },
+      {
+        "startTime": 16.13,
+        "endTime": 16.51,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 568.92,
+        "confidence": 19.937088012695312
+      },
+      {
+        "startTime": 16.44,
+        "endTime": 16.57,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.02,
+        "confidence": 6.4820356369018555
+      },
+      {
+        "startTime": 16.48,
+        "endTime": 16.73,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 523.1,
+        "confidence": 5.417168140411377
+      },
+      {
+        "startTime": 16.65,
+        "endTime": 16.82,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 350.08,
+        "confidence": 5.056973457336426
+      },
+      {
+        "startTime": 16.74,
+        "endTime": 16.87,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 397.18,
+        "confidence": 2.347172975540161
+      },
+      {
+        "startTime": 16.8,
+        "endTime": 16.95,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 352.61,
+        "confidence": 1.0583124160766602
+      },
+      {
+        "startTime": 16.88,
+        "endTime": 16.98,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 208.95,
+        "confidence": 0.6419281959533691
+      },
+      {
+        "startTime": 16.89,
+        "endTime": 17.0,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 435.43,
+        "confidence": 0.8100070953369141
+      },
+      {
+        "startTime": 16.91,
+        "endTime": 17.05,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 206.13,
+        "confidence": 0.8076258897781372
+      },
+      {
+        "startTime": 16.97,
+        "endTime": 17.08,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 212.16,
+        "confidence": 0.7194822430610657
+      },
+      {
+        "startTime": 16.99,
+        "endTime": 17.12,
+        "midiNote": 101,
+        "noteName": "F7",
+        "frequency": 2854.39,
+        "confidence": 1.282070517539978
+      },
+      {
+        "startTime": 17.04,
+        "endTime": 17.15,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 147.95,
+        "confidence": 3.275527000427246
+      },
+      {
+        "startTime": 17.06,
+        "endTime": 17.16,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 385.6,
+        "confidence": 1.1774283647537231
+      },
+      {
+        "startTime": 17.08,
+        "endTime": 17.18,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 153.29,
+        "confidence": 4.434552192687988
+      },
+      {
+        "startTime": 17.09,
+        "endTime": 17.19,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 145.07,
+        "confidence": 6.092695236206055
+      },
+      {
+        "startTime": 17.11,
+        "endTime": 17.21,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 147.94,
+        "confidence": 5.101844310760498
+      },
+      {
+        "startTime": 17.13,
+        "endTime": 17.23,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 146.65,
+        "confidence": 3.340837001800537
+      },
+      {
+        "startTime": 17.16,
+        "endTime": 17.28,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 144.81,
+        "confidence": 2.9420113563537598
+      },
+      {
+        "startTime": 17.2,
+        "endTime": 17.36,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 148.9,
+        "confidence": 2.3647713661193848
+      },
+      {
+        "startTime": 17.27,
+        "endTime": 17.37,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.69,
+        "confidence": 2.036015510559082
+      },
+      {
+        "startTime": 17.28,
+        "endTime": 17.47,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 145.18,
+        "confidence": 2.406080484390259
+      },
+      {
+        "startTime": 17.38,
+        "endTime": 17.48,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.98,
+        "confidence": 1.993228554725647
+      },
+      {
+        "startTime": 17.4,
+        "endTime": 17.5,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 156.87,
+        "confidence": 1.3730562925338745
+      },
+      {
+        "startTime": 17.41,
+        "endTime": 17.52,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 150.12,
+        "confidence": 1.6850004196166992
+      },
+      {
+        "startTime": 17.45,
+        "endTime": 17.55,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 341.96,
+        "confidence": 0.4613116383552551
+      },
+      {
+        "startTime": 17.47,
+        "endTime": 17.57,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 141.52,
+        "confidence": 3.314098834991455
+      },
+      {
+        "startTime": 17.49,
+        "endTime": 17.6,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 218.9,
+        "confidence": 1.0786503553390503
+      },
+      {
+        "startTime": 17.52,
+        "endTime": 17.62,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 455.23,
+        "confidence": 0.6612074375152588
+      },
+      {
+        "startTime": 17.54,
+        "endTime": 17.64,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 260.97,
+        "confidence": 0.5514273047447205
+      },
+      {
+        "startTime": 17.56,
+        "endTime": 17.66,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 457.51,
+        "confidence": 0.5167267918586731
+      },
+      {
+        "startTime": 17.57,
+        "endTime": 17.67,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 449.02,
+        "confidence": 0.7264062166213989
+      },
+      {
+        "startTime": 17.59,
+        "endTime": 17.7,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 454.54,
+        "confidence": 0.616711437702179
+      },
+      {
+        "startTime": 17.61,
+        "endTime": 17.71,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 258.33,
+        "confidence": 0.2897573411464691
+      },
+      {
+        "startTime": 17.63,
+        "endTime": 17.73,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 454.03,
+        "confidence": 0.5792902708053589
+      },
+      {
+        "startTime": 17.64,
+        "endTime": 17.76,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 450.78,
+        "confidence": 0.5622921586036682
+      },
+      {
+        "startTime": 17.68,
+        "endTime": 17.78,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 263.07,
+        "confidence": 0.3533032536506653
+      },
+      {
+        "startTime": 17.69,
+        "endTime": 17.8,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 449.52,
+        "confidence": 0.530948281288147
+      },
+      {
+        "startTime": 17.74,
+        "endTime": 17.86,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 389.41,
+        "confidence": 0.38320550322532654
+      },
+      {
+        "startTime": 17.77,
+        "endTime": 17.89,
+        "midiNote": 101,
+        "noteName": "F7",
+        "frequency": 2788.53,
+        "confidence": 1.1343300342559814
+      },
+      {
+        "startTime": 17.81,
+        "endTime": 17.91,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 146.84,
+        "confidence": 0.7223343849182129
+      },
+      {
+        "startTime": 17.82,
+        "endTime": 17.92,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 342.9,
+        "confidence": 0.5640225410461426
+      },
+      {
+        "startTime": 17.83,
+        "endTime": 17.93,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 382.92,
+        "confidence": 0.6118254661560059
+      },
+      {
+        "startTime": 17.84,
+        "endTime": 17.94,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 220.91,
+        "confidence": 0.3906177878379822
+      },
+      {
+        "startTime": 17.86,
+        "endTime": 17.96,
+        "midiNote": 102,
+        "noteName": "F#7",
+        "frequency": 2943.25,
+        "confidence": 0.5122711062431335
+      },
+      {
+        "startTime": 17.88,
+        "endTime": 17.99,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 351.38,
+        "confidence": 1.1601206064224243
+      },
+      {
+        "startTime": 17.9,
+        "endTime": 18.02,
+        "midiNote": 101,
+        "noteName": "F7",
+        "frequency": 2855.64,
+        "confidence": 5.27634859085083
+      },
+      {
+        "startTime": 17.93,
+        "endTime": 18.05,
+        "midiNote": 77,
+        "noteName": "F5",
+        "frequency": 692.63,
+        "confidence": 5.0869460105896
+      },
+      {
+        "startTime": 17.96,
+        "endTime": 18.09,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 246.3,
+        "confidence": 7.822218418121338
+      },
+      {
+        "startTime": 18.0,
+        "endTime": 18.28,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 350.75,
+        "confidence": 10.432207107543945
+      },
+      {
+        "startTime": 18.19,
+        "endTime": 18.46,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 624.37,
+        "confidence": 24.47685432434082
+      },
+      {
+        "startTime": 18.38,
+        "endTime": 18.66,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 559.4,
+        "confidence": 10.914666175842285
+      },
+      {
+        "startTime": 18.57,
+        "endTime": 18.87,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 349.8,
+        "confidence": 4.747401237487793
+      },
+      {
+        "startTime": 18.78,
+        "endTime": 19.1,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 410.73,
+        "confidence": 6.561131477355957
+      },
+      {
+        "startTime": 19.01,
+        "endTime": 19.18,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 349.83,
+        "confidence": 1.6989669799804688
+      },
+      {
+        "startTime": 19.1,
+        "endTime": 19.22,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 423.75,
+        "confidence": 1.8914588689804077
+      },
+      {
+        "startTime": 19.13,
+        "endTime": 19.23,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 357.26,
+        "confidence": 1.701019048690796
+      },
+      {
+        "startTime": 19.14,
+        "endTime": 19.25,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 360.92,
+        "confidence": 2.6052870750427246
+      },
+      {
+        "startTime": 19.16,
+        "endTime": 19.6,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 306.58,
+        "confidence": 4.27101993560791
+      },
+      {
+        "startTime": 19.51,
+        "endTime": 19.64,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 626.62,
+        "confidence": 0.7637840509414673
+      },
+      {
+        "startTime": 19.56,
+        "endTime": 19.67,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 629.54,
+        "confidence": 0.9255569577217102
+      },
+      {
+        "startTime": 19.58,
+        "endTime": 20.05,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 394.59,
+        "confidence": 12.651850700378418
+      },
+      {
+        "startTime": 19.97,
+        "endTime": 20.3,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 258.04,
+        "confidence": 12.063132286071777
+      },
+      {
+        "startTime": 20.21,
+        "endTime": 20.32,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 389.58,
+        "confidence": 2.0291848182678223
+      },
+      {
+        "startTime": 20.23,
+        "endTime": 20.34,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 258.8,
+        "confidence": 2.375190258026123
+      },
+      {
+        "startTime": 20.26,
+        "endTime": 20.38,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 387.59,
+        "confidence": 2.2783656120300293
+      },
+      {
+        "startTime": 20.29,
+        "endTime": 20.39,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 280.81,
+        "confidence": 2.5363190174102783
+      },
+      {
+        "startTime": 20.3,
+        "endTime": 20.61,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 312.03,
+        "confidence": 4.501980304718018
+      },
+      {
+        "startTime": 20.52,
+        "endTime": 20.62,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 141.9,
+        "confidence": 1.7646054029464722
+      },
+      {
+        "startTime": 20.53,
+        "endTime": 20.67,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 627.0,
+        "confidence": 0.9493086338043213
+      },
+      {
+        "startTime": 20.58,
+        "endTime": 20.68,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 142.15,
+        "confidence": 1.426255702972412
+      },
+      {
+        "startTime": 20.59,
+        "endTime": 20.77,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 396.13,
+        "confidence": 0.804705023765564
+      },
+      {
+        "startTime": 20.69,
+        "endTime": 20.8,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 302.44,
+        "confidence": 0.3569609820842743
+      },
+      {
+        "startTime": 20.72,
+        "endTime": 20.86,
+        "midiNote": 102,
+        "noteName": "F#7",
+        "frequency": 2927.54,
+        "confidence": 1.050087332725525
+      },
+      {
+        "startTime": 20.77,
+        "endTime": 20.87,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 255.4,
+        "confidence": 1.056588053703308
+      },
+      {
+        "startTime": 20.78,
+        "endTime": 21.1,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 349.93,
+        "confidence": 2.396359443664551
+      },
+      {
+        "startTime": 21.08,
+        "endTime": 21.18,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 486.36,
+        "confidence": 1.1727670431137085
+      },
+      {
+        "startTime": 21.09,
+        "endTime": 21.22,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 250.81,
+        "confidence": 16.369897842407227
+      },
+      {
+        "startTime": 21.13,
+        "endTime": 21.23,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 468.73,
+        "confidence": 9.781981468200684
+      },
+      {
+        "startTime": 21.14,
+        "endTime": 21.25,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 252.95,
+        "confidence": 15.77100944519043
+      },
+      {
+        "startTime": 21.16,
+        "endTime": 21.26,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 391.73,
+        "confidence": 8.955451965332031
+      },
+      {
+        "startTime": 21.17,
+        "endTime": 21.29,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 248.45,
+        "confidence": 13.330143928527832
+      },
+      {
+        "startTime": 21.2,
+        "endTime": 21.3,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 230.99,
+        "confidence": 7.580386638641357
+      },
+      {
+        "startTime": 21.21,
+        "endTime": 21.32,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 241.6,
+        "confidence": 11.511686325073242
+      },
+      {
+        "startTime": 21.23,
+        "endTime": 21.39,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 229.76,
+        "confidence": 8.846125602722168
+      },
+      {
+        "startTime": 21.3,
+        "endTime": 21.42,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 469.19,
+        "confidence": 5.540218353271484
+      },
+      {
+        "startTime": 21.34,
+        "endTime": 21.48,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.89,
+        "confidence": 5.5475993156433105
+      },
+      {
+        "startTime": 21.41,
+        "endTime": 21.52,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 391.95,
+        "confidence": 4.890942096710205
+      },
+      {
+        "startTime": 21.43,
+        "endTime": 21.54,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 469.53,
+        "confidence": 4.687173366546631
+      },
+      {
+        "startTime": 21.45,
+        "endTime": 21.58,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 387.81,
+        "confidence": 5.360530853271484
+      },
+      {
+        "startTime": 21.49,
+        "endTime": 21.59,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 239.02,
+        "confidence": 6.749086856842041
+      },
+      {
+        "startTime": 21.5,
+        "endTime": 21.75,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 255.82,
+        "confidence": 20.44782257080078
+      },
+      {
+        "startTime": 21.66,
+        "endTime": 21.96,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 311.31,
+        "confidence": 6.853775978088379
+      },
+      {
+        "startTime": 21.87,
+        "endTime": 22.14,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 382.24,
+        "confidence": 14.537193298339844
+      },
+      {
+        "startTime": 22.06,
+        "endTime": 22.55,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 530.31,
+        "confidence": 14.984521865844727
+      },
+      {
+        "startTime": 22.47,
+        "endTime": 22.78,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 391.7,
+        "confidence": 9.478336334228516
+      },
+      {
+        "startTime": 22.72,
+        "endTime": 22.83,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 362.56,
+        "confidence": 5.346451282501221
+      },
+      {
+        "startTime": 22.74,
+        "endTime": 23.04,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 357.46,
+        "confidence": 12.62743091583252
+      },
+      {
+        "startTime": 22.95,
+        "endTime": 23.37,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 492.6,
+        "confidence": 10.860060691833496
+      },
+      {
+        "startTime": 23.29,
+        "endTime": 23.65,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 388.8,
+        "confidence": 9.397684097290039
+      },
+      {
+        "startTime": 23.57,
+        "endTime": 23.68,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 500.63,
+        "confidence": 0.6125404238700867
+      },
+      {
+        "startTime": 23.59,
+        "endTime": 23.69,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 421.92,
+        "confidence": 0.5539565682411194
+      },
+      {
+        "startTime": 23.61,
+        "endTime": 23.71,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 363.56,
+        "confidence": 0.7311835289001465
+      },
+      {
+        "startTime": 23.63,
+        "endTime": 23.73,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 330.77,
+        "confidence": 1.3770663738250732
+      },
+      {
+        "startTime": 23.65,
+        "endTime": 23.75,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 340.7,
+        "confidence": 0.8419924378395081
+      },
+      {
+        "startTime": 23.66,
+        "endTime": 23.76,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 228.05,
+        "confidence": 0.7720671892166138
+      },
+      {
+        "startTime": 23.68,
+        "endTime": 24.07,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 473.53,
+        "confidence": 27.707191467285156
+      },
+      {
+        "startTime": 23.98,
+        "endTime": 24.28,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 358.76,
+        "confidence": 15.600552558898926
+      },
+      {
+        "startTime": 24.19,
+        "endTime": 24.43,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 147.6,
+        "confidence": 2.663666248321533
+      },
+      {
+        "startTime": 24.34,
+        "endTime": 24.56,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 410.23,
+        "confidence": 8.5070161819458
+      },
+      {
+        "startTime": 24.47,
+        "endTime": 24.86,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.26,
+        "confidence": 6.719383716583252
+      },
+      {
+        "startTime": 24.77,
+        "endTime": 24.87,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 160.64,
+        "confidence": 2.152728319168091
+      },
+      {
+        "startTime": 24.8,
+        "endTime": 24.91,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 211.96,
+        "confidence": 2.408579111099243
+      },
+      {
+        "startTime": 24.82,
+        "endTime": 24.92,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 157.67,
+        "confidence": 1.810669183731079
+      },
+      {
+        "startTime": 24.83,
+        "endTime": 24.93,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 282.87,
+        "confidence": 1.9060914516448975
+      },
+      {
+        "startTime": 24.84,
+        "endTime": 24.97,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 159.33,
+        "confidence": 4.939982891082764
+      },
+      {
+        "startTime": 24.88,
+        "endTime": 25.24,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 388.36,
+        "confidence": 16.638774871826172
+      },
+      {
+        "startTime": 25.16,
+        "endTime": 25.46,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 372.88,
+        "confidence": 12.818553924560547
+      },
+      {
+        "startTime": 25.38,
+        "endTime": 25.66,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 347.22,
+        "confidence": 11.43786334991455
+      },
+      {
+        "startTime": 25.57,
+        "endTime": 25.67,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 266.28,
+        "confidence": 4.2996296882629395
+      },
+      {
+        "startTime": 25.59,
+        "endTime": 25.72,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 272.46,
+        "confidence": 6.9773383140563965
+      },
+      {
+        "startTime": 25.63,
+        "endTime": 25.85,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.68,
+        "confidence": 9.205281257629395
+      },
+      {
+        "startTime": 25.76,
+        "endTime": 25.89,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 231.65,
+        "confidence": 6.817688465118408
+      },
+      {
+        "startTime": 25.81,
+        "endTime": 25.91,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 241.37,
+        "confidence": 5.177840709686279
+      },
+      {
+        "startTime": 25.82,
+        "endTime": 25.96,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 230.44,
+        "confidence": 5.5304975509643555
+      },
+      {
+        "startTime": 25.88,
+        "endTime": 25.98,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 241.47,
+        "confidence": 4.211803913116455
+      },
+      {
+        "startTime": 25.89,
+        "endTime": 26.05,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 235.27,
+        "confidence": 3.9479780197143555
+      },
+      {
+        "startTime": 25.96,
+        "endTime": 26.08,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 468.04,
+        "confidence": 2.753549575805664
+      },
+      {
+        "startTime": 25.99,
+        "endTime": 26.11,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 233.47,
+        "confidence": 3.0424704551696777
+      },
+      {
+        "startTime": 26.03,
+        "endTime": 26.14,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 467.12,
+        "confidence": 2.6192171573638916
+      },
+      {
+        "startTime": 26.05,
+        "endTime": 26.66,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 345.62,
+        "confidence": 12.404325485229492
+      },
+      {
+        "startTime": 26.57,
+        "endTime": 26.67,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 164.33,
+        "confidence": 4.06696891784668
+      },
+      {
+        "startTime": 26.58,
+        "endTime": 26.93,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 152.98,
+        "confidence": 5.096564769744873
+      },
+      {
+        "startTime": 26.84,
+        "endTime": 26.94,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 160.16,
+        "confidence": 1.4399373531341553
+      },
+      {
+        "startTime": 26.85,
+        "endTime": 26.96,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 152.16,
+        "confidence": 1.8105930089950562
+      },
+      {
+        "startTime": 26.9,
+        "endTime": 27.01,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 351.58,
+        "confidence": 1.3798872232437134
+      },
+      {
+        "startTime": 26.92,
+        "endTime": 27.03,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 362.4,
+        "confidence": 1.6462068557739258
+      },
+      {
+        "startTime": 26.96,
+        "endTime": 27.07,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 363.53,
+        "confidence": 1.301528811454773
+      },
+      {
+        "startTime": 26.98,
+        "endTime": 27.21,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 259.64,
+        "confidence": 6.5992655754089355
+      },
+      {
+        "startTime": 27.13,
+        "endTime": 27.28,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 260.76,
+        "confidence": 4.140476703643799
+      },
+      {
+        "startTime": 27.2,
+        "endTime": 27.31,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.69,
+        "confidence": 1.478243112564087
+      },
+      {
+        "startTime": 27.22,
+        "endTime": 27.33,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 313.3,
+        "confidence": 1.1774464845657349
+      },
+      {
+        "startTime": 27.25,
+        "endTime": 27.35,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 150.15,
+        "confidence": 1.2990612983703613
+      },
+      {
+        "startTime": 27.26,
+        "endTime": 27.38,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 308.37,
+        "confidence": 1.268790602684021
+      },
+      {
+        "startTime": 27.29,
+        "endTime": 27.39,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 336.59,
+        "confidence": 1.5458155870437622
+      },
+      {
+        "startTime": 27.3,
+        "endTime": 27.42,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 268.03,
+        "confidence": 1.9847643375396729
+      },
+      {
+        "startTime": 27.33,
+        "endTime": 27.43,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 494.96,
+        "confidence": 2.953174114227295
+      },
+      {
+        "startTime": 27.34,
+        "endTime": 27.75,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 468.18,
+        "confidence": 28.184345245361328
+      },
+      {
+        "startTime": 27.66,
+        "endTime": 27.86,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 393.54,
+        "confidence": 5.890120029449463
+      },
+      {
+        "startTime": 27.77,
+        "endTime": 27.87,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 364.69,
+        "confidence": 6.9333295822143555
+      },
+      {
+        "startTime": 27.78,
+        "endTime": 28.18,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 351.14,
+        "confidence": 14.248562812805176
+      },
+      {
+        "startTime": 28.09,
+        "endTime": 28.19,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 304.22,
+        "confidence": 4.07330322265625
+      },
+      {
+        "startTime": 28.12,
+        "endTime": 28.25,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 248.29,
+        "confidence": 6.784865379333496
+      },
+      {
+        "startTime": 28.16,
+        "endTime": 28.49,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 347.57,
+        "confidence": 10.183704376220703
+      },
+      {
+        "startTime": 28.41,
+        "endTime": 28.87,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 469.05,
+        "confidence": 22.743762969970703
+      },
+      {
+        "startTime": 28.78,
+        "endTime": 28.98,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 348.73,
+        "confidence": 2.588732957839966
+      },
+      {
+        "startTime": 28.89,
+        "endTime": 29.02,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 307.56,
+        "confidence": 2.0021300315856934
+      },
+      {
+        "startTime": 28.93,
+        "endTime": 29.03,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 330.08,
+        "confidence": 1.6507290601730347
+      },
+      {
+        "startTime": 28.94,
+        "endTime": 29.05,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 347.6,
+        "confidence": 2.237739086151123
+      },
+      {
+        "startTime": 28.96,
+        "endTime": 29.09,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 362.56,
+        "confidence": 7.088830947875977
+      },
+      {
+        "startTime": 29.0,
+        "endTime": 29.34,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 353.3,
+        "confidence": 11.831449508666992
+      },
+      {
+        "startTime": 29.25,
+        "endTime": 29.35,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 292.07,
+        "confidence": 2.8479812145233154
+      },
+      {
+        "startTime": 29.27,
+        "endTime": 29.37,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 380.29,
+        "confidence": 8.943756103515625
+      },
+      {
+        "startTime": 29.28,
+        "endTime": 29.39,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 382.51,
+        "confidence": 18.325843811035156
+      },
+      {
+        "startTime": 29.31,
+        "endTime": 29.44,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 387.37,
+        "confidence": 21.68791961669922
+      },
+      {
+        "startTime": 29.36,
+        "endTime": 29.48,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 385.5,
+        "confidence": 16.693899154663086
+      },
+      {
+        "startTime": 29.4,
+        "endTime": 29.53,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 385.27,
+        "confidence": 14.49029541015625
+      },
+      {
+        "startTime": 29.45,
+        "endTime": 29.57,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 383.45,
+        "confidence": 12.115924835205078
+      },
+      {
+        "startTime": 29.49,
+        "endTime": 29.59,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 404.36,
+        "confidence": 5.500641345977783
+      },
+      {
+        "startTime": 29.5,
+        "endTime": 29.67,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 385.16,
+        "confidence": 10.953041076660156
+      },
+      {
+        "startTime": 29.58,
+        "endTime": 29.68,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 403.6,
+        "confidence": 3.9949185848236084
+      },
+      {
+        "startTime": 29.59,
+        "endTime": 29.85,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 385.07,
+        "confidence": 8.234350204467773
+      },
+      {
+        "startTime": 29.79,
+        "endTime": 29.89,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 397.81,
+        "confidence": 6.721200942993164
+      },
+      {
+        "startTime": 29.8,
+        "endTime": 29.91,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 149.29,
+        "confidence": 6.94361686706543
+      },
+      {
+        "startTime": 29.82,
+        "endTime": 29.93,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 408.08,
+        "confidence": 6.1789398193359375
+      },
+      {
+        "startTime": 29.86,
+        "endTime": 29.97,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 408.57,
+        "confidence": 6.891412734985352
+      },
+      {
+        "startTime": 29.88,
+        "endTime": 29.99,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 395.32,
+        "confidence": 4.505765438079834
+      },
+      {
+        "startTime": 29.9,
+        "endTime": 30.02,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 404.62,
+        "confidence": 5.043421745300293
+      },
+      {
+        "startTime": 29.93,
+        "endTime": 30.18,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 385.94,
+        "confidence": 4.91689920425415
+      },
+      {
+        "startTime": 30.09,
+        "endTime": 30.36,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 467.29,
+        "confidence": 17.252561569213867
+      },
+      {
+        "startTime": 30.28,
+        "endTime": 30.57,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 155.3,
+        "confidence": 5.189918518066406
+      },
+      {
+        "startTime": 30.48,
+        "endTime": 30.6,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 373.62,
+        "confidence": 3.4096827507019043
+      },
+      {
+        "startTime": 30.51,
+        "endTime": 30.92,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 241.95,
+        "confidence": 6.3402886390686035
+      },
+      {
+        "startTime": 30.83,
+        "endTime": 30.93,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 237.08,
+        "confidence": 0.8885074853897095
+      },
+      {
+        "startTime": 30.84,
+        "endTime": 30.94,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 205.04,
+        "confidence": 0.6665388941764832
+      },
+      {
+        "startTime": 30.86,
+        "endTime": 30.96,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 215.5,
+        "confidence": 0.6732348203659058
+      },
+      {
+        "startTime": 30.88,
+        "endTime": 30.99,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 390.17,
+        "confidence": 5.550708770751953
+      },
+      {
+        "startTime": 30.9,
+        "endTime": 31.05,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 262.79,
+        "confidence": 14.5042085647583
+      },
+      {
+        "startTime": 30.96,
+        "endTime": 31.07,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 253.26,
+        "confidence": 18.032560348510742
+      },
+      {
+        "startTime": 31.0,
+        "endTime": 31.1,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 242.34,
+        "confidence": 11.599869728088379
+      },
+      {
+        "startTime": 31.01,
+        "endTime": 31.12,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 236.58,
+        "confidence": 8.235993385314941
+      },
+      {
+        "startTime": 31.04,
+        "endTime": 31.21,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 233.15,
+        "confidence": 7.435444355010986
+      },
+      {
+        "startTime": 31.12,
+        "endTime": 31.28,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 469.04,
+        "confidence": 5.020622730255127
+      },
+      {
+        "startTime": 31.2,
+        "endTime": 31.32,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 469.51,
+        "confidence": 4.304854869842529
+      },
+      {
+        "startTime": 31.24,
+        "endTime": 31.35,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 469.3,
+        "confidence": 3.859215259552002
+      },
+      {
+        "startTime": 31.26,
+        "endTime": 31.37,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 235.53,
+        "confidence": 3.7681915760040283
+      },
+      {
+        "startTime": 31.29,
+        "endTime": 31.51,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 258.09,
+        "confidence": 18.01439666748047
+      },
+      {
+        "startTime": 31.43,
+        "endTime": 31.53,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 146.98,
+        "confidence": 5.83092737197876
+      },
+      {
+        "startTime": 31.45,
+        "endTime": 31.55,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 299.34,
+        "confidence": 4.889919757843018
+      },
+      {
+        "startTime": 31.46,
+        "endTime": 31.76,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 313.96,
+        "confidence": 6.656462669372559
+      },
+      {
+        "startTime": 31.68,
+        "endTime": 31.95,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 387.71,
+        "confidence": 12.617820739746094
+      },
+      {
+        "startTime": 31.87,
+        "endTime": 32.19,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 528.67,
+        "confidence": 6.728216648101807
+      },
+      {
+        "startTime": 32.1,
+        "endTime": 32.2,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 546.38,
+        "confidence": 3.1414356231689453
+      },
+      {
+        "startTime": 32.11,
+        "endTime": 32.35,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 592.74,
+        "confidence": 17.947813034057617
+      },
+      {
+        "startTime": 32.26,
+        "endTime": 32.62,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 627.38,
+        "confidence": 24.03999137878418
+      },
+      {
+        "startTime": 32.53,
+        "endTime": 32.81,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 596.62,
+        "confidence": 15.844148635864258
+      },
+      {
+        "startTime": 32.73,
+        "endTime": 32.94,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 523.09,
+        "confidence": 7.0780863761901855
+      },
+      {
+        "startTime": 32.85,
+        "endTime": 33.14,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 594.35,
+        "confidence": 11.649942398071289
+      },
+      {
+        "startTime": 33.05,
+        "endTime": 33.15,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 492.87,
+        "confidence": 6.32451057434082
+      },
+      {
+        "startTime": 33.07,
+        "endTime": 33.17,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 504.08,
+        "confidence": 5.319344520568848
+      },
+      {
+        "startTime": 33.1,
+        "endTime": 33.2,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 511.6,
+        "confidence": 6.359984397888184
+      },
+      {
+        "startTime": 33.11,
+        "endTime": 33.22,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 503.25,
+        "confidence": 4.448146820068359
+      },
+      {
+        "startTime": 33.14,
+        "endTime": 33.25,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 500.55,
+        "confidence": 3.688117265701294
+      },
+      {
+        "startTime": 33.17,
+        "endTime": 33.27,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 510.99,
+        "confidence": 5.141907691955566
+      },
+      {
+        "startTime": 33.18,
+        "endTime": 33.43,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 497.72,
+        "confidence": 4.044444561004639
+      },
+      {
+        "startTime": 33.34,
+        "endTime": 33.73,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 593.24,
+        "confidence": 14.280622482299805
+      },
+      {
+        "startTime": 33.64,
+        "endTime": 33.74,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 164.67,
+        "confidence": 0.6884058117866516
+      },
+      {
+        "startTime": 33.65,
+        "endTime": 33.8,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 585.04,
+        "confidence": 1.1256146430969238
+      },
+      {
+        "startTime": 33.71,
+        "endTime": 33.81,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 167.47,
+        "confidence": 0.741863489151001
+      },
+      {
+        "startTime": 33.72,
+        "endTime": 33.82,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 150.63,
+        "confidence": 0.7032381892204285
+      },
+      {
+        "startTime": 33.74,
+        "endTime": 33.85,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 381.79,
+        "confidence": 4.650086879730225
+      },
+      {
+        "startTime": 33.76,
+        "endTime": 33.86,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 367.91,
+        "confidence": 3.2264037132263184
+      },
+      {
+        "startTime": 33.78,
+        "endTime": 33.88,
+        "midiNote": 102,
+        "noteName": "F#7",
+        "frequency": 2908.25,
+        "confidence": 1.8771336078643799
+      },
+      {
+        "startTime": 33.79,
+        "endTime": 33.91,
+        "midiNote": 103,
+        "noteName": "G7",
+        "frequency": 3123.59,
+        "confidence": 1.8880425691604614
+      },
+      {
+        "startTime": 33.82,
+        "endTime": 33.92,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 426.46,
+        "confidence": 1.0960606336593628
+      },
+      {
+        "startTime": 33.83,
+        "endTime": 33.95,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.26,
+        "confidence": 1.789962887763977
+      },
+      {
+        "startTime": 33.86,
+        "endTime": 33.96,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 373.78,
+        "confidence": 1.7142001390457153
+      },
+      {
+        "startTime": 33.87,
+        "endTime": 33.97,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 152.58,
+        "confidence": 3.185223340988159
+      },
+      {
+        "startTime": 33.89,
+        "endTime": 33.99,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 222.8,
+        "confidence": 1.616331934928894
+      },
+      {
+        "startTime": 33.9,
+        "endTime": 34.0,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 140.88,
+        "confidence": 5.762723922729492
+      },
+      {
+        "startTime": 33.91,
+        "endTime": 34.01,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.96,
+        "confidence": 2.817326784133911
+      },
+      {
+        "startTime": 33.92,
+        "endTime": 34.02,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 146.35,
+        "confidence": 1.9216703176498413
+      },
+      {
+        "startTime": 33.93,
+        "endTime": 34.03,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 141.02,
+        "confidence": 2.535649061203003
+      },
+      {
+        "startTime": 33.94,
+        "endTime": 34.04,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 223.12,
+        "confidence": 1.2696508169174194
+      },
+      {
+        "startTime": 33.96,
+        "endTime": 34.08,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 149.89,
+        "confidence": 2.587838649749756
+      },
+      {
+        "startTime": 33.99,
+        "endTime": 34.09,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 152.36,
+        "confidence": 2.010071277618408
+      },
+      {
+        "startTime": 34.0,
+        "endTime": 34.1,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 148.9,
+        "confidence": 1.74138605594635
+      },
+      {
+        "startTime": 34.01,
+        "endTime": 34.11,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 142.02,
+        "confidence": 1.7447580099105835
+      },
+      {
+        "startTime": 34.03,
+        "endTime": 34.13,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 147.54,
+        "confidence": 1.5639697313308716
+      },
+      {
+        "startTime": 34.04,
+        "endTime": 34.14,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 141.79,
+        "confidence": 1.8809373378753662
+      },
+      {
+        "startTime": 34.05,
+        "endTime": 34.16,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 143.44,
+        "confidence": 2.126009941101074
+      },
+      {
+        "startTime": 34.07,
+        "endTime": 34.17,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.47,
+        "confidence": 1.913426399230957
+      },
+      {
+        "startTime": 34.08,
+        "endTime": 34.23,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 146.12,
+        "confidence": 2.0645155906677246
+      },
+      {
+        "startTime": 34.14,
+        "endTime": 34.28,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.28,
+        "confidence": 1.733643651008606
+      },
+      {
+        "startTime": 34.19,
+        "endTime": 34.29,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 144.05,
+        "confidence": 0.9508795142173767
+      },
+      {
+        "startTime": 34.2,
+        "endTime": 34.31,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 218.49,
+        "confidence": 0.612568736076355
+      },
+      {
+        "startTime": 34.22,
+        "endTime": 34.32,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 345.48,
+        "confidence": 0.6463088989257812
+      },
+      {
+        "startTime": 34.23,
+        "endTime": 34.33,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.22,
+        "confidence": 1.3407926559448242
+      },
+      {
+        "startTime": 34.25,
+        "endTime": 34.35,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 145.52,
+        "confidence": 3.335235595703125
+      },
+      {
+        "startTime": 34.26,
+        "endTime": 34.36,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 273.9,
+        "confidence": 0.7423990368843079
+      },
+      {
+        "startTime": 34.28,
+        "endTime": 34.38,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 335.1,
+        "confidence": 1.088254451751709
+      },
+      {
+        "startTime": 34.29,
+        "endTime": 34.39,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 161.63,
+        "confidence": 1.6395184993743896
+      },
+      {
+        "startTime": 34.3,
+        "endTime": 34.4,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 259.77,
+        "confidence": 0.9661831259727478
+      },
+      {
+        "startTime": 34.32,
+        "endTime": 34.67,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 594.92,
+        "confidence": 26.07297134399414
+      },
+      {
+        "startTime": 34.58,
+        "endTime": 34.78,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 559.41,
+        "confidence": 9.201603889465332
+      },
+      {
+        "startTime": 34.69,
+        "endTime": 34.79,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.75,
+        "confidence": 5.427702903747559
+      },
+      {
+        "startTime": 34.7,
+        "endTime": 34.81,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 144.71,
+        "confidence": 7.352110862731934
+      },
+      {
+        "startTime": 34.72,
+        "endTime": 34.83,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 506.59,
+        "confidence": 6.811557292938232
+      },
+      {
+        "startTime": 34.75,
+        "endTime": 34.85,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 146.0,
+        "confidence": 4.23196268081665
+      },
+      {
+        "startTime": 34.76,
+        "endTime": 35.01,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 502.17,
+        "confidence": 5.009035110473633
+      },
+      {
+        "startTime": 34.92,
+        "endTime": 35.04,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 149.14,
+        "confidence": 3.0627617835998535
+      },
+      {
+        "startTime": 34.97,
+        "endTime": 35.07,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 492.29,
+        "confidence": 1.9009674787521362
+      },
+      {
+        "startTime": 34.98,
+        "endTime": 35.22,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 387.91,
+        "confidence": 7.788492679595947
+      },
+      {
+        "startTime": 35.13,
+        "endTime": 35.37,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 153.19,
+        "confidence": 6.778391361236572
+      },
+      {
+        "startTime": 35.28,
+        "endTime": 35.38,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.69,
+        "confidence": 3.5302326679229736
+      },
+      {
+        "startTime": 35.29,
+        "endTime": 35.44,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.2,
+        "confidence": 3.7991983890533447
+      },
+      {
+        "startTime": 35.35,
+        "endTime": 35.5,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 393.76,
+        "confidence": 3.0095818042755127
+      },
+      {
+        "startTime": 35.41,
+        "endTime": 35.63,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 257.69,
+        "confidence": 9.228265762329102
+      },
+      {
+        "startTime": 35.55,
+        "endTime": 35.65,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 159.36,
+        "confidence": 4.651331424713135
+      },
+      {
+        "startTime": 35.56,
+        "endTime": 35.69,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 164.21,
+        "confidence": 4.005094051361084
+      },
+      {
+        "startTime": 35.6,
+        "endTime": 35.7,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 159.14,
+        "confidence": 3.3971190452575684
+      },
+      {
+        "startTime": 35.62,
+        "endTime": 35.87,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 165.23,
+        "confidence": 2.6828744411468506
+      },
+      {
+        "startTime": 35.78,
+        "endTime": 36.08,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 471.61,
+        "confidence": 26.887521743774414
+      },
+      {
+        "startTime": 35.99,
+        "endTime": 36.15,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 418.6,
+        "confidence": 4.381509304046631
+      },
+      {
+        "startTime": 36.06,
+        "endTime": 36.17,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 209.91,
+        "confidence": 2.898620843887329
+      },
+      {
+        "startTime": 36.08,
+        "endTime": 36.18,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 414.5,
+        "confidence": 2.776432514190674
+      },
+      {
+        "startTime": 36.09,
+        "endTime": 36.3,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 209.41,
+        "confidence": 2.9032421112060547
+      },
+      {
+        "startTime": 36.21,
+        "endTime": 36.31,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 408.84,
+        "confidence": 3.377025604248047
+      },
+      {
+        "startTime": 36.22,
+        "endTime": 36.47,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.68,
+        "confidence": 8.304219245910645
+      },
+      {
+        "startTime": 36.38,
+        "endTime": 36.73,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 406.76,
+        "confidence": 8.876415252685547
+      },
+      {
+        "startTime": 36.64,
+        "endTime": 36.75,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 372.77,
+        "confidence": 6.389280796051025
+      },
+      {
+        "startTime": 36.66,
+        "endTime": 37.0,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 353.02,
+        "confidence": 13.848458290100098
+      },
+      {
+        "startTime": 36.92,
+        "endTime": 37.02,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 214.32,
+        "confidence": 1.160889983177185
+      },
+      {
+        "startTime": 36.93,
+        "endTime": 37.05,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 211.64,
+        "confidence": 1.3288800716400146
+      },
+      {
+        "startTime": 36.96,
+        "endTime": 37.06,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 213.74,
+        "confidence": 1.2501020431518555
+      },
+      {
+        "startTime": 36.97,
+        "endTime": 37.11,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 211.55,
+        "confidence": 1.1773585081100464
+      },
+      {
+        "startTime": 37.03,
+        "endTime": 37.35,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 351.94,
+        "confidence": 33.948768615722656
+      },
+      {
+        "startTime": 37.26,
+        "endTime": 37.36,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 359.92,
+        "confidence": 15.05917739868164
+      },
+      {
+        "startTime": 37.28,
+        "endTime": 37.4,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 349.37,
+        "confidence": 18.380035400390625
+      },
+      {
+        "startTime": 37.31,
+        "endTime": 37.42,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 322.41,
+        "confidence": 7.575747013092041
+      },
+      {
+        "startTime": 37.33,
+        "endTime": 37.43,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 340.23,
+        "confidence": 11.612277030944824
+      },
+      {
+        "startTime": 37.35,
+        "endTime": 37.55,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 337.23,
+        "confidence": 9.399029731750488
+      },
+      {
+        "startTime": 37.46,
+        "endTime": 37.6,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 390.12,
+        "confidence": 7.843492031097412
+      },
+      {
+        "startTime": 37.51,
+        "endTime": 37.64,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 256.85,
+        "confidence": 14.437073707580566
+      },
+      {
+        "startTime": 37.56,
+        "endTime": 37.67,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 332.14,
+        "confidence": 6.845664978027344
+      },
+      {
+        "startTime": 37.58,
+        "endTime": 37.71,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 258.51,
+        "confidence": 10.39879035949707
+      },
+      {
+        "startTime": 37.62,
+        "endTime": 37.74,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 324.42,
+        "confidence": 6.220087051391602
+      },
+      {
+        "startTime": 37.65,
+        "endTime": 37.76,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 257.56,
+        "confidence": 6.966333866119385
+      },
+      {
+        "startTime": 37.67,
+        "endTime": 37.79,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 324.37,
+        "confidence": 5.454080581665039
+      },
+      {
+        "startTime": 37.71,
+        "endTime": 37.83,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 394.07,
+        "confidence": 3.2356293201446533
+      },
+      {
+        "startTime": 37.74,
+        "endTime": 37.84,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 323.0,
+        "confidence": 2.209540367126465
+      },
+      {
+        "startTime": 37.75,
+        "endTime": 37.85,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 393.44,
+        "confidence": 1.5232188701629639
+      },
+      {
+        "startTime": 37.76,
+        "endTime": 37.86,
+        "midiNote": 53,
+        "noteName": "F3",
+        "frequency": 170.98,
+        "confidence": 1.4613457918167114
+      },
+      {
+        "startTime": 37.78,
+        "endTime": 37.91,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 260.06,
+        "confidence": 1.9542497396469116
+      },
+      {
+        "startTime": 37.82,
+        "endTime": 37.93,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 367.55,
+        "confidence": 5.423895359039307
+      },
+      {
+        "startTime": 37.85,
+        "endTime": 37.95,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 324.33,
+        "confidence": 3.268371820449829
+      },
+      {
+        "startTime": 37.86,
+        "endTime": 37.96,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 414.73,
+        "confidence": 1.7186204195022583
+      },
+      {
+        "startTime": 37.87,
+        "endTime": 37.97,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 273.73,
+        "confidence": 2.8786919116973877
+      },
+      {
+        "startTime": 37.88,
+        "endTime": 38.0,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 313.19,
+        "confidence": 6.464670181274414
+      },
+      {
+        "startTime": 37.92,
+        "endTime": 38.02,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 289.3,
+        "confidence": 4.818145751953125
+      },
+      {
+        "startTime": 37.93,
+        "endTime": 38.05,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 278.17,
+        "confidence": 6.617774963378906
+      },
+      {
+        "startTime": 37.96,
+        "endTime": 38.06,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 292.21,
+        "confidence": 4.872675895690918
+      },
+      {
+        "startTime": 37.97,
+        "endTime": 38.07,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 319.92,
+        "confidence": 3.4080264568328857
+      },
+      {
+        "startTime": 37.98,
+        "endTime": 38.08,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 322.23,
+        "confidence": 3.744999408721924
+      },
+      {
+        "startTime": 38.0,
+        "endTime": 38.1,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 285.75,
+        "confidence": 4.441431999206543
+      },
+      {
+        "startTime": 38.01,
+        "endTime": 38.12,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 265.07,
+        "confidence": 3.7999484539031982
+      },
+      {
+        "startTime": 38.03,
+        "endTime": 38.13,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 321.3,
+        "confidence": 3.076463460922241
+      },
+      {
+        "startTime": 38.04,
+        "endTime": 38.14,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 369.82,
+        "confidence": 4.147693157196045
+      },
+      {
+        "startTime": 38.05,
+        "endTime": 38.35,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 388.45,
+        "confidence": 10.4619779586792
+      },
+      {
+        "startTime": 38.26,
+        "endTime": 38.49,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 451.24,
+        "confidence": 7.654963493347168
+      },
+      {
+        "startTime": 38.4,
+        "endTime": 38.5,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 348.74,
+        "confidence": 1.4292091131210327
+      },
+      {
+        "startTime": 38.41,
+        "endTime": 38.53,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 433.33,
+        "confidence": 1.6977795362472534
+      },
+      {
+        "startTime": 38.44,
+        "endTime": 38.7,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 460.26,
+        "confidence": 26.80974006652832
+      },
+      {
+        "startTime": 38.61,
+        "endTime": 38.71,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 480.78,
+        "confidence": 6.678864479064941
+      },
+      {
+        "startTime": 38.62,
+        "endTime": 38.73,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 472.88,
+        "confidence": 3.7516956329345703
+      },
+      {
+        "startTime": 38.65,
+        "endTime": 38.76,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 490.56,
+        "confidence": 3.6801130771636963
+      },
+      {
+        "startTime": 38.67,
+        "endTime": 38.77,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 374.73,
+        "confidence": 4.466983318328857
+      },
+      {
+        "startTime": 38.68,
+        "endTime": 38.78,
+        "midiNote": 101,
+        "noteName": "F7",
+        "frequency": 2820.24,
+        "confidence": 3.2376465797424316
+      },
+      {
+        "startTime": 38.69,
+        "endTime": 39.29,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 598.22,
+        "confidence": 17.95693016052246
+      },
+      {
+        "startTime": 39.22,
+        "endTime": 39.32,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 589.17,
+        "confidence": 1.9908359050750732
+      },
+      {
+        "startTime": 39.23,
+        "endTime": 39.33,
+        "midiNote": 55,
+        "noteName": "G3",
+        "frequency": 200.71,
+        "confidence": 1.7696443796157837
+      },
+      {
+        "startTime": 39.24,
+        "endTime": 39.63,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 534.1,
+        "confidence": 10.74970531463623
+      },
+      {
+        "startTime": 39.54,
+        "endTime": 39.7,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 394.14,
+        "confidence": 2.5286381244659424
+      },
+      {
+        "startTime": 39.61,
+        "endTime": 39.72,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 285.99,
+        "confidence": 1.7913739681243896
+      },
+      {
+        "startTime": 39.64,
+        "endTime": 39.78,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 149.93,
+        "confidence": 7.039198875427246
+      },
+      {
+        "startTime": 39.69,
+        "endTime": 39.79,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.36,
+        "confidence": 2.2896487712860107
+      },
+      {
+        "startTime": 39.7,
+        "endTime": 39.81,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 345.51,
+        "confidence": 0.514946460723877
+      },
+      {
+        "startTime": 39.74,
+        "endTime": 39.91,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 518.56,
+        "confidence": 0.7673310041427612
+      },
+      {
+        "startTime": 39.82,
+        "endTime": 39.92,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 141.13,
+        "confidence": 0.6399365663528442
+      },
+      {
+        "startTime": 39.83,
+        "endTime": 39.99,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 527.64,
+        "confidence": 0.5883718132972717
+      },
+      {
+        "startTime": 39.9,
+        "endTime": 40.0,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 142.31,
+        "confidence": 0.9585983157157898
+      },
+      {
+        "startTime": 39.91,
+        "endTime": 40.02,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 384.61,
+        "confidence": 1.7108960151672363
+      },
+      {
+        "startTime": 39.94,
+        "endTime": 40.04,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 340.71,
+        "confidence": 1.2428525686264038
+      },
+      {
+        "startTime": 39.95,
+        "endTime": 40.06,
+        "midiNote": 101,
+        "noteName": "F7",
+        "frequency": 2812.06,
+        "confidence": 0.8909940123558044
+      },
+      {
+        "startTime": 39.97,
+        "endTime": 40.07,
+        "midiNote": 100,
+        "noteName": "E7",
+        "frequency": 2691.67,
+        "confidence": 0.7577885389328003
+      },
+      {
+        "startTime": 39.98,
+        "endTime": 40.08,
+        "midiNote": 54,
+        "noteName": "F#3",
+        "frequency": 187.44,
+        "confidence": 0.5010471940040588
+      },
+      {
+        "startTime": 39.99,
+        "endTime": 40.09,
+        "midiNote": 53,
+        "noteName": "F3",
+        "frequency": 171.82,
+        "confidence": 0.4416019320487976
+      },
+      {
+        "startTime": 40.0,
+        "endTime": 40.1,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 348.35,
+        "confidence": 0.612537682056427
+      },
+      {
+        "startTime": 40.03,
+        "endTime": 40.15,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 146.85,
+        "confidence": 6.23671293258667
+      },
+      {
+        "startTime": 40.06,
+        "endTime": 40.23,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 158.74,
+        "confidence": 6.821839332580566
+      },
+      {
+        "startTime": 40.14,
+        "endTime": 40.24,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 147.76,
+        "confidence": 4.292396545410156
+      },
+      {
+        "startTime": 40.16,
+        "endTime": 40.26,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 158.32,
+        "confidence": 2.4734137058258057
+      },
+      {
+        "startTime": 40.17,
+        "endTime": 40.27,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 150.3,
+        "confidence": 2.2368104457855225
+      },
+      {
+        "startTime": 40.18,
+        "endTime": 40.29,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.48,
+        "confidence": 1.855633020401001
+      },
+      {
+        "startTime": 40.21,
+        "endTime": 40.31,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 157.66,
+        "confidence": 1.192747950553894
+      },
+      {
+        "startTime": 40.23,
+        "endTime": 40.33,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 144.28,
+        "confidence": 1.871775507926941
+      },
+      {
+        "startTime": 40.24,
+        "endTime": 40.42,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 158.16,
+        "confidence": 2.5330276489257812
+      },
+      {
+        "startTime": 40.33,
+        "endTime": 40.43,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 160.93,
+        "confidence": 0.938292384147644
+      },
+      {
+        "startTime": 40.34,
+        "endTime": 40.5,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 155.39,
+        "confidence": 1.3014909029006958
+      },
+      {
+        "startTime": 40.41,
+        "endTime": 40.52,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 339.94,
+        "confidence": 1.6103544235229492
+      },
+      {
+        "startTime": 40.43,
+        "endTime": 40.55,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 145.82,
+        "confidence": 4.566994667053223
+      },
+      {
+        "startTime": 40.46,
+        "endTime": 40.56,
+        "midiNote": 53,
+        "noteName": "F3",
+        "frequency": 170.59,
+        "confidence": 3.493732452392578
+      },
+      {
+        "startTime": 40.47,
+        "endTime": 40.84,
+        "midiNote": 79,
+        "noteName": "G5",
+        "frequency": 794.32,
+        "confidence": 12.03429889678955
+      },
+      {
+        "startTime": 40.75,
+        "endTime": 40.85,
+        "midiNote": 101,
+        "noteName": "F7",
+        "frequency": 2836.64,
+        "confidence": 2.2105214595794678
+      },
+      {
+        "startTime": 40.76,
+        "endTime": 40.87,
+        "midiNote": 77,
+        "noteName": "F5",
+        "frequency": 687.13,
+        "confidence": 2.588021755218506
+      },
+      {
+        "startTime": 40.78,
+        "endTime": 40.92,
+        "midiNote": 79,
+        "noteName": "G5",
+        "frequency": 791.28,
+        "confidence": 1.6001516580581665
+      },
+      {
+        "startTime": 40.83,
+        "endTime": 40.94,
+        "midiNote": 77,
+        "noteName": "F5",
+        "frequency": 698.03,
+        "confidence": 1.5264185667037964
+      },
+      {
+        "startTime": 40.85,
+        "endTime": 41.05,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 390.3,
+        "confidence": 2.301323890686035
+      },
+      {
+        "startTime": 40.96,
+        "endTime": 41.36,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 622.29,
+        "confidence": 13.299494743347168
+      },
+      {
+        "startTime": 41.28,
+        "endTime": 41.39,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 596.22,
+        "confidence": 4.330185890197754
+      },
+      {
+        "startTime": 41.31,
+        "endTime": 41.67,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 525.3,
+        "confidence": 8.896472930908203
+      },
+      {
+        "startTime": 41.58,
+        "endTime": 41.81,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 493.37,
+        "confidence": 6.883546829223633
+      },
+      {
+        "startTime": 41.72,
+        "endTime": 42.1,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 477.85,
+        "confidence": 17.267641067504883
+      },
+      {
+        "startTime": 42.01,
+        "endTime": 42.15,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 414.03,
+        "confidence": 7.455326557159424
+      },
+      {
+        "startTime": 42.06,
+        "endTime": 42.28,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 261.59,
+        "confidence": 10.323408126831055
+      },
+      {
+        "startTime": 42.19,
+        "endTime": 42.43,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 403.02,
+        "confidence": 8.922996520996094
+      },
+      {
+        "startTime": 42.34,
+        "endTime": 42.45,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 403.78,
+        "confidence": 4.090175628662109
+      },
+      {
+        "startTime": 42.36,
+        "endTime": 42.46,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 387.25,
+        "confidence": 1.7664973735809326
+      },
+      {
+        "startTime": 42.37,
+        "endTime": 42.48,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 409.07,
+        "confidence": 3.3636114597320557
+      },
+      {
+        "startTime": 42.4,
+        "endTime": 42.5,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 393.16,
+        "confidence": 6.424594402313232
+      },
+      {
+        "startTime": 42.41,
+        "endTime": 42.68,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 374.7,
+        "confidence": 18.683181762695312
+      },
+      {
+        "startTime": 42.61,
+        "endTime": 42.73,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 368.6,
+        "confidence": 6.772651195526123
+      },
+      {
+        "startTime": 42.64,
+        "endTime": 43.04,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 359.35,
+        "confidence": 14.408462524414062
+      },
+      {
+        "startTime": 42.95,
+        "endTime": 43.14,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 285.38,
+        "confidence": 5.088974952697754
+      },
+      {
+        "startTime": 43.05,
+        "endTime": 43.15,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 589.08,
+        "confidence": 3.343468189239502
+      },
+      {
+        "startTime": 43.06,
+        "endTime": 43.18,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 297.38,
+        "confidence": 3.8241360187530518
+      },
+      {
+        "startTime": 43.1,
+        "endTime": 43.22,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 293.01,
+        "confidence": 3.2878291606903076
+      },
+      {
+        "startTime": 43.13,
+        "endTime": 43.3,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 588.33,
+        "confidence": 3.2436397075653076
+      },
+      {
+        "startTime": 43.21,
+        "endTime": 43.34,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 370.94,
+        "confidence": 7.546840190887451
+      },
+      {
+        "startTime": 43.26,
+        "endTime": 43.61,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 353.8,
+        "confidence": 16.39667510986328
+      },
+      {
+        "startTime": 43.52,
+        "endTime": 43.69,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 416.17,
+        "confidence": 3.3060362339019775
+      },
+      {
+        "startTime": 43.6,
+        "endTime": 43.7,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 430.74,
+        "confidence": 1.1228712797164917
+      },
+      {
+        "startTime": 43.62,
+        "endTime": 43.72,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 541.09,
+        "confidence": 2.7086920738220215
+      },
+      {
+        "startTime": 43.63,
+        "endTime": 44.08,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 527.56,
+        "confidence": 16.885231018066406
+      },
+      {
+        "startTime": 43.99,
+        "endTime": 44.09,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 494.12,
+        "confidence": 2.9277331829071045
+      },
+      {
+        "startTime": 44.0,
+        "endTime": 44.1,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 149.73,
+        "confidence": 2.3139781951904297
+      },
+      {
+        "startTime": 44.01,
+        "endTime": 44.15,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 410.65,
+        "confidence": 5.131421089172363
+      },
+      {
+        "startTime": 44.06,
+        "endTime": 44.18,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 246.88,
+        "confidence": 13.528966903686523
+      },
+      {
+        "startTime": 44.09,
+        "endTime": 44.54,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 351.07,
+        "confidence": 13.299942970275879
+      },
+      {
+        "startTime": 44.45,
+        "endTime": 44.56,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 361.47,
+        "confidence": 18.81943130493164
+      },
+      {
+        "startTime": 44.47,
+        "endTime": 44.57,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 383.22,
+        "confidence": 7.632454872131348
+      },
+      {
+        "startTime": 44.49,
+        "endTime": 44.61,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 364.89,
+        "confidence": 16.686086654663086
+      },
+      {
+        "startTime": 44.53,
+        "endTime": 44.66,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 363.59,
+        "confidence": 15.444784164428711
+      },
+      {
+        "startTime": 44.57,
+        "endTime": 44.67,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 384.91,
+        "confidence": 5.152479648590088
+      },
+      {
+        "startTime": 44.58,
+        "endTime": 44.9,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 358.52,
+        "confidence": 19.871814727783203
+      },
+      {
+        "startTime": 44.82,
+        "endTime": 44.92,
+        "midiNote": 94,
+        "noteName": "A#6",
+        "frequency": 1891.07,
+        "confidence": 1.9855595827102661
+      },
+      {
+        "startTime": 44.83,
+        "endTime": 44.93,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 339.92,
+        "confidence": 3.8748886585235596
+      },
+      {
+        "startTime": 44.85,
+        "endTime": 44.95,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 325.98,
+        "confidence": 5.105327606201172
+      },
+      {
+        "startTime": 44.86,
+        "endTime": 44.96,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 305.53,
+        "confidence": 4.299940586090088
+      },
+      {
+        "startTime": 44.87,
+        "endTime": 44.97,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 325.49,
+        "confidence": 4.709665298461914
+      },
+      {
+        "startTime": 44.89,
+        "endTime": 44.99,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 327.0,
+        "confidence": 5.4064531326293945
+      },
+      {
+        "startTime": 44.9,
+        "endTime": 45.0,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 305.69,
+        "confidence": 4.318406581878662
+      },
+      {
+        "startTime": 44.92,
+        "endTime": 45.02,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 335.59,
+        "confidence": 6.101073265075684
+      },
+      {
+        "startTime": 44.93,
+        "endTime": 45.03,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 339.7,
+        "confidence": 4.921876430511475
+      },
+      {
+        "startTime": 44.94,
+        "endTime": 45.04,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 311.64,
+        "confidence": 4.429966449737549
+      },
+      {
+        "startTime": 44.96,
+        "endTime": 45.06,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 345.37,
+        "confidence": 3.9973673820495605
+      },
+      {
+        "startTime": 44.97,
+        "endTime": 45.07,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 328.49,
+        "confidence": 5.138101577758789
+      },
+      {
+        "startTime": 44.99,
+        "endTime": 45.09,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 305.69,
+        "confidence": 3.890315055847168
+      },
+      {
+        "startTime": 45.0,
+        "endTime": 45.1,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 328.39,
+        "confidence": 4.242556095123291
+      },
+      {
+        "startTime": 45.01,
+        "endTime": 45.11,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 305.36,
+        "confidence": 3.09726881980896
+      },
+      {
+        "startTime": 45.02,
+        "endTime": 45.28,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 251.01,
+        "confidence": 9.12136173248291
+      },
+      {
+        "startTime": 45.19,
+        "endTime": 45.29,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 372.13,
+        "confidence": 6.657808780670166
+      },
+      {
+        "startTime": 45.21,
+        "endTime": 45.32,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 355.24,
+        "confidence": 9.031539916992188
+      },
+      {
+        "startTime": 45.23,
+        "endTime": 45.39,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 251.41,
+        "confidence": 6.119511604309082
+      },
+      {
+        "startTime": 45.3,
+        "endTime": 45.43,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 395.03,
+        "confidence": 5.039187431335449
+      },
+      {
+        "startTime": 45.35,
+        "endTime": 45.46,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.75,
+        "confidence": 4.984031677246094
+      },
+      {
+        "startTime": 45.37,
+        "endTime": 45.48,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 142.81,
+        "confidence": 6.232361316680908
+      },
+      {
+        "startTime": 45.39,
+        "endTime": 45.49,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 376.26,
+        "confidence": 3.833914279937744
+      },
+      {
+        "startTime": 45.4,
+        "endTime": 45.74,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 387.98,
+        "confidence": 13.455602645874023
+      },
+      {
+        "startTime": 45.65,
+        "endTime": 45.75,
+        "midiNote": 53,
+        "noteName": "F3",
+        "frequency": 169.95,
+        "confidence": 3.7196829319000244
+      },
+      {
+        "startTime": 45.66,
+        "endTime": 45.77,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.11,
+        "confidence": 3.7148594856262207
+      },
+      {
+        "startTime": 45.68,
+        "endTime": 45.78,
+        "midiNote": 53,
+        "noteName": "F3",
+        "frequency": 174.2,
+        "confidence": 3.718214750289917
+      },
+      {
+        "startTime": 45.69,
+        "endTime": 45.79,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 401.34,
+        "confidence": 1.9811596870422363
+      },
+      {
+        "startTime": 45.71,
+        "endTime": 45.81,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 164.79,
+        "confidence": 2.366619825363159
+      },
+      {
+        "startTime": 45.72,
+        "endTime": 45.82,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 351.56,
+        "confidence": 1.8554344177246094
+      },
+      {
+        "startTime": 45.73,
+        "endTime": 45.83,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.12,
+        "confidence": 2.8832850456237793
+      },
+      {
+        "startTime": 45.74,
+        "endTime": 45.84,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 308.03,
+        "confidence": 1.4915467500686646
+      },
+      {
+        "startTime": 45.75,
+        "endTime": 45.85,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 275.57,
+        "confidence": 1.4759441614151
+      },
+      {
+        "startTime": 45.76,
+        "endTime": 45.86,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 163.64,
+        "confidence": 1.6737767457962036
+      },
+      {
+        "startTime": 45.77,
+        "endTime": 45.89,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 394.73,
+        "confidence": 3.8463151454925537
+      },
+      {
+        "startTime": 45.8,
+        "endTime": 45.9,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 362.77,
+        "confidence": 7.54922342300415
+      },
+      {
+        "startTime": 45.81,
+        "endTime": 46.17,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 353.44,
+        "confidence": 17.686756134033203
+      },
+      {
+        "startTime": 46.08,
+        "endTime": 46.18,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 361.71,
+        "confidence": 3.7935242652893066
+      },
+      {
+        "startTime": 46.1,
+        "endTime": 46.25,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 309.03,
+        "confidence": 5.103840351104736
+      },
+      {
+        "startTime": 46.16,
+        "endTime": 46.51,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.34,
+        "confidence": 7.306999206542969
+      },
+      {
+        "startTime": 46.43,
+        "endTime": 46.54,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 390.42,
+        "confidence": 2.653014898300171
+      },
+      {
+        "startTime": 46.46,
+        "endTime": 46.56,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 389.29,
+        "confidence": 3.2330493927001953
+      },
+      {
+        "startTime": 46.47,
+        "endTime": 46.57,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 407.41,
+        "confidence": 3.9039762020111084
+      },
+      {
+        "startTime": 46.48,
+        "endTime": 46.82,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 313.86,
+        "confidence": 4.47247314453125
+      },
+      {
+        "startTime": 46.73,
+        "endTime": 46.85,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 627.86,
+        "confidence": 0.9419270157814026
+      },
+      {
+        "startTime": 46.76,
+        "endTime": 46.86,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 313.67,
+        "confidence": 0.7286084890365601
+      },
+      {
+        "startTime": 46.79,
+        "endTime": 46.94,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 634.48,
+        "confidence": 0.740281343460083
+      },
+      {
+        "startTime": 46.85,
+        "endTime": 46.95,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 149.97,
+        "confidence": 1.0551661252975464
+      },
+      {
+        "startTime": 46.87,
+        "endTime": 46.98,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 230.07,
+        "confidence": 1.1053122282028198
+      },
+      {
+        "startTime": 46.89,
+        "endTime": 46.99,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 165.22,
+        "confidence": 1.4161590337753296
+      },
+      {
+        "startTime": 46.9,
+        "endTime": 47.0,
+        "midiNote": 54,
+        "noteName": "F#3",
+        "frequency": 189.52,
+        "confidence": 0.8538818955421448
+      },
+      {
+        "startTime": 46.92,
+        "endTime": 47.02,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 330.01,
+        "confidence": 0.9500348567962646
+      },
+      {
+        "startTime": 46.94,
+        "endTime": 47.05,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 390.09,
+        "confidence": 1.4662418365478516
+      },
+      {
+        "startTime": 46.96,
+        "endTime": 47.06,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 380.5,
+        "confidence": 1.9781956672668457
+      },
+      {
+        "startTime": 46.97,
+        "endTime": 47.07,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.43,
+        "confidence": 6.250631809234619
+      },
+      {
+        "startTime": 46.98,
+        "endTime": 47.09,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 143.29,
+        "confidence": 8.180557250976562
+      },
+      {
+        "startTime": 47.01,
+        "endTime": 47.11,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 152.67,
+        "confidence": 3.8835508823394775
+      },
+      {
+        "startTime": 47.03,
+        "endTime": 47.15,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 143.55,
+        "confidence": 4.157547950744629
+      },
+      {
+        "startTime": 47.08,
+        "endTime": 47.23,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 148.57,
+        "confidence": 3.7604434490203857
+      },
+      {
+        "startTime": 47.14,
+        "endTime": 47.24,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 141.95,
+        "confidence": 2.632096290588379
+      },
+      {
+        "startTime": 47.16,
+        "endTime": 47.27,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 148.88,
+        "confidence": 2.448204755783081
+      },
+      {
+        "startTime": 47.18,
+        "endTime": 47.28,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 141.42,
+        "confidence": 2.4680330753326416
+      },
+      {
+        "startTime": 47.19,
+        "endTime": 47.29,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.57,
+        "confidence": 1.995188593864441
+      },
+      {
+        "startTime": 47.21,
+        "endTime": 47.31,
+        "midiNote": 76,
+        "noteName": "E5",
+        "frequency": 651.83,
+        "confidence": 0.37559667229652405
+      },
+      {
+        "startTime": 47.23,
+        "endTime": 47.33,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 587.41,
+        "confidence": 0.3954225182533264
+      },
+      {
+        "startTime": 47.24,
+        "endTime": 47.34,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.02,
+        "confidence": 2.173881769180298
+      },
+      {
+        "startTime": 47.25,
+        "endTime": 47.35,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 378.59,
+        "confidence": 6.594776153564453
+      },
+      {
+        "startTime": 47.26,
+        "endTime": 47.37,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 250.84,
+        "confidence": 15.574955940246582
+      },
+      {
+        "startTime": 47.28,
+        "endTime": 47.38,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 256.16,
+        "confidence": 9.21717643737793
+      },
+      {
+        "startTime": 47.3,
+        "endTime": 47.41,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 253.99,
+        "confidence": 14.562929153442383
+      },
+      {
+        "startTime": 47.32,
+        "endTime": 47.42,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 471.03,
+        "confidence": 7.847986221313477
+      },
+      {
+        "startTime": 47.33,
+        "endTime": 47.44,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 244.92,
+        "confidence": 12.013904571533203
+      },
+      {
+        "startTime": 47.35,
+        "endTime": 47.45,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 468.84,
+        "confidence": 7.949390411376953
+      },
+      {
+        "startTime": 47.37,
+        "endTime": 47.55,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 237.97,
+        "confidence": 8.531295776367188
+      },
+      {
+        "startTime": 47.46,
+        "endTime": 47.58,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 470.6,
+        "confidence": 5.515700817108154
+      },
+      {
+        "startTime": 47.49,
+        "endTime": 47.59,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 239.88,
+        "confidence": 5.546031475067139
+      },
+      {
+        "startTime": 47.5,
+        "endTime": 47.78,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 469.26,
+        "confidence": 5.341328144073486
+      },
+      {
+        "startTime": 47.69,
+        "endTime": 47.99,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 257.53,
+        "confidence": 20.300081253051758
+      },
+      {
+        "startTime": 47.9,
+        "endTime": 48.0,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 309.93,
+        "confidence": 3.4697635173797607
+      },
+      {
+        "startTime": 47.91,
+        "endTime": 48.16,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 389.89,
+        "confidence": 5.769333839416504
+      },
+      {
+        "startTime": 48.07,
+        "endTime": 48.3,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 477.25,
+        "confidence": 10.917261123657227
+      },
+      {
+        "startTime": 48.21,
+        "endTime": 48.32,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 150.9,
+        "confidence": 5.059260368347168
+      },
+      {
+        "startTime": 48.24,
+        "endTime": 48.7,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 596.21,
+        "confidence": 27.85773468017578
+      },
+      {
+        "startTime": 48.61,
+        "endTime": 48.71,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 330.84,
+        "confidence": 2.372257709503174
+      },
+      {
+        "startTime": 48.62,
+        "endTime": 48.72,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 140.61,
+        "confidence": 2.993868589401245
+      },
+      {
+        "startTime": 48.64,
+        "endTime": 49.02,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 565.14,
+        "confidence": 11.940868377685547
+      },
+      {
+        "startTime": 48.93,
+        "endTime": 49.28,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 519.21,
+        "confidence": 8.650572776794434
+      },
+      {
+        "startTime": 49.19,
+        "endTime": 49.29,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 540.09,
+        "confidence": 0.9125568270683289
+      },
+      {
+        "startTime": 49.21,
+        "endTime": 49.31,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 254.35,
+        "confidence": 0.6693223118782043
+      },
+      {
+        "startTime": 49.22,
+        "endTime": 49.32,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 252.6,
+        "confidence": 0.7947177886962891
+      },
+      {
+        "startTime": 49.23,
+        "endTime": 49.33,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 514.68,
+        "confidence": 1.0127369165420532
+      },
+      {
+        "startTime": 49.25,
+        "endTime": 49.35,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 541.23,
+        "confidence": 0.6312082409858704
+      },
+      {
+        "startTime": 49.26,
+        "endTime": 49.37,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 497.48,
+        "confidence": 0.7345644235610962
+      },
+      {
+        "startTime": 49.28,
+        "endTime": 49.65,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 407.2,
+        "confidence": 11.17460823059082
+      },
+      {
+        "startTime": 49.56,
+        "endTime": 49.68,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 211.14,
+        "confidence": 4.2393999099731445
+      },
+      {
+        "startTime": 49.59,
+        "endTime": 49.71,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 415.26,
+        "confidence": 3.3317322731018066
+      },
+      {
+        "startTime": 49.62,
+        "endTime": 49.94,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 209.9,
+        "confidence": 4.502933025360107
+      },
+      {
+        "startTime": 49.85,
+        "endTime": 50.24,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 534.87,
+        "confidence": 20.835311889648438
+      },
+      {
+        "startTime": 50.15,
+        "endTime": 50.5,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 618.02,
+        "confidence": 21.39583396911621
+      },
+      {
+        "startTime": 50.41,
+        "endTime": 50.65,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 558.17,
+        "confidence": 7.271588325500488
+      },
+      {
+        "startTime": 50.57,
+        "endTime": 50.89,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 352.3,
+        "confidence": 13.434399604797363
+      },
+      {
+        "startTime": 50.8,
+        "endTime": 50.91,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 388.11,
+        "confidence": 5.013206481933594
+      },
+      {
+        "startTime": 50.83,
+        "endTime": 50.93,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 349.2,
+        "confidence": 4.730503082275391
+      },
+      {
+        "startTime": 50.85,
+        "endTime": 50.99,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 349.23,
+        "confidence": 3.9142825603485107
+      },
+      {
+        "startTime": 50.91,
+        "endTime": 51.01,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 379.93,
+        "confidence": 3.7587833404541016
+      },
+      {
+        "startTime": 50.92,
+        "endTime": 51.05,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 354.75,
+        "confidence": 4.6263508796691895
+      },
+      {
+        "startTime": 50.96,
+        "endTime": 51.17,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 391.1,
+        "confidence": 4.2139973640441895
+      },
+      {
+        "startTime": 51.08,
+        "endTime": 51.48,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 533.52,
+        "confidence": 14.273923873901367
+      },
+      {
+        "startTime": 51.39,
+        "endTime": 51.59,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 494.78,
+        "confidence": 11.037738800048828
+      },
+      {
+        "startTime": 51.5,
+        "endTime": 51.6,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 166.67,
+        "confidence": 6.781250476837158
+      },
+      {
+        "startTime": 51.51,
+        "endTime": 51.62,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 494.08,
+        "confidence": 6.4088521003723145
+      },
+      {
+        "startTime": 51.53,
+        "endTime": 51.63,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 164.71,
+        "confidence": 5.980772018432617
+      },
+      {
+        "startTime": 51.55,
+        "endTime": 51.68,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 158.29,
+        "confidence": 5.926929473876953
+      },
+      {
+        "startTime": 51.59,
+        "endTime": 51.7,
+        "midiNote": 53,
+        "noteName": "F3",
+        "frequency": 170.03,
+        "confidence": 8.429567337036133
+      },
+      {
+        "startTime": 51.61,
+        "endTime": 51.71,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 502.11,
+        "confidence": 4.260545253753662
+      },
+      {
+        "startTime": 51.64,
+        "endTime": 51.74,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 167.6,
+        "confidence": 5.646358489990234
+      },
+      {
+        "startTime": 51.65,
+        "endTime": 51.76,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.45,
+        "confidence": 4.373733043670654
+      },
+      {
+        "startTime": 51.67,
+        "endTime": 51.77,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 163.32,
+        "confidence": 3.8479690551757812
+      },
+      {
+        "startTime": 51.68,
+        "endTime": 51.78,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.29,
+        "confidence": 3.553048610687256
+      },
+      {
+        "startTime": 51.71,
+        "endTime": 51.82,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 393.69,
+        "confidence": 4.100728511810303
+      },
+      {
+        "startTime": 51.73,
+        "endTime": 51.89,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 315.0,
+        "confidence": 4.858360290527344
+      },
+      {
+        "startTime": 51.8,
+        "endTime": 51.9,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 373.33,
+        "confidence": 2.709873914718628
+      },
+      {
+        "startTime": 51.81,
+        "endTime": 51.92,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 311.82,
+        "confidence": 3.2761800289154053
+      },
+      {
+        "startTime": 51.84,
+        "endTime": 51.95,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 348.6,
+        "confidence": 3.460874319076538
+      },
+      {
+        "startTime": 51.86,
+        "endTime": 51.96,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 360.56,
+        "confidence": 2.637003183364868
+      },
+      {
+        "startTime": 51.87,
+        "endTime": 51.97,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 298.65,
+        "confidence": 2.4156811237335205
+      },
+      {
+        "startTime": 51.88,
+        "endTime": 52.02,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 358.62,
+        "confidence": 3.743077516555786
+      },
+      {
+        "startTime": 51.93,
+        "endTime": 52.25,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 278.46,
+        "confidence": 7.324085235595703
+      },
+      {
+        "startTime": 52.16,
+        "endTime": 52.27,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 267.72,
+        "confidence": 3.6769556999206543
+      },
+      {
+        "startTime": 52.18,
+        "endTime": 52.28,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 234.17,
+        "confidence": 1.967373013496399
+      },
+      {
+        "startTime": 52.21,
+        "endTime": 52.31,
+        "midiNote": 55,
+        "noteName": "G3",
+        "frequency": 196.18,
+        "confidence": 2.2688910961151123
+      },
+      {
+        "startTime": 52.22,
+        "endTime": 52.32,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 607.26,
+        "confidence": 3.1064839363098145
+      },
+      {
+        "startTime": 52.23,
+        "endTime": 52.33,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 596.53,
+        "confidence": 3.481308698654175
+      },
+      {
+        "startTime": 52.24,
+        "endTime": 52.36,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 304.77,
+        "confidence": 5.388037204742432
+      },
+      {
+        "startTime": 52.28,
+        "endTime": 52.39,
+        "midiNote": 94,
+        "noteName": "A#6",
+        "frequency": 1887.29,
+        "confidence": 3.144455671310425
+      },
+      {
+        "startTime": 52.3,
+        "endTime": 52.41,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 300.94,
+        "confidence": 4.172365665435791
+      },
+      {
+        "startTime": 52.32,
+        "endTime": 52.42,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 305.76,
+        "confidence": 3.818114995956421
+      },
+      {
+        "startTime": 52.33,
+        "endTime": 52.43,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 592.78,
+        "confidence": 2.467940092086792
+      },
+      {
+        "startTime": 52.35,
+        "endTime": 52.45,
+        "midiNote": 94,
+        "noteName": "A#6",
+        "frequency": 1888.31,
+        "confidence": 2.139137029647827
+      },
+      {
+        "startTime": 52.36,
+        "endTime": 52.49,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 310.77,
+        "confidence": 3.199617624282837
+      },
+      {
+        "startTime": 52.4,
+        "endTime": 52.66,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 249.15,
+        "confidence": 9.828470230102539
+      },
+      {
+        "startTime": 52.57,
+        "endTime": 52.67,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 235.03,
+        "confidence": 3.1840405464172363
+      },
+      {
+        "startTime": 52.58,
+        "endTime": 52.68,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 253.3,
+        "confidence": 4.047717571258545
+      },
+      {
+        "startTime": 52.59,
+        "endTime": 52.84,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 258.06,
+        "confidence": 9.788846969604492
+      },
+      {
+        "startTime": 52.75,
+        "endTime": 53.1,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 152.84,
+        "confidence": 4.5506181716918945
+      },
+      {
+        "startTime": 53.01,
+        "endTime": 53.24,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 396.0,
+        "confidence": 9.394416809082031
+      },
+      {
+        "startTime": 53.15,
+        "endTime": 53.25,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 481.21,
+        "confidence": 3.324505090713501
+      },
+      {
+        "startTime": 53.16,
+        "endTime": 53.57,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 469.96,
+        "confidence": 29.375656127929688
+      },
+      {
+        "startTime": 53.48,
+        "endTime": 53.64,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 260.73,
+        "confidence": 9.12613296508789
+      },
+      {
+        "startTime": 53.55,
+        "endTime": 53.72,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 414.79,
+        "confidence": 7.56128454208374
+      },
+      {
+        "startTime": 53.65,
+        "endTime": 53.92,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 419.5,
+        "confidence": 3.6945743560791016
+      },
+      {
+        "startTime": 53.83,
+        "endTime": 53.98,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 498.83,
+        "confidence": 10.62033462524414
+      },
+      {
+        "startTime": 53.89,
+        "endTime": 54.0,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 364.47,
+        "confidence": 10.557989120483398
+      },
+      {
+        "startTime": 53.91,
+        "endTime": 54.03,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 249.9,
+        "confidence": 9.160435676574707
+      },
+      {
+        "startTime": 53.94,
+        "endTime": 54.14,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 367.47,
+        "confidence": 9.236817359924316
+      },
+      {
+        "startTime": 54.05,
+        "endTime": 54.16,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 311.34,
+        "confidence": 6.016582012176514
+      },
+      {
+        "startTime": 54.08,
+        "endTime": 54.45,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 369.38,
+        "confidence": 6.832018852233887
+      },
+      {
+        "startTime": 54.37,
+        "endTime": 54.48,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 495.44,
+        "confidence": 2.8785359859466553
+      },
+      {
+        "startTime": 54.39,
+        "endTime": 54.49,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 389.93,
+        "confidence": 2.6912894248962402
+      },
+      {
+        "startTime": 54.4,
+        "endTime": 54.51,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 365.48,
+        "confidence": 3.769198179244995
+      },
+      {
+        "startTime": 54.42,
+        "endTime": 54.52,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 359.01,
+        "confidence": 3.5298662185668945
+      },
+      {
+        "startTime": 54.44,
+        "endTime": 54.55,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 494.81,
+        "confidence": 2.605069398880005
+      },
+      {
+        "startTime": 54.46,
+        "endTime": 54.56,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 361.24,
+        "confidence": 3.9827992916107178
+      },
+      {
+        "startTime": 54.47,
+        "endTime": 54.58,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 358.98,
+        "confidence": 3.956644058227539
+      },
+      {
+        "startTime": 54.49,
+        "endTime": 54.59,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 496.15,
+        "confidence": 2.247628688812256
+      },
+      {
+        "startTime": 54.51,
+        "endTime": 54.63,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 354.88,
+        "confidence": 3.88134503364563
+      },
+      {
+        "startTime": 54.54,
+        "endTime": 54.65,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 497.11,
+        "confidence": 2.564595937728882
+      },
+      {
+        "startTime": 54.58,
+        "endTime": 54.7,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 358.65,
+        "confidence": 2.635357141494751
+      },
+      {
+        "startTime": 54.61,
+        "endTime": 54.72,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 360.24,
+        "confidence": 2.4472544193267822
+      },
+      {
+        "startTime": 54.64,
+        "endTime": 54.76,
+        "midiNote": 102,
+        "noteName": "F#7",
+        "frequency": 2968.93,
+        "confidence": 0.8741729259490967
+      },
+      {
+        "startTime": 54.67,
+        "endTime": 54.77,
+        "midiNote": 94,
+        "noteName": "A#6",
+        "frequency": 1885.57,
+        "confidence": 1.5759345293045044
+      },
+      {
+        "startTime": 54.68,
+        "endTime": 54.78,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 298.57,
+        "confidence": 2.9031431674957275
+      },
+      {
+        "startTime": 54.69,
+        "endTime": 54.93,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 318.3,
+        "confidence": 5.218749046325684
+      },
+      {
+        "startTime": 54.85,
+        "endTime": 55.15,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 350.24,
+        "confidence": 13.830928802490234
+      },
+      {
+        "startTime": 55.07,
+        "endTime": 55.34,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 493.75,
+        "confidence": 13.327442169189453
+      },
+      {
+        "startTime": 55.25,
+        "endTime": 55.57,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 460.36,
+        "confidence": 14.344356536865234
+      },
+      {
+        "startTime": 55.48,
+        "endTime": 55.63,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 406.92,
+        "confidence": 10.311896324157715
+      },
+      {
+        "startTime": 55.54,
+        "endTime": 55.64,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 429.49,
+        "confidence": 6.992700576782227
+      },
+      {
+        "startTime": 55.55,
+        "endTime": 55.67,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 408.09,
+        "confidence": 12.446152687072754
+      },
+      {
+        "startTime": 55.6,
+        "endTime": 55.71,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 407.65,
+        "confidence": 8.289566040039062
+      },
+      {
+        "startTime": 55.62,
+        "endTime": 55.72,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 261.32,
+        "confidence": 4.977746486663818
+      },
+      {
+        "startTime": 55.63,
+        "endTime": 55.92,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 401.95,
+        "confidence": 8.841403007507324
+      },
+      {
+        "startTime": 55.83,
+        "endTime": 55.94,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 403.56,
+        "confidence": 4.563909530639648
+      },
+      {
+        "startTime": 55.85,
+        "endTime": 55.95,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.55,
+        "confidence": 2.1019515991210938
+      },
+      {
+        "startTime": 55.86,
+        "endTime": 55.99,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 405.28,
+        "confidence": 3.062742233276367
+      },
+      {
+        "startTime": 55.9,
+        "endTime": 56.0,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 362.43,
+        "confidence": 4.311533451080322
+      },
+      {
+        "startTime": 55.91,
+        "endTime": 56.18,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 358.61,
+        "confidence": 16.45822525024414
+      },
+      {
+        "startTime": 56.1,
+        "endTime": 56.2,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 153.12,
+        "confidence": 5.452369213104248
+      },
+      {
+        "startTime": 56.11,
+        "endTime": 56.21,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 160.54,
+        "confidence": 4.901815414428711
+      },
+      {
+        "startTime": 56.12,
+        "endTime": 56.31,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 153.6,
+        "confidence": 4.690143585205078
+      },
+      {
+        "startTime": 56.22,
+        "endTime": 56.32,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 150.93,
+        "confidence": 2.889277219772339
+      },
+      {
+        "startTime": 56.24,
+        "endTime": 56.34,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 158.68,
+        "confidence": 2.6155049800872803
+      },
+      {
+        "startTime": 56.25,
+        "endTime": 56.35,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 150.73,
+        "confidence": 2.478181838989258
+      },
+      {
+        "startTime": 56.26,
+        "endTime": 56.37,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 352.63,
+        "confidence": 2.4345128536224365
+      },
+      {
+        "startTime": 56.28,
+        "endTime": 56.41,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 157.73,
+        "confidence": 2.3194632530212402
+      },
+      {
+        "startTime": 56.32,
+        "endTime": 56.49,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 346.68,
+        "confidence": 2.60607647895813
+      },
+      {
+        "startTime": 56.4,
+        "endTime": 56.5,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 141.99,
+        "confidence": 3.2866463661193848
+      },
+      {
+        "startTime": 56.41,
+        "endTime": 56.51,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 148.63,
+        "confidence": 3.895517110824585
+      },
+      {
+        "startTime": 56.42,
+        "endTime": 56.52,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.1,
+        "confidence": 4.205111980438232
+      },
+      {
+        "startTime": 56.43,
+        "endTime": 56.54,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 147.48,
+        "confidence": 5.2405171394348145
+      },
+      {
+        "startTime": 56.46,
+        "endTime": 56.56,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.32,
+        "confidence": 3.313863754272461
+      },
+      {
+        "startTime": 56.47,
+        "endTime": 56.57,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 400.19,
+        "confidence": 4.143500328063965
+      },
+      {
+        "startTime": 56.48,
+        "endTime": 56.58,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 367.07,
+        "confidence": 6.512097358703613
+      },
+      {
+        "startTime": 56.49,
+        "endTime": 56.83,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 358.42,
+        "confidence": 18.8463077545166
+      },
+      {
+        "startTime": 56.75,
+        "endTime": 56.85,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 143.34,
+        "confidence": 1.5144824981689453
+      },
+      {
+        "startTime": 56.76,
+        "endTime": 56.86,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 163.7,
+        "confidence": 1.3000859022140503
+      },
+      {
+        "startTime": 56.77,
+        "endTime": 56.92,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 293.39,
+        "confidence": 3.6862847805023193
+      },
+      {
+        "startTime": 56.83,
+        "endTime": 57.21,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 309.01,
+        "confidence": 5.518651962280273
+      },
+      {
+        "startTime": 57.12,
+        "endTime": 57.22,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 390.24,
+        "confidence": 7.385887622833252
+      },
+      {
+        "startTime": 57.13,
+        "endTime": 57.36,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 260.25,
+        "confidence": 15.411882400512695
+      },
+      {
+        "startTime": 57.27,
+        "endTime": 57.46,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 390.84,
+        "confidence": 6.459117889404297
+      },
+      {
+        "startTime": 57.37,
+        "endTime": 57.6,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 217.98,
+        "confidence": 4.5029802322387695
+      },
+      {
+        "startTime": 57.51,
+        "endTime": 57.61,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 364.24,
+        "confidence": 5.488473415374756
+      },
+      {
+        "startTime": 57.54,
+        "endTime": 57.64,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 219.1,
+        "confidence": 4.221445560455322
+      },
+      {
+        "startTime": 57.55,
+        "endTime": 57.66,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 346.2,
+        "confidence": 3.2258596420288086
+      },
+      {
+        "startTime": 57.57,
+        "endTime": 57.69,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 217.82,
+        "confidence": 2.614816665649414
+      },
+      {
+        "startTime": 57.61,
+        "endTime": 57.72,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 421.14,
+        "confidence": 8.001961708068848
+      },
+      {
+        "startTime": 57.64,
+        "endTime": 57.74,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 223.89,
+        "confidence": 5.659393787384033
+      },
+      {
+        "startTime": 57.65,
+        "endTime": 57.76,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 414.6,
+        "confidence": 4.779064178466797
+      },
+      {
+        "startTime": 57.68,
+        "endTime": 57.81,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 301.72,
+        "confidence": 2.931874990463257
+      },
+      {
+        "startTime": 57.72,
+        "endTime": 57.83,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 407.51,
+        "confidence": 2.7080025672912598
+      },
+      {
+        "startTime": 57.74,
+        "endTime": 57.86,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 387.05,
+        "confidence": 2.587195873260498
+      },
+      {
+        "startTime": 57.77,
+        "endTime": 57.88,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 288.35,
+        "confidence": 2.3022899627685547
+      },
+      {
+        "startTime": 57.79,
+        "endTime": 57.9,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 353.28,
+        "confidence": 2.7918365001678467
+      },
+      {
+        "startTime": 57.81,
+        "endTime": 58.15,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 367.78,
+        "confidence": 9.757225036621094
+      },
+      {
+        "startTime": 58.06,
+        "endTime": 58.43,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 596.35,
+        "confidence": 23.503660202026367
+      },
+      {
+        "startTime": 58.34,
+        "endTime": 58.76,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 566.17,
+        "confidence": 18.467927932739258
+      },
+      {
+        "startTime": 58.67,
+        "endTime": 58.77,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 517.67,
+        "confidence": 2.194270610809326
+      },
+      {
+        "startTime": 58.69,
+        "endTime": 58.79,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 543.13,
+        "confidence": 2.4770491123199463
+      },
+      {
+        "startTime": 58.71,
+        "endTime": 58.82,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 378.71,
+        "confidence": 4.147504806518555
+      },
+      {
+        "startTime": 58.73,
+        "endTime": 58.83,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 510.41,
+        "confidence": 4.26798152923584
+      },
+      {
+        "startTime": 58.74,
+        "endTime": 58.89,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 489.62,
+        "confidence": 8.924470901489258
+      },
+      {
+        "startTime": 58.8,
+        "endTime": 59.04,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 349.49,
+        "confidence": 13.392897605895996
+      },
+      {
+        "startTime": 58.95,
+        "endTime": 59.06,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 469.61,
+        "confidence": 14.294361114501953
+      },
+      {
+        "startTime": 58.98,
+        "endTime": 59.08,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 349.57,
+        "confidence": 12.25507926940918
+      },
+      {
+        "startTime": 58.99,
+        "endTime": 59.09,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 473.72,
+        "confidence": 12.963458061218262
+      },
+      {
+        "startTime": 59.0,
+        "endTime": 59.11,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 350.01,
+        "confidence": 11.364799499511719
+      },
+      {
+        "startTime": 59.03,
+        "endTime": 59.38,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 349.58,
+        "confidence": 11.075596809387207
+      },
+      {
+        "startTime": 59.29,
+        "endTime": 59.7,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 623.91,
+        "confidence": 25.16228485107422
+      },
+      {
+        "startTime": 59.61,
+        "endTime": 59.74,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 289.59,
+        "confidence": 1.2186286449432373
+      },
+      {
+        "startTime": 59.65,
+        "endTime": 59.75,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 615.76,
+        "confidence": 1.2370033264160156
+      },
+      {
+        "startTime": 59.66,
+        "endTime": 59.77,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 294.69,
+        "confidence": 1.4681068658828735
+      },
+      {
+        "startTime": 59.68,
+        "endTime": 59.78,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 611.6,
+        "confidence": 1.3529205322265625
+      },
+      {
+        "startTime": 59.7,
+        "endTime": 59.86,
+        "midiNote": 79,
+        "noteName": "G5",
+        "frequency": 793.19,
+        "confidence": 10.69951057434082
+      },
+      {
+        "startTime": 59.78,
+        "endTime": 59.9,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 325.92,
+        "confidence": 7.645153045654297
+      },
+      {
+        "startTime": 59.81,
+        "endTime": 59.92,
+        "midiNote": 79,
+        "noteName": "G5",
+        "frequency": 790.73,
+        "confidence": 4.877666473388672
+      },
+      {
+        "startTime": 59.83,
+        "endTime": 59.95,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 323.07,
+        "confidence": 7.162728786468506
+      },
+      {
+        "startTime": 59.86,
+        "endTime": 59.98,
+        "midiNote": 79,
+        "noteName": "G5",
+        "frequency": 789.21,
+        "confidence": 4.867932319641113
+      },
+      {
+        "startTime": 59.89,
+        "endTime": 60.0,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 318.36,
+        "confidence": 4.654599189758301
+      },
+      {
+        "startTime": 59.92,
+        "endTime": 60.03,
+        "midiNote": 79,
+        "noteName": "G5",
+        "frequency": 788.35,
+        "confidence": 2.77012038230896
+      },
+      {
+        "startTime": 59.94,
+        "endTime": 60.04,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 155.58,
+        "confidence": 2.584906578063965
+      },
+      {
+        "startTime": 59.95,
+        "endTime": 60.06,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 307.97,
+        "confidence": 2.7129111289978027
+      },
+      {
+        "startTime": 59.97,
+        "endTime": 60.07,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 153.82,
+        "confidence": 1.6592073440551758
+      },
+      {
+        "startTime": 59.99,
+        "endTime": 60.09,
+        "midiNote": 79,
+        "noteName": "G5",
+        "frequency": 783.25,
+        "confidence": 0.8199190497398376
+      },
+      {
+        "startTime": 60.0,
+        "endTime": 60.11,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 157.62,
+        "confidence": 1.6689282655715942
+      },
+      {
+        "startTime": 60.03,
+        "endTime": 60.13,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 317.24,
+        "confidence": 1.5393959283828735
+      },
+      {
+        "startTime": 60.04,
+        "endTime": 60.16,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 336.23,
+        "confidence": 3.123070240020752
+      },
+      {
+        "startTime": 60.07,
+        "endTime": 60.17,
+        "midiNote": 103,
+        "noteName": "G7",
+        "frequency": 3096.97,
+        "confidence": 1.4178553819656372
+      },
+      {
+        "startTime": 60.08,
+        "endTime": 60.18,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 310.22,
+        "confidence": 1.1711909770965576
+      },
+      {
+        "startTime": 60.09,
+        "endTime": 60.45,
+        "midiNote": 80,
+        "noteName": "G#5",
+        "frequency": 824.05,
+        "confidence": 10.614531517028809
+      },
+      {
+        "startTime": 60.36,
+        "endTime": 60.47,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 297.77,
+        "confidence": 1.0152809619903564
+      },
+      {
+        "startTime": 60.38,
+        "endTime": 60.5,
+        "midiNote": 80,
+        "noteName": "G#5",
+        "frequency": 837.11,
+        "confidence": 0.8601062297821045
+      },
+      {
+        "startTime": 60.42,
+        "endTime": 60.55,
+        "midiNote": 79,
+        "noteName": "G5",
+        "frequency": 790.77,
+        "confidence": 7.679703712463379
+      },
+      {
+        "startTime": 60.46,
+        "endTime": 60.98,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 338.71,
+        "confidence": 10.36834716796875
+      },
+      {
+        "startTime": 60.89,
+        "endTime": 60.99,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 143.17,
+        "confidence": 6.857005596160889
+      },
+      {
+        "startTime": 60.9,
+        "endTime": 61.0,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 155.62,
+        "confidence": 6.152295112609863
+      },
+      {
+        "startTime": 60.91,
+        "endTime": 61.04,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 142.67,
+        "confidence": 7.203037261962891
+      },
+      {
+        "startTime": 60.96,
+        "endTime": 61.06,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 149.11,
+        "confidence": 5.318909168243408
+      },
+      {
+        "startTime": 60.97,
+        "endTime": 61.15,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 330.71,
+        "confidence": 5.251049518585205
+      },
+      {
+        "startTime": 61.07,
+        "endTime": 61.17,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 149.01,
+        "confidence": 4.438401699066162
+      },
+      {
+        "startTime": 61.08,
+        "endTime": 61.29,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 329.76,
+        "confidence": 4.5091872215271
+      },
+      {
+        "startTime": 61.2,
+        "endTime": 61.63,
+        "midiNote": 73,
+        "noteName": "C#5",
+        "frequency": 565.2,
+        "confidence": 17.705495834350586
+      },
+      {
+        "startTime": 61.54,
+        "endTime": 61.69,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 324.77,
+        "confidence": 2.9783828258514404
+      },
+      {
+        "startTime": 61.6,
+        "endTime": 61.7,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 450.65,
+        "confidence": 2.9623255729675293
+      },
+      {
+        "startTime": 61.61,
+        "endTime": 61.76,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 488.99,
+        "confidence": 12.433027267456055
+      },
+      {
+        "startTime": 61.67,
+        "endTime": 61.77,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 508.87,
+        "confidence": 7.505825042724609
+      },
+      {
+        "startTime": 61.68,
+        "endTime": 61.82,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 497.01,
+        "confidence": 7.321804523468018
+      },
+      {
+        "startTime": 61.73,
+        "endTime": 61.83,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 166.42,
+        "confidence": 5.331651210784912
+      },
+      {
+        "startTime": 61.74,
+        "endTime": 61.87,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 499.56,
+        "confidence": 6.046717166900635
+      },
+      {
+        "startTime": 61.79,
+        "endTime": 62.01,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 477.91,
+        "confidence": 11.554370880126953
+      },
+      {
+        "startTime": 61.92,
+        "endTime": 62.09,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 525.25,
+        "confidence": 5.160109996795654
+      },
+      {
+        "startTime": 62.01,
+        "endTime": 62.18,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 466.51,
+        "confidence": 10.987373352050781
+      },
+      {
+        "startTime": 62.09,
+        "endTime": 62.2,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 353.17,
+        "confidence": 3.696436882019043
+      },
+      {
+        "startTime": 62.11,
+        "endTime": 62.21,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 359.78,
+        "confidence": 2.49484920501709
+      },
+      {
+        "startTime": 62.12,
+        "endTime": 62.23,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 343.1,
+        "confidence": 2.6326687335968018
+      },
+      {
+        "startTime": 62.15,
+        "endTime": 62.26,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 462.58,
+        "confidence": 3.2163515090942383
+      },
+      {
+        "startTime": 62.17,
+        "endTime": 62.27,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 167.05,
+        "confidence": 2.564399480819702
+      },
+      {
+        "startTime": 62.18,
+        "endTime": 62.28,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 152.33,
+        "confidence": 1.8973448276519775
+      },
+      {
+        "startTime": 62.19,
+        "endTime": 62.29,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 374.53,
+        "confidence": 3.4372920989990234
+      },
+      {
+        "startTime": 62.2,
+        "endTime": 62.57,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.28,
+        "confidence": 6.298581600189209
+      },
+      {
+        "startTime": 62.48,
+        "endTime": 62.58,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 150.21,
+        "confidence": 1.8509721755981445
+      },
+      {
+        "startTime": 62.49,
+        "endTime": 62.62,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 306.21,
+        "confidence": 1.6268160343170166
+      },
+      {
+        "startTime": 62.53,
+        "endTime": 62.64,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 272.27,
+        "confidence": 4.633294582366943
+      },
+      {
+        "startTime": 62.55,
+        "endTime": 62.96,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 317.2,
+        "confidence": 7.208290100097656
+      },
+      {
+        "startTime": 62.88,
+        "endTime": 62.99,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 320.35,
+        "confidence": 1.999029278755188
+      },
+      {
+        "startTime": 62.9,
+        "endTime": 63.03,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 165.26,
+        "confidence": 2.167726993560791
+      },
+      {
+        "startTime": 62.95,
+        "endTime": 63.06,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 261.88,
+        "confidence": 7.301568984985352
+      },
+      {
+        "startTime": 62.97,
+        "endTime": 63.1,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 271.56,
+        "confidence": 13.191946029663086
+      },
+      {
+        "startTime": 63.03,
+        "endTime": 63.13,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 398.17,
+        "confidence": 12.475825309753418
+      },
+      {
+        "startTime": 63.04,
+        "endTime": 63.14,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 282.11,
+        "confidence": 9.125596046447754
+      },
+      {
+        "startTime": 63.05,
+        "endTime": 63.16,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 404.5,
+        "confidence": 15.574593544006348
+      },
+      {
+        "startTime": 63.07,
+        "endTime": 63.17,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.48,
+        "confidence": 10.796448707580566
+      },
+      {
+        "startTime": 63.1,
+        "endTime": 63.2,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 400.9,
+        "confidence": 11.028484344482422
+      },
+      {
+        "startTime": 63.11,
+        "endTime": 63.21,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 404.4,
+        "confidence": 10.871208190917969
+      },
+      {
+        "startTime": 63.12,
+        "endTime": 63.22,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 391.05,
+        "confidence": 5.8136444091796875
+      },
+      {
+        "startTime": 63.14,
+        "endTime": 63.24,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 404.64,
+        "confidence": 9.38218879699707
+      },
+      {
+        "startTime": 63.16,
+        "endTime": 63.31,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 403.02,
+        "confidence": 11.19994068145752
+      },
+      {
+        "startTime": 63.22,
+        "endTime": 63.32,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 404.11,
+        "confidence": 6.3483052253723145
+      },
+      {
+        "startTime": 63.24,
+        "endTime": 63.39,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 403.41,
+        "confidence": 8.606980323791504
+      },
+      {
+        "startTime": 63.32,
+        "endTime": 63.43,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 383.0,
+        "confidence": 6.809591770172119
+      },
+      {
+        "startTime": 63.35,
+        "endTime": 63.46,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 146.4,
+        "confidence": 9.325047492980957
+      },
+      {
+        "startTime": 63.38,
+        "endTime": 63.49,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 153.25,
+        "confidence": 6.340643405914307
+      },
+      {
+        "startTime": 63.4,
+        "endTime": 63.5,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 216.19,
+        "confidence": 5.507401943206787
+      },
+      {
+        "startTime": 63.41,
+        "endTime": 63.52,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 397.48,
+        "confidence": 5.360747337341309
+      },
+      {
+        "startTime": 63.43,
+        "endTime": 63.57,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 148.5,
+        "confidence": 4.275321960449219
+      },
+      {
+        "startTime": 63.48,
+        "endTime": 63.59,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 212.75,
+        "confidence": 3.737337350845337
+      },
+      {
+        "startTime": 63.5,
+        "endTime": 63.6,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 142.51,
+        "confidence": 3.3910584449768066
+      },
+      {
+        "startTime": 63.52,
+        "endTime": 63.65,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 142.91,
+        "confidence": 3.298736095428467
+      },
+      {
+        "startTime": 63.57,
+        "endTime": 63.67,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 213.51,
+        "confidence": 2.765430450439453
+      },
+      {
+        "startTime": 63.58,
+        "endTime": 63.7,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 146.7,
+        "confidence": 2.380014181137085
+      },
+      {
+        "startTime": 63.61,
+        "endTime": 63.71,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 296.07,
+        "confidence": 1.893390417098999
+      },
+      {
+        "startTime": 63.62,
+        "endTime": 63.72,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.65,
+        "confidence": 1.860321283340454
+      },
+      {
+        "startTime": 63.64,
+        "endTime": 63.74,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 213.83,
+        "confidence": 2.1011998653411865
+      },
+      {
+        "startTime": 63.65,
+        "endTime": 63.75,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 591.71,
+        "confidence": 2.284358024597168
+      },
+      {
+        "startTime": 63.67,
+        "endTime": 63.77,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 611.01,
+        "confidence": 3.1528003215789795
+      },
+      {
+        "startTime": 63.68,
+        "endTime": 63.81,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 311.18,
+        "confidence": 5.882391452789307
+      },
+      {
+        "startTime": 63.72,
+        "endTime": 63.84,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 252.13,
+        "confidence": 11.226420402526855
+      },
+      {
+        "startTime": 63.75,
+        "endTime": 63.85,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 254.85,
+        "confidence": 9.0283784866333
+      },
+      {
+        "startTime": 63.76,
+        "endTime": 64.09,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.69,
+        "confidence": 6.691562175750732
+      },
+      {
+        "startTime": 64.0,
+        "endTime": 64.15,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 416.71,
+        "confidence": 8.0703763961792
+      },
+      {
+        "startTime": 64.06,
+        "endTime": 64.54,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 386.65,
+        "confidence": 25.48421859741211
+      },
+      {
+        "startTime": 64.46,
+        "endTime": 64.56,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 378.1,
+        "confidence": 12.904589653015137
+      },
+      {
+        "startTime": 64.47,
+        "endTime": 64.69,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.32,
+        "confidence": 10.523122787475586
+      },
+      {
+        "startTime": 64.61,
+        "endTime": 64.9,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 380.1,
+        "confidence": 23.052165985107422
+      },
+      {
+        "startTime": 64.82,
+        "endTime": 64.92,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 384.18,
+        "confidence": 12.667227745056152
+      },
+      {
+        "startTime": 64.83,
+        "endTime": 64.93,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 367.25,
+        "confidence": 14.176203727722168
+      },
+      {
+        "startTime": 64.85,
+        "endTime": 64.96,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 379.62,
+        "confidence": 6.055450439453125
+      },
+      {
+        "startTime": 64.87,
+        "endTime": 65.12,
+        "midiNote": 70,
+        "noteName": "A#4",
+        "frequency": 477.11,
+        "confidence": 24.12411880493164
+      },
+      {
+        "startTime": 65.04,
+        "endTime": 65.44,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 526.99,
+        "confidence": 10.429182052612305
+      },
+      {
+        "startTime": 65.35,
+        "endTime": 65.54,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 393.28,
+        "confidence": 8.63939380645752
+      },
+      {
+        "startTime": 65.45,
+        "endTime": 65.67,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 521.9,
+        "confidence": 7.361974716186523
+      },
+      {
+        "startTime": 65.58,
+        "endTime": 65.86,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 637.25,
+        "confidence": 9.085744857788086
+      },
+      {
+        "startTime": 65.77,
+        "endTime": 65.88,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 394.68,
+        "confidence": 3.1594109535217285
+      },
+      {
+        "startTime": 65.79,
+        "endTime": 65.9,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 625.45,
+        "confidence": 2.6849164962768555
+      },
+      {
+        "startTime": 65.81,
+        "endTime": 65.94,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 390.29,
+        "confidence": 2.6902339458465576
+      },
+      {
+        "startTime": 65.85,
+        "endTime": 65.95,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 626.67,
+        "confidence": 2.407289981842041
+      },
+      {
+        "startTime": 65.88,
+        "endTime": 66.01,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 318.1,
+        "confidence": 2.0135343074798584
+      },
+      {
+        "startTime": 65.92,
+        "endTime": 66.04,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 391.9,
+        "confidence": 1.386502981185913
+      },
+      {
+        "startTime": 65.95,
+        "endTime": 66.08,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 316.01,
+        "confidence": 1.46018385887146
+      },
+      {
+        "startTime": 65.99,
+        "endTime": 66.13,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 390.8,
+        "confidence": 1.6711413860321045
+      },
+      {
+        "startTime": 66.05,
+        "endTime": 66.17,
+        "midiNote": 55,
+        "noteName": "G3",
+        "frequency": 193.56,
+        "confidence": 1.5264971256256104
+      },
+      {
+        "startTime": 66.08,
+        "endTime": 66.18,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 390.84,
+        "confidence": 2.270648956298828
+      },
+      {
+        "startTime": 66.09,
+        "endTime": 66.2,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 372.89,
+        "confidence": 2.6498732566833496
+      },
+      {
+        "startTime": 66.12,
+        "endTime": 66.23,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 383.27,
+        "confidence": 2.7391200065612793
+      },
+      {
+        "startTime": 66.15,
+        "endTime": 66.26,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 337.59,
+        "confidence": 2.067911148071289
+      },
+      {
+        "startTime": 66.17,
+        "endTime": 66.29,
+        "midiNote": 55,
+        "noteName": "G3",
+        "frequency": 194.77,
+        "confidence": 2.088124990463257
+      },
+      {
+        "startTime": 66.21,
+        "endTime": 66.31,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 387.8,
+        "confidence": 1.8677884340286255
+      },
+      {
+        "startTime": 66.22,
+        "endTime": 66.35,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 149.11,
+        "confidence": 6.281457424163818
+      },
+      {
+        "startTime": 66.27,
+        "endTime": 66.37,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.33,
+        "confidence": 3.522758722305298
+      },
+      {
+        "startTime": 66.28,
+        "endTime": 66.42,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 145.62,
+        "confidence": 3.6740570068359375
+      },
+      {
+        "startTime": 66.35,
+        "endTime": 66.47,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 147.12,
+        "confidence": 3.5126454830169678
+      },
+      {
+        "startTime": 66.38,
+        "endTime": 66.48,
+        "midiNote": 49,
+        "noteName": "C#3",
+        "frequency": 140.85,
+        "confidence": 2.551453113555908
+      },
+      {
+        "startTime": 66.39,
+        "endTime": 66.62,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 143.6,
+        "confidence": 2.862994909286499
+      },
+      {
+        "startTime": 66.53,
+        "endTime": 66.67,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 152.25,
+        "confidence": 1.6138347387313843
+      },
+      {
+        "startTime": 66.58,
+        "endTime": 66.68,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 323.53,
+        "confidence": 1.245456337928772
+      },
+      {
+        "startTime": 66.6,
+        "endTime": 66.7,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 216.69,
+        "confidence": 1.0460001230239868
+      },
+      {
+        "startTime": 66.61,
+        "endTime": 66.73,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 254.58,
+        "confidence": 1.4000482559204102
+      },
+      {
+        "startTime": 66.65,
+        "endTime": 66.99,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 159.3,
+        "confidence": 5.689481735229492
+      },
+      {
+        "startTime": 66.91,
+        "endTime": 67.01,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 160.34,
+        "confidence": 1.8522604703903198
+      },
+      {
+        "startTime": 66.92,
+        "endTime": 67.04,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 154.18,
+        "confidence": 1.899414300918579
+      },
+      {
+        "startTime": 66.96,
+        "endTime": 67.06,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 156.85,
+        "confidence": 1.5855263471603394
+      },
+      {
+        "startTime": 66.99,
+        "endTime": 67.09,
+        "midiNote": 52,
+        "noteName": "E3",
+        "frequency": 160.66,
+        "confidence": 1.023116946220398
+      },
+      {
+        "startTime": 67.01,
+        "endTime": 67.12,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 348.32,
+        "confidence": 2.3628549575805664
+      },
+      {
+        "startTime": 67.04,
+        "endTime": 67.46,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 594.49,
+        "confidence": 32.464134216308594
+      },
+      {
+        "startTime": 67.38,
+        "endTime": 67.48,
+        "midiNote": 76,
+        "noteName": "E5",
+        "frequency": 667.42,
+        "confidence": 1.6591094732284546
+      },
+      {
+        "startTime": 67.4,
+        "endTime": 67.52,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 382.76,
+        "confidence": 2.8214805126190186
+      },
+      {
+        "startTime": 67.43,
+        "endTime": 67.82,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 623.59,
+        "confidence": 21.091035842895508
+      },
+      {
+        "startTime": 67.73,
+        "endTime": 68.08,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 529.32,
+        "confidence": 12.405301094055176
+      },
+      {
+        "startTime": 68.0,
+        "endTime": 68.13,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 309.27,
+        "confidence": 1.5184836387634277
+      },
+      {
+        "startTime": 68.05,
+        "endTime": 68.15,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 257.03,
+        "confidence": 0.7817670702934265
+      },
+      {
+        "startTime": 68.07,
+        "endTime": 68.19,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 303.4,
+        "confidence": 0.6995794773101807
+      },
+      {
+        "startTime": 68.1,
+        "endTime": 68.2,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 207.51,
+        "confidence": 0.4797481596469879
+      },
+      {
+        "startTime": 68.11,
+        "endTime": 68.22,
+        "midiNote": 101,
+        "noteName": "F7",
+        "frequency": 2841.96,
+        "confidence": 4.319102764129639
+      },
+      {
+        "startTime": 68.14,
+        "endTime": 68.29,
+        "midiNote": 77,
+        "noteName": "F5",
+        "frequency": 691.03,
+        "confidence": 5.229303359985352
+      },
+      {
+        "startTime": 68.21,
+        "endTime": 68.34,
+        "midiNote": 96,
+        "noteName": "C7",
+        "frequency": 2118.48,
+        "confidence": 2.0807888507843018
+      },
+      {
+        "startTime": 68.25,
+        "endTime": 68.36,
+        "midiNote": 77,
+        "noteName": "F5",
+        "frequency": 704.75,
+        "confidence": 2.2290751934051514
+      },
+      {
+        "startTime": 68.28,
+        "endTime": 68.63,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 625.46,
+        "confidence": 15.092748641967773
+      },
+      {
+        "startTime": 68.54,
+        "endTime": 68.82,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 591.55,
+        "confidence": 18.676311492919922
+      },
+      {
+        "startTime": 68.73,
+        "endTime": 68.94,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 524.93,
+        "confidence": 8.423033714294434
+      },
+      {
+        "startTime": 68.87,
+        "endTime": 68.98,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 208.7,
+        "confidence": 2.887174129486084
+      },
+      {
+        "startTime": 68.91,
+        "endTime": 69.03,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 209.84,
+        "confidence": 2.922485828399658
+      },
+      {
+        "startTime": 68.94,
+        "endTime": 69.04,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 428.45,
+        "confidence": 2.767702579498291
+      },
+      {
+        "startTime": 68.95,
+        "endTime": 69.14,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 209.27,
+        "confidence": 2.9845733642578125
+      },
+      {
+        "startTime": 69.05,
+        "endTime": 69.15,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 425.38,
+        "confidence": 2.554539918899536
+      },
+      {
+        "startTime": 69.06,
+        "endTime": 69.18,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 207.15,
+        "confidence": 2.5269274711608887
+      },
+      {
+        "startTime": 69.09,
+        "endTime": 69.2,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 428.4,
+        "confidence": 2.3799612522125244
+      },
+      {
+        "startTime": 69.12,
+        "endTime": 69.23,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 215.48,
+        "confidence": 2.84771466255188
+      },
+      {
+        "startTime": 69.16,
+        "endTime": 69.27,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 216.78,
+        "confidence": 2.34855318069458
+      },
+      {
+        "startTime": 69.19,
+        "endTime": 69.29,
+        "midiNote": 55,
+        "noteName": "G3",
+        "frequency": 199.52,
+        "confidence": 1.2097176313400269
+      },
+      {
+        "startTime": 69.2,
+        "endTime": 69.32,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 218.73,
+        "confidence": 2.043287515640259
+      },
+      {
+        "startTime": 69.24,
+        "endTime": 69.34,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 213.16,
+        "confidence": 1.4524847269058228
+      },
+      {
+        "startTime": 69.26,
+        "endTime": 69.44,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 211.91,
+        "confidence": 1.6013084650039673
+      },
+      {
+        "startTime": 69.35,
+        "endTime": 69.45,
+        "midiNote": 57,
+        "noteName": "A3",
+        "frequency": 213.77,
+        "confidence": 1.179429054260254
+      },
+      {
+        "startTime": 69.38,
+        "endTime": 69.48,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 435.23,
+        "confidence": 1.1362069845199585
+      },
+      {
+        "startTime": 69.39,
+        "endTime": 69.5,
+        "midiNote": 56,
+        "noteName": "G#3",
+        "frequency": 207.73,
+        "confidence": 1.4786885976791382
+      },
+      {
+        "startTime": 69.41,
+        "endTime": 69.55,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 431.29,
+        "confidence": 1.1737728118896484
+      },
+      {
+        "startTime": 69.46,
+        "endTime": 69.56,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 606.05,
+        "confidence": 4.669332504272461
+      },
+      {
+        "startTime": 69.47,
+        "endTime": 69.81,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 592.89,
+        "confidence": 29.137300491333008
+      },
+      {
+        "startTime": 69.73,
+        "endTime": 70.06,
+        "midiNote": 72,
+        "noteName": "C5",
+        "frequency": 528.73,
+        "confidence": 11.571871757507324
+      },
+      {
+        "startTime": 69.97,
+        "endTime": 70.22,
+        "midiNote": 71,
+        "noteName": "B4",
+        "frequency": 502.99,
+        "confidence": 4.917959690093994
+      },
+      {
+        "startTime": 70.13,
+        "endTime": 70.23,
+        "midiNote": 69,
+        "noteName": "A4",
+        "frequency": 429.91,
+        "confidence": 1.1624795198440552
+      },
+      {
+        "startTime": 70.16,
+        "endTime": 70.28,
+        "midiNote": 68,
+        "noteName": "G#4",
+        "frequency": 405.69,
+        "confidence": 5.177398681640625
+      },
+      {
+        "startTime": 70.19,
+        "endTime": 70.38,
+        "midiNote": 59,
+        "noteName": "B3",
+        "frequency": 248.42,
+        "confidence": 13.52518367767334
+      },
+      {
+        "startTime": 70.3,
+        "endTime": 70.91,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 350.93,
+        "confidence": 21.652624130249023
+      },
+      {
+        "startTime": 70.82,
+        "endTime": 70.93,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 359.53,
+        "confidence": 4.177972793579102
+      },
+      {
+        "startTime": 70.84,
+        "endTime": 71.07,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 355.38,
+        "confidence": 6.494909286499023
+      },
+      {
+        "startTime": 70.99,
+        "endTime": 71.1,
+        "midiNote": 74,
+        "noteName": "D5",
+        "frequency": 584.68,
+        "confidence": 1.9410241842269897
+      },
+      {
+        "startTime": 71.02,
+        "endTime": 71.15,
+        "midiNote": 62,
+        "noteName": "D4",
+        "frequency": 287.07,
+        "confidence": 2.3043360710144043
+      },
+      {
+        "startTime": 71.06,
+        "endTime": 71.17,
+        "midiNote": 51,
+        "noteName": "D#3",
+        "frequency": 151.99,
+        "confidence": 5.5916337966918945
+      },
+      {
+        "startTime": 71.08,
+        "endTime": 71.18,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 367.82,
+        "confidence": 8.209577560424805
+      },
+      {
+        "startTime": 71.1,
+        "endTime": 71.44,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 358.06,
+        "confidence": 19.74759864807129
+      },
+      {
+        "startTime": 71.35,
+        "endTime": 71.45,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 150.0,
+        "confidence": 2.568382501602173
+      },
+      {
+        "startTime": 71.36,
+        "endTime": 71.67,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 342.56,
+        "confidence": 10.11982250213623
+      },
+      {
+        "startTime": 71.58,
+        "endTime": 71.68,
+        "midiNote": 64,
+        "noteName": "E4",
+        "frequency": 323.06,
+        "confidence": 8.197969436645508
+      },
+      {
+        "startTime": 71.6,
+        "endTime": 71.83,
+        "midiNote": 63,
+        "noteName": "D#4",
+        "frequency": 313.49,
+        "confidence": 7.643928527832031
+      },
+      {
+        "startTime": 71.75,
+        "endTime": 71.86,
+        "midiNote": 75,
+        "noteName": "D#5",
+        "frequency": 624.2,
+        "confidence": 1.7930047512054443
+      },
+      {
+        "startTime": 71.77,
+        "endTime": 71.87,
+        "midiNote": 101,
+        "noteName": "F7",
+        "frequency": 2844.78,
+        "confidence": 1.420495867729187
+      },
+      {
+        "startTime": 71.78,
+        "endTime": 71.89,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 378.63,
+        "confidence": 5.499926567077637
+      },
+      {
+        "startTime": 71.8,
+        "endTime": 71.99,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 357.83,
+        "confidence": 13.063664436340332
+      },
+      {
+        "startTime": 71.9,
+        "endTime": 72.29,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 391.21,
+        "confidence": 17.58601188659668
+      },
+      {
+        "startTime": 72.2,
+        "endTime": 72.32,
+        "midiNote": 58,
+        "noteName": "A#3",
+        "frequency": 233.3,
+        "confidence": 4.6349945068359375
+      },
+      {
+        "startTime": 72.27,
+        "endTime": 72.37,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 147.16,
+        "confidence": 4.981870174407959
+      },
+      {
+        "startTime": 72.29,
+        "endTime": 72.42,
+        "midiNote": 50,
+        "noteName": "D3",
+        "frequency": 148.14,
+        "confidence": 6.361788272857666
+      },
+      {
+        "startTime": 72.33,
+        "endTime": 72.66,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 255.39,
+        "confidence": 7.866816520690918
+      },
+      {
+        "startTime": 72.57,
+        "endTime": 72.67,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 360.75,
+        "confidence": 1.2318440675735474
+      },
+      {
+        "startTime": 72.58,
+        "endTime": 72.69,
+        "midiNote": 61,
+        "noteName": "C#4",
+        "frequency": 273.25,
+        "confidence": 1.1642789840698242
+      },
+      {
+        "startTime": 72.62,
+        "endTime": 72.73,
+        "midiNote": 66,
+        "noteName": "F#4",
+        "frequency": 365.61,
+        "confidence": 0.922319769859314
+      },
+      {
+        "startTime": 72.66,
+        "endTime": 72.81,
+        "midiNote": 67,
+        "noteName": "G4",
+        "frequency": 392.99,
+        "confidence": 1.0657483339309692
+      },
+      {
+        "startTime": 72.72,
+        "endTime": 73.03,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 261.32,
+        "confidence": 17.502592086791992
+      },
+      {
+        "startTime": 72.94,
+        "endTime": 73.05,
+        "midiNote": 65,
+        "noteName": "F4",
+        "frequency": 352.02,
+        "confidence": 6.486540794372559
+      },
+      {
+        "startTime": 72.97,
+        "endTime": 73.09,
+        "midiNote": 60,
+        "noteName": "C4",
+        "frequency": 263.09,
+        "confidence": 3.6928231716156006
+      }
+    ],
+    "analysisRange": {
+      "startTime": 13.0,
+      "endTime": 73.0
     }
   }
 }
