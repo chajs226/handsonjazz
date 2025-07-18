@@ -8,6 +8,7 @@ import '../widgets/audio_player_widget.dart';
 import '../widgets/voicing_analysis_widget.dart';
 import '../widgets/staff_notation_widget.dart';
 import '../widgets/melody_graph_widget.dart';
+import '../widgets/section_loop_widget.dart';
 import '../../data/models/song.dart';
 import '../../app/theme/app_theme.dart';
 import '../../core/di/injection_container.dart' as di;
@@ -98,6 +99,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
                   MelodyGraphWidget(song: widget.song),
                   const SizedBox(height: 16),
                 ],
+                // 구간 반복 위젯 추가
+                const SectionLoopWidget(),
+                const SizedBox(height: 16),
                 Expanded(
                   flex: 2, // 코드 타임라인 공간 조정
                   child: const ChordTimelineWidget(),
@@ -140,6 +144,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
             MelodyGraphWidget(song: widget.song),
             const SizedBox(height: 16),
           ],
+          // 구간 반복 위젯 추가
+          const SectionLoopWidget(),
+          const SizedBox(height: 16),
           Expanded(
             flex: 3, // 코드 타임라인 공간
             child: const ChordTimelineWidget(),

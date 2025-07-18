@@ -56,6 +56,18 @@ class SetLoop extends AudioPlayerEvent {
   List<Object> get props => [loop ?? ''];
 }
 
+class SetSectionLoop extends AudioPlayerEvent {
+  final Duration startTime;
+  final Duration endTime;
+
+  const SetSectionLoop(this.startTime, this.endTime);
+
+  @override
+  List<Object> get props => [startTime, endTime];
+}
+
+class ClearSectionLoop extends AudioPlayerEvent {}
+
 class AudioStateChanged extends AudioPlayerEvent {
   final AudioState audioState;
 
@@ -70,27 +82,38 @@ class AudioPlayerState extends Equatable {
   final AudioState audioState;
   final Song? currentSong;
   final String? currentChord;
+  final Duration? sectionLoopStart;
+  final Duration? sectionLoopEnd;
 
   const AudioPlayerState({
     this.audioState = const AudioState(),
     this.currentSong,
     this.currentChord,
+    this.sectionLoopStart,
+    this.sectionLoopEnd,
   });
 
   AudioPlayerState copyWith({
     AudioState? audioState,
     Song? currentSong,
     String? currentChord,
+    Duration? sectionLoopStart,
+    Duration? sectionLoopEnd,
+    bool clearSectionLoop = false,
   }) {
     return AudioPlayerState(
       audioState: audioState ?? this.audioState,
       currentSong: currentSong ?? this.currentSong,
       currentChord: currentChord ?? this.currentChord,
+      sectionLoopStart: clearSectionLoop ? null : (sectionLoopStart ?? this.sectionLoopStart),
+      sectionLoopEnd: clearSectionLoop ? null : (sectionLoopEnd ?? this.sectionLoopEnd),
     );
   }
 
+  bool get hasSectionLoop => sectionLoopStart != null && sectionLoopEnd != null;
+
   @override
-  List<Object?> get props => [audioState, currentSong, currentChord];
+  List<Object?> get props => [audioState, currentSong, currentChord, sectionLoopStart, sectionLoopEnd];
 }
 
 // BLoC
@@ -114,10 +137,19 @@ class AudioPlayerBloc extends Bloc<AudioPlayerEvent, AudioPlayerState> {
     on<SeekAudio>(_onSeekAudio);
     on<SetPlaybackSpeed>(_onSetPlaybackSpeed);
     on<SetLoop>(_onSetLoop);
+    on<SetSectionLoop>(_onSetSectionLoop);
+    on<ClearSectionLoop>(_onClearSectionLoop);
     on<AudioStateChanged>(_onAudioStateChanged);
 
     _audioStateSubscription = _audioService.stateStream.listen((audioState) {
       add(AudioStateChanged(audioState));
+      
+      // Check section loop
+      if (state.hasSectionLoop && 
+          state.sectionLoopEnd != null && 
+          audioState.currentPosition >= state.sectionLoopEnd!) {
+        _audioService.seek(state.sectionLoopStart!);
+      }
       
       // Update timing service with current position
       final currentSong = state.currentSong;
@@ -158,6 +190,17 @@ class AudioPlayerBloc extends Bloc<AudioPlayerEvent, AudioPlayerState> {
 
   void _onSetLoop(SetLoop event, Emitter<AudioPlayerState> emit) {
     _audioService.setLoop(event.loop);
+  }
+
+  void _onSetSectionLoop(SetSectionLoop event, Emitter<AudioPlayerState> emit) {
+    emit(state.copyWith(
+      sectionLoopStart: event.startTime,
+      sectionLoopEnd: event.endTime,
+    ));
+  }
+
+  void _onClearSectionLoop(ClearSectionLoop event, Emitter<AudioPlayerState> emit) {
+    emit(state.copyWith(clearSectionLoop: true));
   }
 
   void _onAudioStateChanged(AudioStateChanged event, Emitter<AudioPlayerState> emit) {
