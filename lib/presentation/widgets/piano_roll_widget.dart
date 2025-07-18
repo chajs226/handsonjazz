@@ -24,7 +24,7 @@ class PianoRollWidget extends StatelessWidget {
             ),
             child: Column(
               children: [
-                Padding(
+                Container(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
                     state.currentVoicing?.chordSymbol ?? 'No chord',

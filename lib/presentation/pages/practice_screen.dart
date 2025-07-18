@@ -92,28 +92,33 @@ class _PracticeScreenState extends State<PracticeScreen> {
           flex: 3,
           child: Padding(
             padding: const EdgeInsets.all(16.0),
-            child: Column(
-              children: [
-                // 멜로디 그래프 추가 (상단)
-                if (widget.song.pitchAnalysis != null) ...[
-                  MelodyGraphWidget(song: widget.song),
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  // 멜로디 그래프 추가 (상단)
+                  if (widget.song.pitchAnalysis != null) ...[
+                    SizedBox(
+                      height: 200,
+                      child: MelodyGraphWidget(song: widget.song),
+                    ),
+                    const SizedBox(height: 16),
+                  ],
+                  // 구간 반복 위젯 추가
+                  const SectionLoopWidget(),
                   const SizedBox(height: 16),
+                  SizedBox(
+                    height: 300, // 코드 타임라인 고정 높이
+                    child: const ChordTimelineWidget(),
+                  ),
+                  const SizedBox(height: 16),
+                  SizedBox(
+                    height: 150, // 피아노 롤 고정 높이
+                    child: const PianoRollWidget(),
+                  ),
+                  const SizedBox(height: 16),
+                  const AudioPlayerWidget(),
                 ],
-                // 구간 반복 위젯 추가
-                const SectionLoopWidget(),
-                const SizedBox(height: 16),
-                Expanded(
-                  flex: 2, // 코드 타임라인 공간 조정
-                  child: const ChordTimelineWidget(),
-                ),
-                const SizedBox(height: 16),
-                Expanded(
-                  flex: 2, // 피아노 롤 공간 (크기 축소)
-                  child: const PianoRollWidget(),
-                ),
-                const SizedBox(height: 16),
-                const AudioPlayerWidget(),
-              ],
+              ),
             ),
           ),
         ),
@@ -137,35 +142,40 @@ class _PracticeScreenState extends State<PracticeScreen> {
   Widget _buildNarrowLayout() {
     return Padding(
       padding: const EdgeInsets.all(16.0),
-      child: Column(
-        children: [
-          // 멜로디 그래프 추가 (상단, 컴팩트 버전)
-          if (widget.song.pitchAnalysis != null) ...[
-            MelodyGraphWidget(song: widget.song),
+      child: SingleChildScrollView(
+        child: Column(
+          children: [
+            // 멜로디 그래프 추가 (상단, 컴팩트 버전)
+            if (widget.song.pitchAnalysis != null) ...[
+              SizedBox(
+                height: 150,
+                child: MelodyGraphWidget(song: widget.song),
+              ),
+              const SizedBox(height: 16),
+            ],
+            // 구간 반복 위젯 추가
+            const SectionLoopWidget(),
             const SizedBox(height: 16),
-          ],
-          // 구간 반복 위젯 추가
-          const SectionLoopWidget(),
-          const SizedBox(height: 16),
-          Expanded(
-            flex: 3, // 코드 타임라인 공간
-            child: const ChordTimelineWidget(),
-          ),
-          const SizedBox(height: 16),
-          Expanded(
-            flex: 2, // 피아노 롤 공간 (크기 축소)
-            child: const PianoRollWidget(),
-          ),
-          const SizedBox(height: 16),
-          if (_showAnalysis) ...[
-            Expanded(
-              flex: 1, // 분석 정보 최소 공간
-              child: const VoicingAnalysisWidget(),
+            SizedBox(
+              height: 250, // 코드 타임라인 고정 높이
+              child: const ChordTimelineWidget(),
             ),
             const SizedBox(height: 16),
+            SizedBox(
+              height: 150, // 피아노 롤 고정 높이
+              child: const PianoRollWidget(),
+            ),
+            const SizedBox(height: 16),
+            if (_showAnalysis) ...[
+              SizedBox(
+                height: 200, // 분석 정보 고정 높이
+                child: const VoicingAnalysisWidget(),
+              ),
+              const SizedBox(height: 16),
+            ],
+            const AudioPlayerWidget(),
           ],
-          const AudioPlayerWidget(),
-        ],
+        ),
       ),
     );
   }

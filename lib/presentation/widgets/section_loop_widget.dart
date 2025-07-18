@@ -21,7 +21,7 @@ class _SectionLoopWidgetState extends State<SectionLoopWidget> {
     return BlocBuilder<AudioPlayerBloc, AudioPlayerState>(
       builder: (context, state) {
         return Container(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.all(12), // 패딩 축소
           decoration: BoxDecoration(
             color: AppTheme.surfaceColor,
             borderRadius: BorderRadius.circular(8),
@@ -29,6 +29,7 @@ class _SectionLoopWidgetState extends State<SectionLoopWidget> {
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min, // 최소 크기로 설정
             children: [
               Row(
                 children: [
@@ -67,7 +68,7 @@ class _SectionLoopWidgetState extends State<SectionLoopWidget> {
                     ),
                 ],
               ),
-              const SizedBox(height: 12),
+              const SizedBox(height: 8), // 간격 축소
               Row(
                 children: [
                   Expanded(
@@ -91,7 +92,7 @@ class _SectionLoopWidgetState extends State<SectionLoopWidget> {
                       },
                     ),
                   ),
-                  const SizedBox(width: 12),
+                  const SizedBox(width: 8), // 간격 축소
                   Expanded(
                     child: _buildTimeButton(
                       label: '끝 지점',
@@ -116,9 +117,9 @@ class _SectionLoopWidgetState extends State<SectionLoopWidget> {
                 ],
               ),
               if (state.hasSectionLoop) ...[
-                const SizedBox(height: 12),
+                const SizedBox(height: 8), // 간격 축소
                 Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4), // 패딩 축소
                   decoration: BoxDecoration(
                     color: AppTheme.primaryColor.withOpacity(0.2),
                     borderRadius: BorderRadius.circular(4),
@@ -129,14 +130,14 @@ class _SectionLoopWidgetState extends State<SectionLoopWidget> {
                       Icon(
                         Icons.repeat,
                         color: AppTheme.primaryColor,
-                        size: 16,
+                        size: 14, // 아이콘 크기 축소
                       ),
                       const SizedBox(width: 4),
                       Text(
                         '구간 반복 활성화',
                         style: TextStyle(
                           color: AppTheme.primaryColor,
-                          fontSize: 12,
+                          fontSize: 10, // 폰트 크기 축소
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -162,7 +163,7 @@ class _SectionLoopWidgetState extends State<SectionLoopWidget> {
       onTap: onPressed,
       onLongPress: onLongPress,
       child: Container(
-        padding: const EdgeInsets.all(12),
+        padding: const EdgeInsets.all(8), // 패딩 축소
         decoration: BoxDecoration(
           color: isSelecting 
             ? AppTheme.primaryColor.withOpacity(0.3)
@@ -177,30 +178,31 @@ class _SectionLoopWidgetState extends State<SectionLoopWidget> {
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min, // 최소 크기로 설정
           children: [
             Text(
               label,
               style: TextStyle(
                 color: Colors.white70,
-                fontSize: 12,
+                fontSize: 10, // 폰트 크기 축소
                 fontWeight: FontWeight.w500,
               ),
             ),
-            const SizedBox(height: 4),
+            const SizedBox(height: 2), // 간격 축소
             Text(
               time != null ? _formatDuration(time) : '--:--',
               style: const TextStyle(
                 color: Colors.white,
-                fontSize: 14,
+                fontSize: 12, // 폰트 크기 축소
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const SizedBox(height: 2),
+            const SizedBox(height: 1), // 간격 축소
             Text(
               isSelecting ? '재생 위치에서 설정하려면 탭' : '길게 눌러서 선택 모드',
               style: const TextStyle(
                 color: Colors.white54,
-                fontSize: 10,
+                fontSize: 8, // 폰트 크기 축소
               ),
             ),
           ],
