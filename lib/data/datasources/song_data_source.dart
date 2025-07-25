@@ -8,11 +8,27 @@ abstract class SongDataSource {
 }
 
 class LocalSongDataSource implements SongDataSource {
+  // Available song IDs - add new songs here when they're processed
+  static const List<String> _availableSongs = [
+    'there_will_never_be_another_you',
+    'bill_evans_everything_happens_to_me',
+  ];
+
   @override
   Future<List<Song>> getAllSongs() async {
-    // For MVP, we'll load a single song
-    final song = await getSongById('there_will_never_be_another_you');
-    return [song];
+    final List<Song> songs = [];
+    
+    for (final songId in _availableSongs) {
+      try {
+        final song = await getSongById(songId);
+        songs.add(song);
+      } catch (e) {
+        // Skip songs that fail to load
+        print('Failed to load song $songId: $e');
+      }
+    }
+    
+    return songs;
   }
 
   @override
