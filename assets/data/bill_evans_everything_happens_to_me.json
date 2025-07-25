@@ -1,0 +1,469 @@
+{
+  "id": "bill_evans_everything_happens_to_me",
+  "title": "Everything Happens to Me",
+  "artist": "Bill Evans",
+  "audioUrl": "assets/audio/bill_evans_everything_happens_to_me.mp3",
+  "duration": 277,
+  "structure": {
+    "form": "AABA",
+    "measuresPerChorus": 32,
+    "secondsPerMeasure": 1.6,
+    "startTimeSeconds": 13,
+    "choruses": [
+      {
+        "number": 1,
+        "startTime": 13.0,
+        "endTime": 64.2
+      },
+      {
+        "number": 2,
+        "startTime": 64.2,
+        "endTime": 115.4
+      },
+      {
+        "number": 3,
+        "startTime": 115.4,
+        "endTime": 166.60000000000002
+      },
+      {
+        "number": 4,
+        "startTime": 166.60000000000002,
+        "endTime": 217.8
+      },
+      {
+        "number": 5,
+        "startTime": 217.8,
+        "endTime": 269.0
+      }
+    ]
+  },
+  "chordChart": [
+    "Cm7 F7",
+    "Dm7 Dbdim7",
+    "Cm7 F7",
+    "Dm7b5 G7",
+    "Bdim7 Cm7b5",
+    "Dm7 G7",
+    "Cm7 F7",
+    "BbMaj7 G7b9",
+    "Cm7 F7",
+    "Dm7 Dbdim7",
+    "Cm7 F7",
+    "Dm7b5 G7",
+    "Bdim7 Cm7b5",
+    "Dm7 G7",
+    "Cm7 F7",
+    "Bb7",
+    "Fm7 Bb7#9",
+    "EbMaj7 C7b9",
+    "Fm7 Bb7",
+    "EbMaj7",
+    "Em7 A7#9",
+    "DMaj7",
+    "Gm7 C7",
+    "Cm7 F7",
+    "Cm7 F7",
+    "Dm7 Dbdim7",
+    "Cm7 F7",
+    "Dm7b5 G7",
+    "Bdim7 Cm7b5",
+    "Dm7 G7",
+    "Cm7 F7",
+    "Bb7 G7b9"
+  ],
+  "chordProgression": {
+    "13": "Cm7 F7",
+    "14.6": "Dm7 Dbdim7",
+    "16.2": "Cm7 F7",
+    "17.8": "Dm7b5 G7",
+    "19.4": "Bdim7 Cm7b5",
+    "21.0": "Dm7 G7",
+    "22.6": "Cm7 F7",
+    "24.2": "BbMaj7 G7b9",
+    "25.8": "Cm7 F7",
+    "27.4": "Dm7 Dbdim7",
+    "29.0": "Cm7 F7",
+    "30.6": "Dm7b5 G7",
+    "32.2": "Bdim7 Cm7b5",
+    "33.8": "Dm7 G7",
+    "35.4": "Cm7 F7",
+    "37.0": "Bb7",
+    "38.6": "Fm7 Bb7#9",
+    "40.2": "EbMaj7 C7b9",
+    "41.8": "Fm7 Bb7",
+    "43.4": "EbMaj7",
+    "45.0": "Em7 A7#9",
+    "46.6": "DMaj7",
+    "48.2": "Gm7 C7",
+    "49.8": "Cm7 F7",
+    "51.4": "Cm7 F7",
+    "53.0": "Dm7 Dbdim7",
+    "54.6": "Cm7 F7",
+    "56.2": "Dm7b5 G7",
+    "57.8": "Bdim7 Cm7b5",
+    "59.4": "Dm7 G7",
+    "61.0": "Cm7 F7",
+    "62.6": "Bb7 G7b9",
+    "64.2": "Cm7 F7",
+    "65.8": "Dm7 Dbdim7",
+    "67.4": "Cm7 F7",
+    "69.0": "Dm7b5 G7",
+    "70.6": "Bdim7 Cm7b5",
+    "72.2": "Dm7 G7",
+    "73.8": "Cm7 F7",
+    "75.4": "BbMaj7 G7b9",
+    "77.0": "Cm7 F7",
+    "78.6": "Dm7 Dbdim7",
+    "80.2": "Cm7 F7",
+    "81.8": "Dm7b5 G7",
+    "83.4": "Bdim7 Cm7b5",
+    "85.0": "Dm7 G7",
+    "86.6": "Cm7 F7",
+    "88.2": "Bb7",
+    "89.8": "Fm7 Bb7#9",
+    "91.4": "EbMaj7 C7b9",
+    "93.0": "Fm7 Bb7",
+    "94.6": "EbMaj7",
+    "96.2": "Em7 A7#9",
+    "97.8": "DMaj7",
+    "99.4": "Gm7 C7",
+    "101.0": "Cm7 F7",
+    "102.6": "Cm7 F7",
+    "104.2": "Dm7 Dbdim7",
+    "105.8": "Cm7 F7",
+    "107.4": "Dm7b5 G7",
+    "109.0": "Bdim7 Cm7b5",
+    "110.6": "Dm7 G7",
+    "112.2": "Cm7 F7",
+    "113.8": "Bb7 G7b9",
+    "115.4": "Cm7 F7",
+    "117.0": "Dm7 Dbdim7",
+    "118.6": "Cm7 F7",
+    "120.2": "Dm7b5 G7",
+    "121.8": "Bdim7 Cm7b5",
+    "123.4": "Dm7 G7",
+    "125.0": "Cm7 F7",
+    "126.6": "BbMaj7 G7b9",
+    "128.2": "Cm7 F7",
+    "129.8": "Dm7 Dbdim7",
+    "131.4": "Cm7 F7",
+    "133.0": "Dm7b5 G7",
+    "134.6": "Bdim7 Cm7b5",
+    "136.2": "Dm7 G7",
+    "137.8": "Cm7 F7",
+    "139.4": "Bb7",
+    "141.0": "Fm7 Bb7#9",
+    "142.6": "EbMaj7 C7b9",
+    "144.2": "Fm7 Bb7",
+    "145.8": "EbMaj7",
+    "147.4": "Em7 A7#9",
+    "149.0": "DMaj7",
+    "150.6": "Gm7 C7",
+    "152.2": "Cm7 F7",
+    "153.8": "Cm7 F7",
+    "155.4": "Dm7 Dbdim7",
+    "157.0": "Cm7 F7",
+    "158.6": "Dm7b5 G7",
+    "160.2": "Bdim7 Cm7b5",
+    "161.8": "Dm7 G7",
+    "163.4": "Cm7 F7",
+    "165.0": "Bb7 G7b9",
+    "166.6": "Cm7 F7",
+    "168.2": "Dm7 Dbdim7",
+    "169.8": "Cm7 F7",
+    "171.4": "Dm7b5 G7",
+    "173.0": "Bdim7 Cm7b5",
+    "174.6": "Dm7 G7",
+    "176.2": "Cm7 F7",
+    "177.8": "BbMaj7 G7b9",
+    "179.4": "Cm7 F7",
+    "181.0": "Dm7 Dbdim7",
+    "182.6": "Cm7 F7",
+    "184.2": "Dm7b5 G7",
+    "185.8": "Bdim7 Cm7b5",
+    "187.4": "Dm7 G7",
+    "189.0": "Cm7 F7",
+    "190.6": "Bb7",
+    "192.2": "Fm7 Bb7#9",
+    "193.8": "EbMaj7 C7b9",
+    "195.4": "Fm7 Bb7",
+    "197.0": "EbMaj7",
+    "198.6": "Em7 A7#9",
+    "200.2": "DMaj7",
+    "201.8": "Gm7 C7",
+    "203.4": "Cm7 F7",
+    "205.0": "Cm7 F7",
+    "206.6": "Dm7 Dbdim7",
+    "208.2": "Cm7 F7",
+    "209.8": "Dm7b5 G7",
+    "211.4": "Bdim7 Cm7b5",
+    "213.0": "Dm7 G7",
+    "214.6": "Cm7 F7",
+    "216.2": "Bb7 G7b9",
+    "217.8": "Cm7 F7",
+    "219.4": "Dm7 Dbdim7",
+    "221.0": "Cm7 F7",
+    "222.6": "Dm7b5 G7",
+    "224.2": "Bdim7 Cm7b5",
+    "225.8": "Dm7 G7",
+    "227.4": "Cm7 F7",
+    "229.0": "BbMaj7 G7b9",
+    "230.6": "Cm7 F7",
+    "232.2": "Dm7 Dbdim7",
+    "233.8": "Cm7 F7",
+    "235.4": "Dm7b5 G7",
+    "237.0": "Bdim7 Cm7b5",
+    "238.6": "Dm7 G7",
+    "240.2": "Cm7 F7",
+    "241.8": "Bb7",
+    "243.4": "Fm7 Bb7#9",
+    "245.0": "EbMaj7 C7b9",
+    "246.6": "Fm7 Bb7",
+    "248.2": "EbMaj7",
+    "249.8": "Em7 A7#9",
+    "251.4": "DMaj7",
+    "253.0": "Gm7 C7",
+    "254.6": "Cm7 F7",
+    "256.2": "Cm7 F7",
+    "257.8": "Dm7 Dbdim7",
+    "259.4": "Cm7 F7",
+    "261.0": "Dm7b5 G7",
+    "262.6": "Bdim7 Cm7b5",
+    "264.2": "Dm7 G7",
+    "265.8": "Cm7 F7",
+    "267.4": "Bb7 G7b9",
+    "269.0": "Cm7 F7",
+    "270.6": "Dm7 Dbdim7",
+    "272.2": "Cm7 F7",
+    "273.8": "Dm7b5 G7",
+    "275.4": "Bdim7 Cm7b5",
+    "277.0": "Dm7 G7"
+  },
+  "voicings": {
+    "G7": {
+      "leftHand": [
+        71,
+        77
+      ],
+      "rightHand": [
+        79,
+        83,
+        86,
+        89
+      ],
+      "chordSymbol": "G7",
+      "analysis": "Shell voicing - 3rd & b7th in left hand"
+    },
+    "Gm7": {
+      "leftHand": [
+        70,
+        77
+      ],
+      "rightHand": [
+        79,
+        82,
+        86,
+        89
+      ],
+      "chordSymbol": "Gm7",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
+    },
+    "Dbdim7": {
+      "leftHand": [
+        64,
+        70
+      ],
+      "rightHand": [
+        73,
+        76,
+        79,
+        82
+      ],
+      "chordSymbol": "Dbdim7",
+      "analysis": "Shell voicing - b3rd & bb7th in left hand"
+    },
+    "Cm7": {
+      "leftHand": [
+        63,
+        70
+      ],
+      "rightHand": [
+        72,
+        75,
+        79,
+        82
+      ],
+      "chordSymbol": "Cm7",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
+    },
+    "DMaj7": {
+      "leftHand": [
+        66,
+        73
+      ],
+      "rightHand": [
+        74,
+        78,
+        81,
+        85
+      ],
+      "chordSymbol": "DMaj7",
+      "analysis": "Shell voicing - 3rd & 7th in left hand"
+    },
+    "C7": {
+      "leftHand": [
+        64,
+        70
+      ],
+      "rightHand": [
+        72,
+        76,
+        79,
+        82
+      ],
+      "chordSymbol": "C7",
+      "analysis": "Shell voicing - 3rd & b7th in left hand"
+    },
+    "Bb7": {
+      "leftHand": [
+        74,
+        80
+      ],
+      "rightHand": [
+        82,
+        86,
+        89,
+        92
+      ],
+      "chordSymbol": "Bb7",
+      "analysis": "Shell voicing - 3rd & b7th in left hand"
+    },
+    "Em7": {
+      "leftHand": [
+        67,
+        74
+      ],
+      "rightHand": [
+        76,
+        79,
+        83,
+        86
+      ],
+      "chordSymbol": "Em7",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
+    },
+    "F7": {
+      "leftHand": [
+        69,
+        75
+      ],
+      "rightHand": [
+        77,
+        81,
+        84,
+        87
+      ],
+      "chordSymbol": "F7",
+      "analysis": "Shell voicing - 3rd & b7th in left hand"
+    },
+    "Fm7": {
+      "leftHand": [
+        68,
+        75
+      ],
+      "rightHand": [
+        77,
+        80,
+        84,
+        87
+      ],
+      "chordSymbol": "Fm7",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
+    },
+    "EbMaj7": {
+      "leftHand": [
+        67,
+        74
+      ],
+      "rightHand": [
+        75,
+        79,
+        82,
+        86
+      ],
+      "chordSymbol": "EbMaj7",
+      "analysis": "Shell voicing - 3rd & 7th in left hand"
+    },
+    "Dm7": {
+      "leftHand": [
+        65,
+        72
+      ],
+      "rightHand": [
+        74,
+        77,
+        81,
+        84
+      ],
+      "chordSymbol": "Dm7",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
+    },
+    "C7b9": {
+      "leftHand": [
+        64,
+        70,
+        73
+      ],
+      "rightHand": [
+        72,
+        76,
+        79,
+        82
+      ],
+      "chordSymbol": "C7b9",
+      "analysis": "Rootless voicing - 3rd, b7th, b9th in left hand"
+    },
+    "Bdim7": {
+      "leftHand": [
+        74,
+        80
+      ],
+      "rightHand": [
+        83,
+        86,
+        89,
+        92
+      ],
+      "chordSymbol": "Bdim7",
+      "analysis": "Shell voicing - b3rd & bb7th in left hand"
+    },
+    "Cm7b5": {
+      "leftHand": [
+        63,
+        70
+      ],
+      "rightHand": [
+        72,
+        75,
+        78,
+        82
+      ],
+      "chordSymbol": "Cm7b5",
+      "analysis": "Shell voicing - b3rd & b7th in left hand"
+    },
+    "BbMaj7": {
+      "leftHand": [
+        74,
+        81
+      ],
+      "rightHand": [
+        82,
+        86,
+        89,
+        93
+      ],
+      "chordSymbol": "BbMaj7",
+      "analysis": "Shell voicing - 3rd & 7th in left hand"
+    }
+  }
+}
